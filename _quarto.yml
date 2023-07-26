@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+
+#General Webside Design
+  reader-mode: true
+  back-to-top-navigation: true
+  page-footer:
+    background: lightgrey
+    left: "Copyright 2023, FHNW"
+    right:
+      - icon: github
+        href: https://github.com/
+      
+      
+  
+#Webside Organisation
+  title: "TEST"
+  navbar:
+    background: lightgrey
+    left:
+      - href: about.qmd
+        text: Home #Keine Funktion
+      - about.qmd
+
+  sidebar:
+    - titel: "Lektionen"
+      style: "docked"
+      background: lightblue
+      contents:
+      - section: "Überblick"
+        contents:
+          - Lektion0_1_Lernziele.qmd
+          - Lektion0_2_Software.qmd
+          - Lektion0_3_Bewertung.qmd
+          - Lektion0_4_FAQ.qmd
+      - section: "Einführung"
+        contents:
+          - Lektion1_1_Grundlagen.qmd
+          - Lektion1_2_LBD.qmd
+          - Lektion1_3_DYS.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
+
+
+

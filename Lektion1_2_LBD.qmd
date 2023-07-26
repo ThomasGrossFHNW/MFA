@@ -1,0 +1,19 @@
+---
+title: "Learning-by-doing"
+---
+
+## Ziel
+
+Wir werden schrittweise eine Massenflussanalyse in der Software STAN umsetzen.
+
+## Schrittweise Anleitung mit Screenshots
+
+### Schritt 1: ...
+
+...
+
+### Schritt 2: ...
+
+...
+
+# 

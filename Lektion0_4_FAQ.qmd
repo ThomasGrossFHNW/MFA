@@ -1,0 +1,13 @@
+---
+title: "FAQ"
+---
+
+## Installationsprobleme
+
+### Die Installation wird durch Windows SmartScreen blockiert
+
+1.  Öffnen Sie die Eigenschaften der Installationsdatei (z.B. STAN-2-7-101-EN.exe) mittels Rechtsklick auf die Datei und dann Eigenschaften wählen.
+2.  Setzen Sie bei der Schaltfläche "Zulassen" ein Häkchen.
+3.  Jetzt sollte die Installation klappen.
+
+# 
