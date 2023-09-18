@@ -4,10 +4,12 @@ title: "Do-it-yourself"
 
 ## Ziel
 
-Was ist das Ziel dieses Do-it-yourselfs?
+-   Ein Nachhaltiges Abfallsystem für Biogene Abfälle Entwickeln
+
+-   Visualisierung des Konzepts auf STAN
 
 ## Aufgabenstellung
 
-...
+Entwickeln Sie auf STAN ein MFA-System basierend auf dem "Learning-by-Doing" Beispiel. Ziel ist es, biogene Abfallstoffe nachhaltig zu verwerten, anstatt sie mit dem Hausmüll zu verbrennen.
 
 # 

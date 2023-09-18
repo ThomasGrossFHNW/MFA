@@ -4,19 +4,41 @@ title: "Grundlagen"
 
 ## Was ist Massen- und Substanzflussanalyse?
 
-«Die Stoffflussanalyse ist eine Methode zur Erfassung, Beschreibung und Interpretation von Stoffwechselprozessen»(Baccini & Bader, 1996, p. 35). Sie lässt sich in vier Schritten zusammenfassen(Baccini & Bader, 1996).
+Die Massenflussanalyse ist eine naturwissenschaftliche Methode, um Stoffflüsse innerhalb von Systemen zu erfassen, zu beschreiben, darzustellen und zu interpretieren (Baccini & Bader 1996). Beispiele von Massenflussanalysen sind:
 
-1.  Auswahl des Systems: In diesem entwurfsmässigen schritt wird das System definiert. Dieses ist durch Prozesse, Güter und mindestens einen Stoff beschrieben.
+-   [**Organische Verluste aus der Lebensmittelindustrie in der Schweiz**](https://www.infothek-biomasse.ch/index.php?option=com_abook&view=book&id=1340:organische-verluste-aus-der-lebensmittelindustrie-in-der-schweiz&catid=5:alle&Itemid=155&lang=de) **(Moserberger et al. 2016):** Die Studie zeigt Lebensmittelverluste in der Schweizer Lebensmittelindustrie. Ca. 20% der verarbeiteten Lebensmittel gehen nicht in Produkte, sondern werden als Lebensmittelverluste ausgeschieden. Gemäss der Studie wären drei Viertel dieser Lebensmittelverluste vermeidbar.
 
-2.  Messung der Güterflüsse. In diesem Schritt werden die Daten erhoben.
+-   [**Haben wir die richtigen Indikatoren für die Kreislaufwirtschaft - Einblick in das Schweizer Abfallwirtschaftssystem**](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jiec.12506?download=true) **(Haupt et al. 2016):** Die MFA des Schweizer Abfallmanagements zeigt, dass die Hälfte der kommunalten Feststoffabfälle rezyliert werden. Der Rest geht in Kehrichtverbrennungsanlagen. Die Studie geht detailliert auf die Recyclingmodelle verschiederen Stoffe wie Glas, PET und Metalle ein. Sie zeigt, dass Sammelquoten nicht ausreichend sind, um die Nachhaltigkeit einer Kreislaufwirtschaft zu quantifizieren, da sie keine Aussage darüber macht, ob die gesammelten Abfälle verwertet werden und in welcher Form sie wieder in den Wirtschaftskreislauf rückgeführt werden.
 
-3.  Berechnung der Stoffflüsse. In unserem Fall mit STAN.
-
-4.  Schematische Darstellung und Interpretation des Models.
-
-Prozesse stehen herbei für Eingriffe wie Transport, Umwandlung, Lagerung und Wertveränderungen von Stoffen oder Gütern (Baccini & Bader, 1996, p. 35). Stoffe sind entweder chemische Elemente oder chemische Verbindungen, die in der Natur vorkommen (Baccini & Bader, 1996). Güter hingegen sind Stoffe oder Stoffgemische, die vom Menschen wirtschaftlich bewertete Funktionen erfüllen (Baccini & Bader, 1996, p. 35). Mit anderen Worten: Stoffe sind die chemischen Grundbausteine, während Güter die Stoffe oder Stoffgemische sind, die einen wirtschaftlichen Wert haben und vom Menschen für bestimmte Zwecke verwendet werden. Güter können also aus verschiedenen Stoffen bestehen und werden entsprechend ihrer wirtschaftlichen Bedeutung bewertet und verwendet.
+Mithilfe von Stoffflussanalysen (SFA) lassen sich nun bestimmte Stoffe durch ein System verfolgen.
 
 Stärken der Stoffflussanalysen sind unteranderem; Die mathematische Modellierung von Systemen zur Vorhersage und Abschätzung der zeitlichen Entwicklung von Abflüssen und Speichern für dynamische Modelle (quasistationär oder instationär) und Anwendungen auf verschiedenen Untersuchungsebenen, sei es auf nationaler Ebene (z.B. in der Schweiz), auf kantonaler oder kommunaler Ebene oder sogar auf Betriebsebene (Hellweg,2023). Weiger geeignet ist sie für den direkten Vergleich der Umweltauswirkungen verschiedener Produkte oder Aktivitäten innerhalb derselben Funktion (Hellweg, 2023). Für solche Analysen werden Ökobilanzen erstellt.  Ausserdem eignet sie sich nicht für die quantitative Bewertung der Umweltauswirkungen von Produkten oder Stoffen. Hierfür kommt die Risikoanalyse zum Einsatz (Hellweg, 2023).
+
+## Aufbau einer MFA bzw. SFA
+
+Ihre Berechnung lässt sich in vier Schritten zusammenfassen:
+
+1.  **Definition des Systems:** In diesem ersten Schritt wird das System konzeptualisiert. Dieses ist durch Prozesse, Güter, mindestens einen Stoff sowie eine Systemgrenze beschrieben.
+
+2.  **Messung der Güterflüsse:** In diesem Schritt werden die Daten erhoben, insbesondere die Güterflüsse, die Konzentration von Stoffen sowie Lagerbestände. Die Daten können gemessen werden und müssen oftmals durch Literaturangaben und/oder Schätzungen ergänzt werden.
+
+3.  **Simulation der Massen- und Stoffflüsse:** Wir nutzen hierzu die Software STAN.
+
+4.  **Analyse, Diskussion und Kommunikation:** Das System wird dargestellt, plausibilisiert und es werden Sensitivitäts- und Unsicherheitsanalysen durchgeführt. Wichtig ist in diesem Schritt die Diskussion und kritische Reflexion der Ergebnisse sowie im Anschluss die Kommunikation z.B. durch Publikationen oder Vorträge.
+
+Folgende Komponenten sind normalerweise in einer MFA/SFA enthalten (Baccini & Bader 1996):
+
+-   **Prozesse** stehen herbei für Eingriffe wie Transport, Umwandlung, Lagerung und Wertveränderungen von Stoffen oder Gütern
+
+-   **Stoffe** sind entweder chemische Elemente oder chemische Verbindungen, die in der Natur vorkommen
+
+-   **Güter** hingegen sind Stoffe oder Stoffgemische, die vom Menschen wirtschaftlich bewertete Funktionen erfüllen. Stoffe sind die chemischen Grundbausteine, während Güter die Stoffe oder Stoffgemische sind, die einen wirtschaftlichen Wert haben und vom Menschen für bestimmte Zwecke verwendet werden. Güter können also aus verschiedenen Stoffen bestehen und werden entsprechend ihrer wirtschaftlichen Bedeutung bewertet und verwendet.
+
+-   Flüsse ...
+
+-   **Systemgrenze:** Man muss klar definieren, welche Daten räumlich und zeitlich in die Analyse einfliessen. Räumlich meint hierbei unteranderem die physische oder logistische Ausdehnung eines Unternehmens oder eine Landesgrenze. Zeitlich kann sich z.B, auf ein konkretes Geschäftsjahr beziehen.
+
+-   Usw.
 
 ## Anwendungsbeispiel: Biogene Güterflüsse in der Schweiz
 
@@ -32,46 +54,6 @@ Beispiele für die Darstellung der Stoffflussanalyse sehen wie folgt aus:
 
 ![Stickstoffanalyse 2020](images/Stofflussanalyse2020.png){fig-align="center" width="688"}
 
-## Aufbau einer MFA und SFA
+# 
 
--   Etwas basierend auf der Vorlesung von Anders und der STAN Homepage. Fokus auf Begriffe und damit man danach ein einfaches erstes System machen kann
-
--   Güter
-
--   Flüsse
-
--   Systemgrenze
-
--   Usw.
-
-Ein SFA-Modell besteht aus folgenden Komponenten:
-
-1.  Die Systemgrenze: Man muss klar definieren, welche Daten räumlich und zeitlich in die Analyse einfliessen. Räumlich meint hierbei unteranderem die physische oder logistische Ausdehnung eines Unternehmens oder eine Landesgrenze. Zeitlich kann sich z.B, auf ein konkretes Geschäftsjahr beziehen.
-
-2.  Prozess:
-
-3.  
-
-4.  
-
-# Weitergehende Informationen und zusatz Lektüre
-
-# Selbsttest Quiz
----
-title: "Shiny in Quarto"
-format: 
-  html:
-    highlight-style: a11y-dark
-    code-tools: true
----
-
-## Input widget
-
-Here is the embedded Shiny app:
-
-<iframe src="http://127.0.0.1:6526 /" width="800" height="400"></iframe>
-
-
-
-
-
+# 

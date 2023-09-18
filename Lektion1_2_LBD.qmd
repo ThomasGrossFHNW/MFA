@@ -4,16 +4,156 @@ title: "Learning-by-doing"
 
 ## Ziel
 
-Wir werden schrittweise eine Massenflussanalyse in der Software STAN umsetzen.
+Als praktisches Beispiel modellieren wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Das derzeitige System besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle. Daneben werden industrielle biogene Abfälle separate gesammelt und mittels anaerober Vergärung behandelt. Das derzeitige System ist in der untenstehenden Abbildung dargestellt.
 
-## Schrittweise Anleitung mit Screenshots
+Wir werden zunächst das derzeitige System in STAN modellieren und danach Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall.
 
-### Schritt 1: ...
+![](images/Lektion1_Uebung.png)
 
-...
+## Schritt-für-Schritt-Anleitung
 
-### Schritt 2: ...
+### Schritt 1: STAN installieren
 
-...
+Laden Sie STAN von der Webseite herunter ([www.stan2web.net](www.stan2web.net)). Dazu müssen Sie zunächst einen Account anlegen, danach können Sie die Software unter Downloads herunterladen.
 
-# 
+### Schritt 2: Navigation und Benutzeroberfläche
+
+Bevor wir mit der Erstellung einer Stoffflussanalyse beginnen, werfen wir einen Blick auf die Benutzeroberfläche von STAN, die hier schematisch dargestellt ist.
+
+![](images/Benutzeroberfläche-01.png)
+
+1.  **Menüzeile:** In der Menü zeile sind Fenster zur bearbeitung und Steuerung des Systemes aufrufbar.
+2.  **Symbolleiste:** Ist ein "Shortcut" mit den Wichtigsten funktionen aus der Menüzeile.
+3.  Modell-Explorer: Zeigt in einer Baumstrucktur die verwendeten Prozesse, Flüsse und Subsysteme.
+4.  **Diagrammsymbole**: Die Icons sind die Bausteine zur erstellung eines MFA-systems. Die Bausteine werden per drop-down in die Arbeitsfläche gezogen. Lesen sie im STAN-Handbuch die bedeutung der einzelnen Symbole nach.
+5.  **Zeichenbereich:** Hier wird das MFA-System erstellt.
+6.  **Eigenschaften:** Im Eigenschaften fenster werden die ausgewählten Prozesse, Flüsse oder andere Felder der MFA bearbeitet und angepasst. Dies beinhaltet Umbenenen, Colorieren, Masseflüsse eingeben und vieles mehr.
+7.  **Systemmeldungen:** In diesem Fenster werden Fehlermeldungen und Informationen des Systems angegeben.
+
+Alle Fenster können in der Größe angepasst und wie Kacheln modular verschoben und angeordnet werden.
+
+***Bevor Sie mit Schritt 3 beginnen, lesen Sie bitte das STAN-Handbuch auf den Seiten 21 bis 77.***
+
+### Schritt 3: MFA-System: STAN öffnen und speichern
+
+Im nächsten Schritt beginnen wir mit dem Aufbau eines einfachen MFA-Systems. Ziel ist es, ein einfaches lokales Abfallwirtschaftssystem abzubilden. In dem System wird Grünschnitt in einem Sammelprozess gesammelt und biogene Abfälle und andere Abfälle in einem anderen Prozess. Die Abfälle sollen gesammelt und schließlich in einer Müllverbrennungsanlage verbrannt werden.
+
+Dazu sind folgende Schritte durchzuführen:
+
+1.  STAN öffnen
+
+2.  Anschliessend das Projekt speichern und in einem Ordner ablegen
+
+### Schritt 4: MFA-System: Der erste Prozess
+
+Als nächstes zeichnen wir unseren ersten Prozess. Wählen Sie dazu in der Symbolleiste das Symbol P (rot markiert) aus und ziehen Sie es per Drag & Drop in den Zeichenbereich.
+
+![](images/Inked1.Prozess.jpg)
+
+Als nächstes benennen wir unseren ersten Prozess. Wählen Sie dazu den Prozess aus und ändern Sie im Fenster Eigenschaften unter Prozesseigenschaften den Namen in "Kommunale Abfallsammlung".
+
+![](images/Inked1.Prozess_Bennenen.jpg)
+
+### Schritt 5: MFA-System: Weitere Prozesse und Prozess mit Lagerung
+
+Nachdem wir den ersten Prozess erfolgreich erstellt haben, erweitern wir nun unsere MFA mit weiteren Prozessen wie folgt:
+
+1.  Kopieren Sie den Prozess "Kommunale Abfallsammlung" und ordnen Sie ihn unter dem ersten Prozess "Kommunale Abfallsammlung" ein (siehe Abbildung unten).
+
+2.  Erstellen Sie nun einen weiteren Prozess und nennen Sie ihn Komunale Müllhalde.
+
+    Da der Abfall auf einer Deponie nicht unbedingt direkt weiterverarbeitet wird, ordnen wir dem Prozess nun eine Lagerfunktion zu. Hier für:
+
+3.  Wählen Sie den Prozess Komunale Mülldeponie aus und setzen Sie in den Prozesseigenschaften ein Häkchen bei Lager.
+
+![](images/Lagerprozess%20erstellen.png)
+
+### Schritt 6: MFA-System: weitere Prozesse einfügen und anschliessend erstellung von Flüssen
+
+1.  Erstellen Sie weitere Prozesse und ordnen Sie diese wie in der Abbildung unten gezeigt an.
+
+    Als nächstes erstellen wir unseren ersten Import Warenfluss:
+
+2.  Wählen Sie das Importfluss-Symbol und klicken Sie mit der Maus/Trackpad auf den Rand des Prozesses Kommunale Abfälle. Der Importfluss wird automatisch erstellt.
+
+![](images/Inked1.Flusserstellen%20(003).jpg)
+
+3.  Erstellen Sie dann 2 weitere Importflüsse wie in der folgenden Abbildung gezeigt.
+4.  Im nächsten Schritt erstellen wir keine Importflüsse, sondern Prozessinterne Flüsse. Dazu wählen Sie das Icon interne Flüsse (orange umrandet) und ziehen mit der Maus einen Pfeil zwischen den beiden Prozessen.
+
+![](images/InkedInternerFluss.jpg)
+
+5.  Im nächsten Schritt verbinden Sie alle Prozesse mit internen Flüssen, wie in der folgenden Abbildung gezeigt. Zusätzlich erstellen Sie Exportpfeile am Ende des Prozesses Kommunale Müllverbrennung (Wie Importpfeile müssen Sie diese nicht selbst zeichnen, es genügt, auf den Rand des Prozesses zu klicken).
+6.  Nachdem alle Flüsse gezeichnet wurden, können Sie nun alle Flüsse über das Eigenschaften-Fenster benennen (wie bei den Prozessen in Schritt 4).
+
+Nach diesen Schritten sollte Ihr MFA-System wie in der folgenden Abbildung aussehen.
+
+![](images/Prozesse%20und%20Flüsse%20Bennenen%20(003)-01.png)
+
+### Schritt 7: MFA-System: Eingabe der Werte für die Materialflüsse
+
+Als nächstes beginnen wir mit der Eingabe der "Daten" für unser Modell. Dazu:
+
+1.  Klicken Sie auf den ersten importierten Materialfluss oben rechts und klicken Sie dann auf Werte im Eigenschaftenfenster (roter Pfeil im Bild unten).
+
+Im Werte-Fenster können alle Massenströme berechnet und eingegeben werden. Wenn Sie Dichte und Volumen eingeben, können Sie anschließend die Masse berechnen. Werte sind immer entweder berechnet oder eingegeben, zusätzlich kann der Standardfehler eingegeben werden (dazu später mehr).
+
+2.  Geben Sie nun einen Wert (20) unter Massenstrom ein (blauer Pfeil im Bild unten).
+3.  Geben Sie für den Fluss Hausmüll den Massenstromwert 100 und für Grünschnitt den Massenstromwert 30 ein.
+4.  Sie können die Pfeildicke des Flusses im Shanky Kontrol Regler anpassen (grüner Pfeil) oder die Funktion, dass die Massenflüsse unterschiedlich dick sind, ganz ausschalten (Iconlinks neben dem Regler).
+
+![](images/InkedWert%20eingeben%20und%20pfeilim%20shanky.jpg)
+
+### Schritt 8: MFA-System: Lager bilden
+
+Im nächsten Schritt wird das Lager gebildet. Dazu:
+
+1.  Klicken Sie auf den Prozess mit Lager
+
+Es gibt 2 Fenster für die Eingabe von Lagerwerten. Das erste heißt "Lager" und gibt die Masse der bereits im Lager vorhandenen Mengen an. Das zweite heißt "dLager" und beschreibt die Veränderung des Lagers pro Zeitperiode. Als Beispiel können wir uns einen Getreidespeicher vorstellen, in dem 2 Tonnen gelagert sind (Lager) und der sich pro Jahr um 1 Tonne füllt (dLager).
+
+In unserem Beispiel gehen wir davon aus, dass die Deponie neu gebaut wurde und daher noch kein vorhandenes Lager hat, sich aber um 10 Tonnen pro Jahr füllen wird.
+
+2.  Klicken Sie auf "dLager" und geben Sie im Massenstrom 10 ein.
+
+![](images/Lageränderung.png)
+
+### Schritt 9: MFA-System: Transkriptionsfaktoren
+
+Im nächsten Schritt bilden wir einen TK-Prozess, dies dient dazu, dass wir zwei austretende Ströme haben, diese wollen wir nun so eingeben, dass die Flüsse mit 60% in die Atmosphäre gleichmäßig auf beide Ströme verteilt sind. Unabhängig von der absoluten Menge des Inputs
+
+1.  Wählen Sie den Prozess Müllverbrennung und aktivieren Sie im Prozesseigenschaften-Fenster das TKs-Feld.
+
+2.  Dann geben wir den TK-Faktor ein. Dazu klicken wir auf das TK-Feld im Eigenschaften-Fenster und dann auf "Bearbeiten...". Wir weisen dem Output-Fluss "Atmosphäre (A)" einen Anteil von 60% der Output-Flüsse zu.
+
+![](images/Erstelle%20TK%20(003).png)
+
+![](images/TK06.png)
+
+### Schritt 10: MFA-System: Berechnen
+
+Nun sind alle wichtigen Rechengrössen zum Berechenen des Models eingegeben (Inputs, Lagerzuwachs und Verteilfaktoren). Im nächsten schrit Berechenen wir die fehelenden Flussgrössen und Werte in unserem Model.
+
+1.  Klicken sie hierfür auf das Berechenen Icon oben Zentral in der Symbolleiste (Sihe Bild unten).
+
+![](images/Berechnen.png)
+
+### Schritt 11: MFA-System: Systemgrenze
+
+Im vorletzten Schritt wird nun die Systemgrenze gezeichnet. Klicken Sie dazu auf das Symbol Systemgrenze und ziehen Sie es per Drag & Drop in unser MFA-System, so dass alle Import- und Exportflüsse außerhalb und alle Prozesse und systeminternen Flüsse innerhalb der Systemgrenze liegen.
+
+![](images/Systemgrenze.png)
+
+### Schritt 12: MFA-System: Inhaltsverzeichnis und optische Anpassungen
+
+Im letzten Schritt könenn wir unser MFA-System optisch anpassen. Dazu können wir die Farben der Prozesse und Flüsse ändern und eine Legende einfügen.
+
+1.  Für die Legende wählen Sie das Legendensymbol (im Bild blau markiert) und fügen es per Drag and Drop in das Modell ein.
+
+![](images/InkedInhaltsverzeichnis.jpg)
+
+2.  Um die Farbe anzupassen, klicken Sie auf den entsprechenden Prozess oder Fluss und ändern Sie die Flussoder Prozessfarbe im Eigenschaftenmenü unter "Symbole".
+
+![](images/InkedFarben.jpg)
+
+### 
