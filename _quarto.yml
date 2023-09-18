@@ -17,11 +17,11 @@ website:
       
   
 #Webside Organisation
-  title: "MFA"
+  title: "Tools für NRM"
   navbar:
     background: dark
     left:
-      - text: "STAN Kurs"
+      - text: "MFA"
         file: Lektion0_1_Lernziele.qmd
       - text: "About"
         file: about.qmd
