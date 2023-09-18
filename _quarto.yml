@@ -19,16 +19,20 @@ website:
 #Webside Organisation
   title: "TEST"
   navbar:
-    background: lightgrey
+    logo: "./Test.png"
+    background: dark
     left:
-      - href: about.qmd
-        text: Home #Keine Funktion
-      - about.qmd
+      - text: "STAN Kurs"
+        file: Lektion0_1_Lernziele.qmd
+      - text: "About"
+        file: about.qmd
+      - text: "Home" 
+        file: index.qmd
 
   sidebar:
     - titel: "Lektionen"
       style: "docked"
-      background: lightblue
+      background: info
       contents:
       - section: "Überblick"
         contents:
@@ -44,7 +48,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true
 
