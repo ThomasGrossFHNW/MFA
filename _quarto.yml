@@ -17,7 +17,7 @@ website:
       
   
 #Webside Organisation
-  title: "TEST"
+  title: "MFA"
   navbar:
     logo: "./Test.png"
     background: dark
