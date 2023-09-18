@@ -19,7 +19,6 @@ website:
 #Webside Organisation
   title: "MFA"
   navbar:
-    logo: "./Test.png"
     background: dark
     left:
       - text: "STAN Kurs"
