@@ -200,10 +200,10 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#schritt-1-stan-installieren" id="toc-schritt-1-stan-installieren" class="nav-link" data-scroll-target="#schritt-1-stan-installieren">Schritt 1: STAN installieren</a></li>
   <li><a href="#schritt-2-navigation-und-benutzeroberfläche" id="toc-schritt-2-navigation-und-benutzeroberfläche" class="nav-link" data-scroll-target="#schritt-2-navigation-und-benutzeroberfläche">Schritt 2: Navigation und Benutzeroberfläche</a></li>
-  <li><a href="#schritt-3-mfa-system-stan-öffnen-und-speichern" id="toc-schritt-3-mfa-system-stan-öffnen-und-speichern" class="nav-link" data-scroll-target="#schritt-3-mfa-system-stan-öffnen-und-speichern">Schritt 3: MFA-System: STAN öffnen und speichern</a></li>
-  <li><a href="#schritt-4-mfa-system-der-erste-prozess" id="toc-schritt-4-mfa-system-der-erste-prozess" class="nav-link" data-scroll-target="#schritt-4-mfa-system-der-erste-prozess">Schritt 4: MFA-System: Der erste Prozess</a></li>
-  <li><a href="#schritt-5-mfa-system-weitere-prozesse-und-prozess-mit-lagerung" id="toc-schritt-5-mfa-system-weitere-prozesse-und-prozess-mit-lagerung" class="nav-link" data-scroll-target="#schritt-5-mfa-system-weitere-prozesse-und-prozess-mit-lagerung">Schritt 5: MFA-System: Weitere Prozesse und Prozess mit Lagerung</a></li>
-  <li><a href="#schritt-6-mfa-system-weitere-prozesse-einfügen-und-anschliessend-erstellung-von-flüssen" id="toc-schritt-6-mfa-system-weitere-prozesse-einfügen-und-anschliessend-erstellung-von-flüssen" class="nav-link" data-scroll-target="#schritt-6-mfa-system-weitere-prozesse-einfügen-und-anschliessend-erstellung-von-flüssen">Schritt 6: MFA-System: weitere Prozesse einfügen und anschliessend erstellung von Flüssen</a></li>
+  <li><a href="#schritt-3-stan-öffnen-und-speichern" id="toc-schritt-3-stan-öffnen-und-speichern" class="nav-link" data-scroll-target="#schritt-3-stan-öffnen-und-speichern">Schritt 3: STAN öffnen und speichern</a></li>
+  <li><a href="#schritt-4-der-erste-prozess" id="toc-schritt-4-der-erste-prozess" class="nav-link" data-scroll-target="#schritt-4-der-erste-prozess">Schritt 4: Der erste Prozess</a></li>
+  <li><a href="#schritt-5-weitere-prozesse-und-prozess-mit-lager" id="toc-schritt-5-weitere-prozesse-und-prozess-mit-lager" class="nav-link" data-scroll-target="#schritt-5-weitere-prozesse-und-prozess-mit-lager">Schritt 5: Weitere Prozesse und Prozess mit Lager</a></li>
+  <li><a href="#schritt-6-erste-flüsse-zeichnen" id="toc-schritt-6-erste-flüsse-zeichnen" class="nav-link" data-scroll-target="#schritt-6-erste-flüsse-zeichnen">Schritt 6: Erste Flüsse zeichnen</a></li>
   <li><a href="#schritt-7-mfa-system-eingabe-der-werte-für-die-materialflüsse" id="toc-schritt-7-mfa-system-eingabe-der-werte-für-die-materialflüsse" class="nav-link" data-scroll-target="#schritt-7-mfa-system-eingabe-der-werte-für-die-materialflüsse">Schritt 7: MFA-System: Eingabe der Werte für die Materialflüsse</a></li>
   <li><a href="#schritt-8-mfa-system-lager-bilden" id="toc-schritt-8-mfa-system-lager-bilden" class="nav-link" data-scroll-target="#schritt-8-mfa-system-lager-bilden">Schritt 8: MFA-System: Lager bilden</a></li>
   <li><a href="#schritt-9-mfa-system-transkriptionsfaktoren" id="toc-schritt-9-mfa-system-transkriptionsfaktoren" class="nav-link" data-scroll-target="#schritt-9-mfa-system-transkriptionsfaktoren">Schritt 9: MFA-System: Transkriptionsfaktoren</a></li>
@@ -237,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="ziel" class="level2">
 <h2 class="anchored" data-anchor-id="ziel">Ziel</h2>
-<p>Als praktisches Beispiel modellieren wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Das derzeitige System besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle. Daneben werden industrielle biogene Abfälle separate gesammelt und mittels anaerober Vergärung behandelt. Das derzeitige System ist in der untenstehenden Abbildung dargestellt.</p>
+<p>Als praktisches Beispiel modellieren wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Das derzeitige System besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle. Daneben werden industrielle biogene Abfälle separat gesammelt und mittels anaerober Vergärung behandelt. Das derzeitige System ist in der untenstehenden Abbildung dargestellt.</p>
 <p>Wir werden zunächst das derzeitige System in STAN modellieren und danach Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall.</p>
 <p><img src="images/Lektion1_Uebung.png" class="img-fluid"></p>
 </section>
@@ -245,69 +245,51 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="schritt-für-schritt-anleitung">Schritt-für-Schritt-Anleitung</h2>
 <section id="schritt-1-stan-installieren" class="level3">
 <h3 class="anchored" data-anchor-id="schritt-1-stan-installieren">Schritt 1: STAN installieren</h3>
-<p>Laden Sie STAN von der Webseite herunter (<a href="www.stan2web.net">www.stan2web.net</a>). Dazu müssen Sie zunächst einen Account anlegen, danach können Sie die Software unter Downloads herunterladen.</p>
+<p>Installieren Sie STAN, nähere Angaben finden Sie <a href="./Lektion0_2_Software.html">hier</a>.</p>
 </section>
 <section id="schritt-2-navigation-und-benutzeroberfläche" class="level3">
 <h3 class="anchored" data-anchor-id="schritt-2-navigation-und-benutzeroberfläche">Schritt 2: Navigation und Benutzeroberfläche</h3>
-<p>Bevor wir mit der Erstellung einer Stoffflussanalyse beginnen, werfen wir einen Blick auf die Benutzeroberfläche von STAN, die hier schematisch dargestellt ist.</p>
+<p>Machen Sie sich zunächst mit der Benutzeroberfläche von STAN vertraut.</p>
 <p><img src="images/Benutzeroberfläche-01.png" class="img-fluid"></p>
 <ol type="1">
-<li><strong>Menüzeile:</strong> In der Menü zeile sind Fenster zur bearbeitung und Steuerung des Systemes aufrufbar.</li>
-<li><strong>Symbolleiste:</strong> Ist ein “Shortcut” mit den Wichtigsten funktionen aus der Menüzeile.</li>
-<li>Modell-Explorer: Zeigt in einer Baumstrucktur die verwendeten Prozesse, Flüsse und Subsysteme.</li>
-<li><strong>Diagrammsymbole</strong>: Die Icons sind die Bausteine zur erstellung eines MFA-systems. Die Bausteine werden per drop-down in die Arbeitsfläche gezogen. Lesen sie im STAN-Handbuch die bedeutung der einzelnen Symbole nach.</li>
-<li><strong>Zeichenbereich:</strong> Hier wird das MFA-System erstellt.</li>
-<li><strong>Eigenschaften:</strong> Im Eigenschaften fenster werden die ausgewählten Prozesse, Flüsse oder andere Felder der MFA bearbeitet und angepasst. Dies beinhaltet Umbenenen, Colorieren, Masseflüsse eingeben und vieles mehr.</li>
-<li><strong>Systemmeldungen:</strong> In diesem Fenster werden Fehlermeldungen und Informationen des Systems angegeben.</li>
+<li><strong>Menüzeile:</strong> In der Menüzeile sind Befehle zur Bearbeitung und Steuerung aufrufbar.</li>
+<li><strong>Symbolleiste:</strong> Die wichtigsten Befehle grafisch dargestellt.</li>
+<li><strong>Modell-Explorer:</strong> Stellt Prozesse, Flüsse und Subsysteme in einer Baumstruktur dar.</li>
+<li><strong>Diagrammsymbole</strong>: Die Bausteine zur Erstellung einer MFA, welche per drag-and-drop in die Arbeitsfläche gezogen werden. Wenn Sie mit dem Mauszeiger über den Symbolen bleiben, wird der Symboltyp (z.B. Prozess) angezeigt.</li>
+<li><strong>Zeichenbereich:</strong> Hier wird das MFA-Modell erstellt.</li>
+<li><strong>Eigenschaften:</strong> Im Fenster Systemeigenschaften werden die ausgewählten Prozesse, Flüsse und andere Felder der MFA bearbeitet und angepasst. Dies beinhaltet u.a. grafische Parameter und Werte.</li>
+<li><strong>Systemmeldungen:</strong> In diesem Fenster werden Fehlermeldungen und Informationen angegeben.</li>
 </ol>
 <p>Alle Fenster können in der Größe angepasst und wie Kacheln modular verschoben und angeordnet werden.</p>
-<p><strong><em>Bevor Sie mit Schritt 3 beginnen, lesen Sie bitte das STAN-Handbuch auf den Seiten 21 bis 77.</em></strong></p>
 </section>
-<section id="schritt-3-mfa-system-stan-öffnen-und-speichern" class="level3">
-<h3 class="anchored" data-anchor-id="schritt-3-mfa-system-stan-öffnen-und-speichern">Schritt 3: MFA-System: STAN öffnen und speichern</h3>
-<p>Im nächsten Schritt beginnen wir mit dem Aufbau eines einfachen MFA-Systems. Ziel ist es, ein einfaches lokales Abfallwirtschaftssystem abzubilden. In dem System wird Grünschnitt in einem Sammelprozess gesammelt und biogene Abfälle und andere Abfälle in einem anderen Prozess. Die Abfälle sollen gesammelt und schließlich in einer Müllverbrennungsanlage verbrannt werden.</p>
-<p>Dazu sind folgende Schritte durchzuführen:</p>
-<ol type="1">
-<li><p>STAN öffnen</p></li>
-<li><p>Anschliessend das Projekt speichern und in einem Ordner ablegen</p></li>
-</ol>
+<section id="schritt-3-stan-öffnen-und-speichern" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-3-stan-öffnen-und-speichern">Schritt 3: STAN öffnen und speichern</h3>
+<p>Öffnen Sie STAN und speichern Sie das Projekt in einem geeigneten Ordner. Es wird eine Datei mit der Projektendung .zmfa generiert.</p>
 </section>
-<section id="schritt-4-mfa-system-der-erste-prozess" class="level3">
-<h3 class="anchored" data-anchor-id="schritt-4-mfa-system-der-erste-prozess">Schritt 4: MFA-System: Der erste Prozess</h3>
-<p>Als nächstes zeichnen wir unseren ersten Prozess. Wählen Sie dazu in der Symbolleiste das Symbol P (rot markiert) aus und ziehen Sie es per Drag &amp; Drop in den Zeichenbereich.</p>
+<section id="schritt-4-der-erste-prozess" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-4-der-erste-prozess">Schritt 4: Der erste Prozess</h3>
+<p>Nun zeichnen Sie als ersten Prozess die kommunale Abfallsammlung. Wählen Sie dazu in der Symbolleiste das Symbol P (rot markiert) aus und zeichnen Sie ein Rechteck (“Prozess 1”). .</p>
 <p><img src="images/Inked1.Prozess.jpg" class="img-fluid"></p>
-<p>Als nächstes benennen wir unseren ersten Prozess. Wählen Sie dazu den Prozess aus und ändern Sie im Fenster Eigenschaften unter Prozesseigenschaften den Namen in “Kommunale Abfallsammlung”.</p>
+<p>Benennen Sie den Prozess “kommunale Abfallsammlung”. Wählen Sie dazu den Prozess aus und ändern Sie im Fenster Prozesseigenschaften den Namen.</p>
 <p><img src="images/Inked1.Prozess_Bennenen.jpg" class="img-fluid"></p>
 </section>
-<section id="schritt-5-mfa-system-weitere-prozesse-und-prozess-mit-lagerung" class="level3">
-<h3 class="anchored" data-anchor-id="schritt-5-mfa-system-weitere-prozesse-und-prozess-mit-lagerung">Schritt 5: MFA-System: Weitere Prozesse und Prozess mit Lagerung</h3>
-<p>Nachdem wir den ersten Prozess erfolgreich erstellt haben, erweitern wir nun unsere MFA mit weiteren Prozessen wie folgt:</p>
-<ol type="1">
-<li><p>Kopieren Sie den Prozess “Kommunale Abfallsammlung” und ordnen Sie ihn unter dem ersten Prozess “Kommunale Abfallsammlung” ein (siehe Abbildung unten).</p></li>
-<li><p>Erstellen Sie nun einen weiteren Prozess und nennen Sie ihn Komunale Müllhalde.</p>
-<p>Da der Abfall auf einer Deponie nicht unbedingt direkt weiterverarbeitet wird, ordnen wir dem Prozess nun eine Lagerfunktion zu. Hier für:</p></li>
-<li><p>Wählen Sie den Prozess Komunale Mülldeponie aus und setzen Sie in den Prozesseigenschaften ein Häkchen bei Lager.</p></li>
-</ol>
+<section id="schritt-5-weitere-prozesse-und-prozess-mit-lager" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-5-weitere-prozesse-und-prozess-mit-lager">Schritt 5: Weitere Prozesse und Prozess mit Lager</h3>
+<p>Nun erweitern Sie die MFA mit weiteren Prozessen. Fügen Sie rechts des prozesses “Kommunale Abfallsammlung” die Prozesse “Kehrichtverbrennung” und “Aschebehandlung (Flug- und Bodenasche)” ein. Unterhalb der “Aschebehandlung (Flug- und Bodenasche)” fügen Sie den Prozess “Deponie” ein.</p>
+<p>Fügen Sie links des Prozesses “Kommunale Abfallsammlung” den Prozess “Trennung von Biomüll” ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Biomüll und Restmüll zu simulieren. Im IST-Modell gehen 100% des Biomülls in die kommunale Abfallsammlung.</p>
+<p>Die Deponie repräsentiert ein Lager, das sich über die Zeit füllt. Wählen Sie daher den Prozess “Deponie” aus und setzen Sie in den Prozesseigenschaften ein Häkchen bei Lager.</p>
 <p><img src="images/Lagerprozess erstellen.png" class="img-fluid"></p>
 </section>
-<section id="schritt-6-mfa-system-weitere-prozesse-einfügen-und-anschliessend-erstellung-von-flüssen" class="level3">
-<h3 class="anchored" data-anchor-id="schritt-6-mfa-system-weitere-prozesse-einfügen-und-anschliessend-erstellung-von-flüssen">Schritt 6: MFA-System: weitere Prozesse einfügen und anschliessend erstellung von Flüssen</h3>
-<ol type="1">
-<li><p>Erstellen Sie weitere Prozesse und ordnen Sie diese wie in der Abbildung unten gezeigt an.</p>
-<p>Als nächstes erstellen wir unseren ersten Import Warenfluss:</p></li>
-<li><p>Wählen Sie das Importfluss-Symbol und klicken Sie mit der Maus/Trackpad auf den Rand des Prozesses Kommunale Abfälle. Der Importfluss wird automatisch erstellt.</p></li>
-</ol>
+<section id="schritt-6-erste-flüsse-zeichnen" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-6-erste-flüsse-zeichnen">Schritt 6: Erste Flüsse zeichnen</h3>
+<p>Nun zeichnen Sie die ersten Flüsse zwischen den Prozessen.</p>
+<p>Zunächst können Sie den Importfluss “Nichtbiogener Abfall” von ganz links hin zum Prozess “Trennung von Biomüll” ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsun von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.</p>
 <p><img src="images/Inked1.Flusserstellen (003).jpg" class="img-fluid"></p>
-<ol start="3" type="1">
-<li>Erstellen Sie dann 2 weitere Importflüsse wie in der folgenden Abbildung gezeigt.</li>
-<li>Im nächsten Schritt erstellen wir keine Importflüsse, sondern Prozessinterne Flüsse. Dazu wählen Sie das Icon interne Flüsse (orange umrandet) und ziehen mit der Maus einen Pfeil zwischen den beiden Prozessen.</li>
-</ol>
+<p>Verbinden Sie nun die Prozesse mit Flüssen wie in der Abbilung unten dargestellt. Flüsse zwischen Prozessen sind natürlich keine Importflüsse sondern “normale” Flüsse innerhalb der Systemgrenze.</p>
 <p><img src="images/InkedInternerFluss.jpg" class="img-fluid"></p>
-<ol start="5" type="1">
-<li>Im nächsten Schritt verbinden Sie alle Prozesse mit internen Flüssen, wie in der folgenden Abbildung gezeigt. Zusätzlich erstellen Sie Exportpfeile am Ende des Prozesses Kommunale Müllverbrennung (Wie Importpfeile müssen Sie diese nicht selbst zeichnen, es genügt, auf den Rand des Prozesses zu klicken).</li>
-<li>Nachdem alle Flüsse gezeichnet wurden, können Sie nun alle Flüsse über das Eigenschaften-Fenster benennen (wie bei den Prozessen in Schritt 4).</li>
-</ol>
-<p>Nach diesen Schritten sollte Ihr MFA-System wie in der folgenden Abbildung aussehen.</p>
+<p>Ausgehend von der “Aschebehandlung (Flug- und Bodenasche)” erstellen Sie nun als ersten Exportfluss “Metallrecycling”. Hierbei handelt es sich um das rückgewonnene Metall aus der Aschebehandlung welche Reyclingprozessen zugeführt werden. Diese Recyclingprozesse interessieren uns hier nicht weiter, da wir uns mit biogenen Abfällen beschäftigen. Daher sind Reyclingprozesse für Metall in diesem konkreten Fall ausserhalb der Systemgrenze.</p>
+<p>Nachdem alle Flüsse gezeichnet wurden, können Sie nun alle Flüsse über das Fenster Flusseigenschaften benennen.</p>
+<p>Ergänzen Sie nun alle Prozelle und Flüsse, bis Ihr Modell folgendermassen aussieht.</p>
 <p><img src="images/Prozesse und Flüsse Bennenen (003)-01.png" class="img-fluid"></p>
 </section>
 <section id="schritt-7-mfa-system-eingabe-der-werte-für-die-materialflüsse" class="level3">
