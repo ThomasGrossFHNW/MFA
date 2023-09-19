@@ -43,7 +43,7 @@ website:
         contents:
           - Lektion1_1_Grundlagen.qmd
           - Lektion1_2_LBD.qmd
-          - Lektion1_3_DYS.qmd
+          - Lektion1_3_DIY.qmd
 
 
 format:

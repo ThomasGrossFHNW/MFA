@@ -8,4 +8,4 @@ In diesem Kurs nutzen wir die gratis verfügbare Software STAN ([www.stan2web.ne
 
 STAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.
 
-STAN funktioniert leider nur auf Windows Betriebssystemen. Falls Sie Probleme mit der Installation haben, schauen Sie unter Installation in den [FAQ](Lektion0_1_FAQ.qmd).
+STAN funktioniert leider nur auf Windows Betriebssystemen. Falls Sie Probleme mit der Installation haben, schauen Sie unter Installation in den [FAQ](Lektion0_4_FAQ.qmd).
