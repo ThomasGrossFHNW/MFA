@@ -1,0 +1,15 @@
+---
+title: "Bilanzierung"
+---
+
+## Einführung
+
+Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.
+
+Futtermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen Systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar. Als Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produckten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (112 Tonnen Stockstoff pro Jahr). Die Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz ([BAFU 2013](https://www.bafu.admin.ch/bafu/de/home/themen/chemikalien/publikationen-studien/publikationen/stickstofffluesse-schweiz-2020.html)).
+
+![Stickstoffflüsse in der Landwirtschaft (vereinfacht auf [BAFU 2013](https://www.bafu.admin.ch/bafu/de/home/themen/chemikalien/publikationen-studien/publikationen/stickstofffluesse-schweiz-2020.html))](images/Lektion2_1_1.png){width="660"}
+
+## Gleichungssysteme
+
+## Verständnisfragen
