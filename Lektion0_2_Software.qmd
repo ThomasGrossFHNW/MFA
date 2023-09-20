@@ -4,8 +4,20 @@ title: "Software"
 
 ## STAN - subSTance flow ANalysis
 
+### Was ist STAN?
+
 In diesem Kurs nutzen wir die gratis verfügbare Software STAN ([www.stan2web.net](www.stan2web.net)). STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.
 
 STAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.
 
-STAN funktioniert leider nur auf Windows Betriebssystemen. Falls Sie Probleme mit der Installation haben, schauen Sie unter Installation in den [FAQ](Lektion0_4_FAQ.qmd).
+### Installation
+
+STAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:
+
+-   **Variante 1:** Download der Software von [www.stan2web.net](http://www.stan2web.net/) (Sie müssen sich vorher auf der Website registrieren)
+
+-   **Variante 2:** Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar
+
+Bei Bedarf, finden Sie [hier](https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi?playlistPosition=1&resume=true) ein Erklärvideo zur Installation.
+
+Falls Sie Probleme mit der Installation haben, schauen Sie unter Installation in den [FAQ](Lektion0_4_FAQ.qmd).
