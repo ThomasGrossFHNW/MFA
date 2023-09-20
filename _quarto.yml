@@ -44,6 +44,10 @@ website:
           - Lektion1_1_Grundlagen.qmd
           - Lektion1_2_LBD.qmd
           - Lektion1_3_DIY.qmd
+      - section: "Bilanzierung"
+        contents:
+          - Lektion2_1_Bilanzierung.qmd
+
 
 
 format:

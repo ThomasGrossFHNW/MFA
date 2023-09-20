@@ -18,7 +18,7 @@
     "href": "Lektion0_1_Lernziele.html",
     "title": "Lernziele",
     "section": "",
-    "text": "Dieser Kurs gibt Ihnen eine Einführung in Massen- und Stoffflussanalyse mithilfe des gratis verfügbaren Programms STAN. Der Kurs ist setzt sich aus Selbststudium, Einzelübungen, Gruppenübungen, Vorlesungen und Coaching durch Dozierende der FHNW zusammen.\nIm Rahmen dieses Kurses erwerben Sie folgende Kompetenzen:\n\nKenntnis von Massen- und Stoffflussanalysen (MFA/SFA) für nachhaltiges Ressourcenmanagement\nModellieren und Interpretieren von MFA/SFA mithilfe der gratis verfügbaren Software STAN\nSchnittstellen zu anderen Themen und Anwendungen, insbesondere Lebenszyklusanalyse\n\n\n\n\n\n\n\n Back to top"
+    "text": "Dieser Kurs gibt Ihnen eine Einführung in Material- und Stoffflussanalyse (MFA und SFA) mithilfe des gratis verfügbaren Programms STAN. Der Kurs ist setzt sich aus Selbststudium, Einzelübungen, Gruppenübungen, Vorlesungen und Coaching durch Dozierende der FHNW zusammen.\nIm Rahmen dieses Kurses erwerben Sie folgende Kompetenzen:\n\nKenntnis von Material- und Stoffflussanalysen (MFA/SFA) für nachhaltiges Ressourcenmanagement\nModellieren und Interpretieren von MFA/SFA mithilfe der gratis verfügbaren Software STAN\nSchnittstellen zu anderen Themen und Anwendungen, insbesondere Lebenszyklusanalyse\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Lektion0_2_Software.html",
@@ -138,5 +138,33 @@
     "title": "Do-it-yourself",
     "section": "",
     "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem Hausmüll zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung? Passen Sie die Transferkoeffizienten im Prozess “Trennung von biogenem Abfall” entsprechend an."
+  },
+  {
+    "objectID": "Lektion2_1_Bilanzierung.html",
+    "href": "Lektion2_1_Bilanzierung.html",
+    "title": "Bilanzierung",
+    "section": "",
+    "text": "Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.\nFuttermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen Systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar. Als Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produckten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (112 Tonnen Stockstoff pro Jahr). Die Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (BAFU 2013).\n\n\n\nStickstoffflüsse in der Landwirtschaft (vereinfacht auf BAFU 2013)"
+  },
+  {
+    "objectID": "Lektion2_1_Bilanzierung.html#einführung",
+    "href": "Lektion2_1_Bilanzierung.html#einführung",
+    "title": "Bilanzierung",
+    "section": "",
+    "text": "Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.\nFuttermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen Systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar. Als Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produckten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (112 Tonnen Stockstoff pro Jahr). Die Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (BAFU 2013).\n\n\n\nStickstoffflüsse in der Landwirtschaft (vereinfacht auf BAFU 2013)"
+  },
+  {
+    "objectID": "Lektion2_1_Bilanzierung.html#gleichungssysteme",
+    "href": "Lektion2_1_Bilanzierung.html#gleichungssysteme",
+    "title": "Bilanzierung",
+    "section": "Gleichungssysteme",
+    "text": "Gleichungssysteme"
+  },
+  {
+    "objectID": "Lektion2_1_Bilanzierung.html#verständnisfragen",
+    "href": "Lektion2_1_Bilanzierung.html#verständnisfragen",
+    "title": "Bilanzierung",
+    "section": "Verständnisfragen",
+    "text": "Verständnisfragen"
   }
 ]
