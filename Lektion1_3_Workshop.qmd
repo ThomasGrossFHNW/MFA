@@ -1,0 +1,15 @@
+---
+title: "Workshop"
+---
+
+## Aufgabe
+
+Entwickeln Sie in STAN ein Szenario basierend auf dem "Learning-by-Doing" Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.
+
+-   Welche zusätzlichen Prozesse braucht es im System?
+
+-   Welchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung? Passen Sie die Transferkoeffizienten im Prozess "Trennung von biogenem Abfall" entsprechend an.
+
+-   Welche Hürfen bei der Umsetzung erwarten Sie?
+
+# 

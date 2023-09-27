@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Tools für NRM - FAQ</title>
+<title>Tools für NRM - Learning-by-doing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -109,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Lektion0_1_Lernziele.html">Überblick</a></li><li class="breadcrumb-item"><a href="./Lektion0_4_FAQ.html">FAQ</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Lektion2_1_Bilanzierung.html">Bilanzierung</a></li><li class="breadcrumb-item"><a href="./Lektion2_2_LBD.html">Learning-by-doing</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Lektion0_4_FAQ.html" class="sidebar-item-text sidebar-link active">
+  <a href="./Lektion0_4_FAQ.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">FAQ</span></a>
   </div>
 </li>
@@ -202,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Lektion2_2_LBD.html" class="sidebar-item-text sidebar-link">
+  <a href="./Lektion2_2_LBD.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Learning-by-doing</span></a>
   </div>
 </li>
@@ -218,11 +218,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#installationsprobleme" id="toc-installationsprobleme" class="nav-link active" data-scroll-target="#installationsprobleme">Installationsprobleme</a>
+  <li><a href="#ziel" id="toc-ziel" class="nav-link active" data-scroll-target="#ziel">Ziel</a></li>
+  <li><a href="#vorgehen" id="toc-vorgehen" class="nav-link" data-scroll-target="#vorgehen">Vorgehen</a>
   <ul class="collapse">
-  <li><a href="#die-installation-wird-durch-windows-smartscreen-blockiert" id="toc-die-installation-wird-durch-windows-smartscreen-blockiert" class="nav-link" data-scroll-target="#die-installation-wird-durch-windows-smartscreen-blockiert">Die Installation wird durch Windows SmartScreen blockiert</a></li>
+  <li><a href="#öffnen-sie-die-stan-datei-aus-der-ersten-übung" id="toc-öffnen-sie-die-stan-datei-aus-der-ersten-übung" class="nav-link" data-scroll-target="#öffnen-sie-die-stan-datei-aus-der-ersten-übung">1. Öffnen Sie die STAN-Datei aus der ersten Übung</a></li>
+  <li><a href="#ebene-stickstoff-zufügen" id="toc-ebene-stickstoff-zufügen" class="nav-link" data-scroll-target="#ebene-stickstoff-zufügen">2. Ebene Stickstoff zufügen</a></li>
   </ul></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -231,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FAQ</h1>
+<h1 class="title">Learning-by-doing</h1>
 </div>
 
 
@@ -246,22 +247,25 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="installationsprobleme" class="level2">
-<h2 class="anchored" data-anchor-id="installationsprobleme">Installationsprobleme</h2>
-<section id="die-installation-wird-durch-windows-smartscreen-blockiert" class="level3">
-<h3 class="anchored" data-anchor-id="die-installation-wird-durch-windows-smartscreen-blockiert">Die Installation wird durch Windows SmartScreen blockiert</h3>
-<ol type="1">
-<li>Extrahieren Sie die Zip-Datei</li>
-<li>Öffnen Sie die Eigenschaften der Installationsdatei (z.B. STAN-2-7-101-EN.exe) mittels Rechtsklick auf die Datei und dann Eigenschaften wählen.</li>
-<li>Setzen Sie bei der Schaltfläche “Zulassen” ein Häkchen.</li>
-<li>Jetzt sollte die Installation klappen.</li>
-</ol>
+<section id="ziel" class="level2">
+<h2 class="anchored" data-anchor-id="ziel">Ziel</h2>
+<p>In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben hier die Massen modelliert. In der jetzigen Übung werden wir eine zweite Ebene mit in unser System einfügen, mit welcher wir die Sticksoffflüsse durch das System berechnen werden.</p>
 </section>
+<section id="vorgehen" class="level2">
+<h2 class="anchored" data-anchor-id="vorgehen">Vorgehen</h2>
+<section id="öffnen-sie-die-stan-datei-aus-der-ersten-übung" class="level3">
+<h3 class="anchored" data-anchor-id="öffnen-sie-die-stan-datei-aus-der-ersten-übung">1. Öffnen Sie die STAN-Datei aus der ersten Übung</h3>
+<p>Alternativ können Sie auch eine vorbereitete STAN-Datei von Moodle oder hier [Link] herunterladen.</p>
 </section>
-<section id="section" class="level1">
-<h1></h1>
+<section id="ebene-stickstoff-zufügen" class="level3">
+<h3 class="anchored" data-anchor-id="ebene-stickstoff-zufügen">2. Ebene Stickstoff zufügen</h3>
+<p>Fügen Sie über das Menu Bearbeiten –&gt; Ebenen und Perioden die Ebene Stickstoff (N) hinzu.</p>
+<p><img src="images/Lektion2_2_1.png" class="img-fluid"></p>
+<p>Nun stehen zwei Ebenen zur Verfügung: Güter (mit dieser Ebene haben wir in der ersten Übung gearbeitet) und N, Stickstoff</p>
+<p><img src="images/Lektion2_2_2.png" class="img-fluid"></p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

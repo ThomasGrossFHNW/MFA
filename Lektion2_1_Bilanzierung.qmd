@@ -1,5 +1,5 @@
 ---
-title: "Bilanzierung"
+title: "Gleichungssysteme und Ebenen"
 ---
 
 ## Einführung
@@ -11,5 +11,25 @@ Futtermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins Sy
 ![Stickstoffflüsse in der Landwirtschaft (vereinfacht auf [BAFU 2013](https://www.bafu.admin.ch/bafu/de/home/themen/chemikalien/publikationen-studien/publikationen/stickstofffluesse-schweiz-2020.html))](images/Lektion2_1_1.png){width="660"}
 
 ## Gleichungssysteme
+
+Zur mathematischen Beschreibung von MFA- und SFA-Systemen sind das Massen- und Energieerhaltungsgesetz, lineare Beziehungen zwischen In- und Outputflüssen sowie Konzentrationsverhältnisse wichtig.
+
+Für jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das **Massen-und Energieerhaltungsgesetz** erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Zum Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Tonnen Stickstoff pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.
+
+Transferkoeffizienten drücken eine **lineare Beziehung** zwischen In- und Outputflüssen eines Prozesses aus. So könnte man die Transferkoeffizienten des Prozesses Pflanzenbau als Prozentwerte der Inputs darstellen:
+
+-   61% der Stickstoffinputs in den Pflanzenbau gehen in die Tierhaltung (131 Tonnen Stickstoff pro Jahr)
+
+-   5% gehen in pflanzliche Produkte
+
+-   34% sind Auswaschung und Emissionen
+
+Der Prozess Pflanzenbau stellt somit eine "Blackbox" über ein sehr viel komplexeres System dar. Diese Vereinfachung ist sinnvoll, um beispielsweise die Grössenordnung verschiedener Prozesse und Flüsse darzustellen.
+
+Konzentrationsgleichungen \[Text folgt\]
+
+## Ebenen
+
+In der ersten Lektion haben wir die Materialflüsse im Abfallmanagement einer Gemeinde simuliert.
 
 ## Verständnisfragen

@@ -1,0 +1,23 @@
+---
+title: "Learning-by-doing"
+---
+
+## Ziel
+
+In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben hier die Massen modelliert. In der jetzigen Übung werden wir eine zweite Ebene mit in unser System einfügen, mit welcher wir die Sticksoffflüsse durch das System berechnen werden.
+
+## Vorgehen
+
+### 1. Öffnen Sie die STAN-Datei aus der ersten Übung
+
+Alternativ können Sie auch eine vorbereitete STAN-Datei von Moodle oder hier \[Link\] herunterladen.
+
+### 2. Ebene Stickstoff zufügen
+
+Fügen Sie über das Menu Bearbeiten --\> Ebenen und Perioden die Ebene Stickstoff (N) hinzu.
+
+![](images/Lektion2_2_1.png)
+
+Nun stehen zwei Ebenen zur Verfügung: Güter (mit dieser Ebene haben wir in der ersten Übung gearbeitet) und N, Stickstoff
+
+![](images/Lektion2_2_2.png)

@@ -4,13 +4,13 @@ title: "Learning-by-doing"
 
 ## Ziel
 
-Als erste Übung modellieren wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr.
+Wir modellieren das Abfallmanagement einer Gemeinde mit ca. 10'000 Einwohnern über ein Jahr.
 
-Das derzeitige Abfallmanagement der Gemeinde besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle. Daneben werden industrielle biogene Abfälle separat gesammelt und mittels anaerober Vergärung behandelt.
+Das derzeitige Abfallmanagement der Gemeinde besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle ("Bioabfälle"). Pro Person fallen ca. 700 kg Siedlungsabfälle pro Jahr an. 60% der Siedlungsabfälle (Masse) ist biogen (biologisch Abbaubar). In der Gemeinde besteht bereits eine anaerobe Vergärungsanlage ("Biogasanlage"), welche 9'000 Tonnen Grünabfälle (Schnittgut) und 2'000 Tonnen Hofdünger mehrerer Gemeinden behandelt.
 
-Wir werden zunächst Schritt für Schritt das derzeitige System in STAN modellieren (Abbildung) und danach Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall.
+Wir werden zunächst Schritt für Schritt das derzeitige System in STAN modellieren (Abbildung). Danach werden wir im Workshop-Teil Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall modellieren.
 
-![MFA des Abfallmanagements in der Gemeinde](images/Lektion1_Uebung.png)
+![](images/Lektion_1_2_1.png)
 
 ## Vorgehen
 
@@ -24,7 +24,7 @@ Installieren Sie STAN, nähere Angaben finden Sie [hier](Lektion0_2_Software.qmd
 
 Machen Sie sich zunächst mit der Benutzeroberfläche von STAN vertraut.
 
-![](images/Lektion1_2_1.png)
+![](images/Lektion_1_2_2.png)
 
 1.  **Menüzeile:** In der Menüzeile sind Befehle zur Bearbeitung und Steuerung aufrufbar.
 2.  **Symbolleiste:** Die wichtigsten Befehle grafisch dargestellt.
@@ -38,35 +38,39 @@ Alle Fenster können in der Größe angepasst und wie Kacheln modular verschoben
 
 ### 3. Der erste Prozess
 
-Nun zeichnen Sie als ersten Prozess die kommunale Abfallsammlung (Sie können grundsätzlich auch mit einem beliebigen anderen Prozess beginnen). Wählen Sie dazu in der Symbolleiste das Symbol P (rot markiert) aus und zeichnen Sie ein Rechteck ("Prozess 1").
+Nun zeichnen Sie als ersten Prozess die kommunale Abfallsammlung (Sie können grundsätzlich auch mit einem beliebigen anderen Prozess beginnen). Wählen Sie dazu in der Symbolleiste das Symbol P (grün markiert) aus und zeichnen Sie ein Rechteck ("Prozess 1").
 
-![](images/Inked1.Prozess.jpg)
+![](images/Lektion_1_2_3.png)
 
 Benennen Sie den Prozess "Kommunale Abfallsammlung". Wählen Sie dazu den Prozess aus und ändern Sie im Fenster Prozesseigenschaften den Namen.
 
-![](images/Inked1.Prozess_Bennenen.jpg)
+![](images/Lektion_1_2_4.png)
 
 ### 4. Weitere Prozesse und Prozess mit Lager
 
-Nun erweitern Sie die MFA mit weiteren Prozessen. Fügen Sie rechts des Prozesses "Kommunale Abfallsammlung" die Prozesse "Kehrichtverbrennung" und "Aschebehandlung (Flug- und Bodenasche)" ein. Unterhalb der "Aschebehandlung (Flug- und Bodenasche)" fügen Sie den Prozess "Deponie" ein.
+Nun erweitern Sie die MFA mit weiteren Prozessen.
 
-Fügen Sie links des Prozesses "Kommunale Abfallsammlung" den Prozess "Trennung von Biomüll" ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Biomüll und Restmüll zu simulieren. Im IST-Modell gehen 100% des Biomülls in die kommunale Abfallsammlung.
+Fügen Sie rechts des Prozesses "Kommunale Abfallsammlung" die Prozesse "Kehrichtverbrennung" und "Aschebehandlung (Flug- und Bodenasche)" ein. Unterhalb der "Aschebehandlung (Flug- und Bodenasche)" fügen Sie den Prozess "Deponie" ein.
+
+Fügen Sie links des Prozesses "Kommunale Abfallsammlung" den Prozess "Entsorgung durch Haushalte und Kleingewerbe" ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Biomüll und nicht-biogenem Restmüll zu simulieren. Im IST-Modell gehen 100% des Biomülls in die kommunale Abfallsammlung.
+
+Bei Bedarf können Sie die Prozesse verschieben, verkleinern und vergrössern.
 
 Die Deponie repräsentiert ein Lager, das sich über die Zeit füllt. Wählen Sie daher den Prozess "Deponie" aus und setzen Sie in den Prozesseigenschaften ein Häkchen bei Lager.
 
-![](images/Lagerprozess%20erstellen.png)
+![](images/Lektion_1_2_5.png)
 
-### 5. Erste Flüsse zeichnen
+### 5. Flüsse zeichnen
 
 Nun zeichnen Sie die ersten Flüsse zwischen den Prozessen.
 
-Zunächst können Sie den Importfluss "Nichtbiogener Abfall" von ganz links hin zum Prozess "Trennung von Biomüll" ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsun von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.
+Zunächst können Sie den Importfluss "Nicht-biogener Abfall" von ganz links hin zum Prozess "Trennung von Biomüll" ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsun von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.
 
-![](images/Inked1.Flusserstellen%20(003).jpg)
+![](images/Lektion_1_2_6.png)
 
-Verbinden Sie nun die Prozesse mit Flüssen wie in der Abbilung unten dargestellt. Flüsse zwischen Prozessen sind natürlich keine Importflüsse sondern "normale" Flüsse innerhalb der Systemgrenze.
+Verbinden Sie nun die Prozesse mit Flüssen wie in der Abbilung unten dargestellt. Flüsse zwischen Prozessen sind keine Importflüsse sondern "normale" Flüsse innerhalb der Systemgrenze.
 
-![](images/InkedInternerFluss.jpg)
+![](images/Lektion_1_2_7.png)
 
 Ausgehend von der "Aschebehandlung (Flug- und Bodenasche)" erstellen Sie nun als ersten Exportfluss "Metallrecycling". Hierbei handelt es sich um das rückgewonnene Metall aus der Aschebehandlung welche Reyclingprozessen zugeführt werden. Diese Recyclingprozesse interessieren uns hier nicht weiter, da wir uns mit biogenen Abfällen beschäftigen. Daher sind Reyclingprozesse für Metall in diesem konkreten Fall ausserhalb der Systemgrenze.
 
@@ -80,25 +84,25 @@ Ergänzen Sie nun alle Prozelle und Flüsse, bis Ihr Modell folgendermassen auss
 
 Aus der Beschreibung des Abfallmanagements der Gemeinde kennen Sie u.a. die anfallende Menge an biogenem und nicht-biogenem Abfall pro Jahr. Tragen Sie die Werte in die Import-Flüsse ein. Klicken Sie hierzu auf den zu bearbeitenden Import-Fluss und klicken Sie dann auf Werte im Eigenschaftenfenster (Pfeile im rechten Teil des Bildes unten). Es handelt sich um einen Massenfluss.
 
-Die Abfallmenge (Masse) pro Jahr ist nie genau bekannt. Daher haben Sie zusätzlich die Möglichkeit, einen Wertebereich einzugeben (+/-), wir nehmen hier eine Unsicherheit von 20% an, also +/- 1'500 t/a. Wir gehen später detaillierter auf die Unsicherheitsanalyse ein.
+Die Abfallmenge (Masse) pro Jahr ist nie genau bekannt. Daher haben Sie zusätzlich die Möglichkeit, einen Wertebereich einzugeben (+/-), wir nehmen hier eine Unsicherheit von 20% an, also +/- 10%. Wir gehen später detaillierter auf die Unsicherheitsanalyse ein.
 
 Sie können die Pfeildicke der Flüsse im Regler des Sankey-Diagramms (Pfeil) anpassen. Sie können auch alle Massenflüsse gleich dick erscheinen lassen ("Sankey-Darstellung der Flüsse (ein/aus)").
 
-![](images/InkedWert%20eingeben%20und%20pfeilim%20shanky.jpg)
+![](images/Lektion_1_2_9.png)
 
 ### 7. Transferkoeffizienten eingeben
 
 Ein Transferkoeffizient (TK) gibt an, welcher Anteil eines bestimmten Input-Flusses in einen Prozess einem Output-Fluss des gleichen Prozesses zugewiesen wird.
 
-Wir wissen, dass in der hier modellierten Gemeinde derzeit 100% der biogenen und nichtbiogenen Abfälle in die kommunale Abfallsammlung gehen. Dies wird folgendermassen eingestellt:
+Wir geben zunächst die Transferkoeffizienten für die Kehrichtverbrennung ein. Sie können davon ausgehen, dass rund 10% der Inputmasse zu Asche wird und 90% als Abgase entweicht.
 
-1\. Selektieren Sie den Prozess "Trennung von Biomüll".
+1\. Selektieren Sie den Prozess "Kehrichtverbrennung".
 
 2\. Wählen Sie "Prozess bearbeiten" aus dem Kontextmenü des Prozesses (mit Rechtsklick).
 
-3\. Sie können die TK direkt in die einzelnen Zellen eintragen. Dabei können Sie zwischen einer Eingabe als Zahl zwischen 0 und 1 (z.B. 0,6) oder einer Eingabe als Prozentzahl (z.B. 60%) wählen. In unserem Beipiel geben Sie 1,0 in Richtung "Kommunale Abfallsammlung" und 0,0 in Richtung "Separatsammlung von kommunaltem Bioabfall" ein. Die füllen Sie für beide Inputs-Flüsse Bioabfall und nichtbiogener Abfall ein.
+3\. Sie können die Transferkoeffizienten direkt in die einzelnen Zellen eintragen. Dabei können Sie zwischen einer Eingabe als Zahl zwischen 0 und 1 (z.B. 0,9) oder einer Eingabe als Prozentzahl (z.B. 90%) wählen. In unserem Beipiel geben Sie 0,9 in Richtung "Abgase" und 0,1 in Richtung "Asche" ein.
 
-4\. Datenunsicherheiten der TK (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge "+-" eingegeben werden (z.B. 0,60+-0,06 oder 60%+-6%)
+4\. Datenunsicherheiten der TK (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge "+-" eingegeben werden (z.B. 0,90+-0,045 oder 90%+-4.5%)
 
 5\. Klicken Sie OK bzw. Übernehmen.
 
@@ -112,13 +116,13 @@ Sie können von folgenden Annahmen ausgehen:
 
 -   Anaerobe Vergärung: 10% der Inputmasse wird zu Biogas, 80% zu Digestat und 10% sind Verluste
 
-![Transferkoeffizienten](images/Lektion1_2_2.png)
+![Transferkoeffizienten](images/Lektion_1_2_10.png)
 
 ### 8. Systemgrenze
 
 Zeichnen Sie nun die geografische Systemgrenze. Klicken Sie dazu auf das Symbol Systemgrenze und platzieren Sie die Systemgrenze so, dass alle Startpunkte der Import- und Exportflüsse außerhalb und alle Prozesse und systeminternen Flüsse innerhalb der Systemgrenze liegen.
 
-![](images/Systemgrenze.png)
+![](images/Lektion_1_2_11.png)
 
 ### 9. Berechnen
 
