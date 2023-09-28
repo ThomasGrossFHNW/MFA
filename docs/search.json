@@ -137,14 +137,14 @@
     "href": "Lektion1_3_Workshop.html",
     "title": "Workshop",
     "section": "",
-    "text": "Erstellen Sie nun eine weitere Ebene für Phosphorflüsse (P) basierend auf dem “Learning-by-doing” Beispiel. Sie können Angaben aus Jensen et al. (2017) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.\n\nWelche Mengen an N und P erwarten Sie jährlich im Digestat der anaeroben Vergärung?\nWas wären mögliche Abnehmer des Digestats?\nWo sehen Sie mögliche Schwierigkeiten? Erwarten Sie z.B. Umweltbelastungen durch die Nutzung von Digestat?"
+    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung? Passen Sie die Transferkoeffizienten im Prozess “Trennung von biogenem Abfall” entsprechend an.\nWelche Hürfen bei der Umsetzung erwarten Sie?"
   },
   {
     "objectID": "Lektion1_3_Workshop.html#aufgabe",
     "href": "Lektion1_3_Workshop.html#aufgabe",
     "title": "Workshop",
     "section": "",
-    "text": "Erstellen Sie nun eine weitere Ebene für Phosphorflüsse (P) basierend auf dem “Learning-by-doing” Beispiel. Sie können Angaben aus Jensen et al. (2017) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.\n\nWelche Mengen an N und P erwarten Sie jährlich im Digestat der anaeroben Vergärung?\nWas wären mögliche Abnehmer des Digestats?\nWo sehen Sie mögliche Schwierigkeiten? Erwarten Sie z.B. Umweltbelastungen durch die Nutzung von Digestat?"
+    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung? Passen Sie die Transferkoeffizienten im Prozess “Trennung von biogenem Abfall” entsprechend an.\nWelche Hürfen bei der Umsetzung erwarten Sie?"
   },
   {
     "objectID": "Lektion2_1_Bilanzierung.html",
@@ -207,13 +207,13 @@
     "href": "Lektion2_3_Workshop.html",
     "title": "Workshop",
     "section": "",
-    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung? Passen Sie die Transferkoeffizienten im Prozess “Trennung von biogenem Abfall” entsprechend an.\nWelche Hürfen bei der Umsetzung erwarten Sie?"
+    "text": "Erstellen Sie nun eine weitere Ebene für Phosphorflüsse (P) basierend auf dem “Learning-by-doing” Beispiel. Sie können Angaben aus Jensen et al. (2017) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.\n\nWelche Mengen an N und P erwarten Sie jährlich im Digestat der anaeroben Vergärung?\nWas wären mögliche Abnehmer des Digestats?\nWo sehen Sie mögliche Schwierigkeiten? Erwarten Sie z.B. Umweltbelastungen durch die Nutzung von Digestat?"
   },
   {
     "objectID": "Lektion2_3_Workshop.html#aufgabe",
     "href": "Lektion2_3_Workshop.html#aufgabe",
     "title": "Workshop",
     "section": "",
-    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung? Passen Sie die Transferkoeffizienten im Prozess “Trennung von biogenem Abfall” entsprechend an.\nWelche Hürfen bei der Umsetzung erwarten Sie?"
+    "text": "Erstellen Sie nun eine weitere Ebene für Phosphorflüsse (P) basierend auf dem “Learning-by-doing” Beispiel. Sie können Angaben aus Jensen et al. (2017) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.\n\nWelche Mengen an N und P erwarten Sie jährlich im Digestat der anaeroben Vergärung?\nWas wären mögliche Abnehmer des Digestats?\nWo sehen Sie mögliche Schwierigkeiten? Erwarten Sie z.B. Umweltbelastungen durch die Nutzung von Digestat?"
   }
 ]

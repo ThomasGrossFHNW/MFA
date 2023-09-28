@@ -51,7 +51,6 @@ website:
           - Lektion2_3_Workshop.qmd
 
 
-
 format:
   html:
     theme: sandstone
