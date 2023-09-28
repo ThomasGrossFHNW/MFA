@@ -60,6 +60,8 @@ Ihre Modellierung von MFA bzw. SFA lässt sich grob in vier Hauptschritten zusam
 
 Nachfolgend sollen am Beispiel der Stickstoffflüsse in der Schweiz die Möglichkeiten und Anwendungen einer Stoffflussanalyse aufgezeigt werden. In einer Studie zuhanden des Bundesamtes für Umwelt ([BAFU 2013](https://www.bafu.admin.ch/bafu/de/home/themen/chemikalien/publikationen-studien/publikationen/stickstofffluesse-schweiz-2020.html)) wurde die Entwicklung der Stickstoffflüsse in der Schweiz bis 2020 im Rahmen einer Stoffflusssanalyse analysiert. Es wurden verschiedene Szenarien untersucht, darunter ein Basisszenario und drei Wenn-Dann-Analysen, die mögliche politische und gesellschaftliche Entwicklungen abbilden.
 
+![Stickstoff-Flüsse im Jahr 2020 (aus: [BAFU 2013](https://www.bafu.admin.ch/bafu/de/home/themen/chemikalien/publikationen-studien/publikationen/stickstofffluesse-schweiz-2020.html))](images/Lektion_1_1_1.png)
+
 Bitte lesen Sie in dem angesprochenen Bericht die Zusammenfassung und betrachten Sie Abbildung 8. Beantworten bzw. diskutieren Sie die folgenden Fragen:
 
 -   Welche Prozesse werden in Abbildung 8 dargestellt?

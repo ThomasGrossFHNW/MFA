@@ -25,14 +25,14 @@
     "href": "Lektion0_2_Software.html",
     "title": "Software",
     "section": "",
-    "text": "In diesem Kurs nutzen wir die gratis verfügbare Software STAN (www.stan2web.net). STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.\nSTAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.\n\n\n\nSTAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:\n\nVariante 1: Download der Software von www.stan2web.net (Sie müssen sich vorher auf der Website registrieren)\nVariante 2: Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar\n\nBei Bedarf, finden Sie hier ein Erklärvideo zur Installation.\nFalls Sie Probleme mit der Installation haben, schauen Sie unter Installation in den FAQ."
+    "text": "In diesem Kurs nutzen wir die gratis verfügbare Software STAN (www.stan2web.net). STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.\nSTAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.\n\n\n\nSTAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:\n\nVariante 1: Download der Software von www.stan2web.net (Sie müssen sich vorher auf der Website registrieren).\nVariante 2: Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar.\nVariante 3: Im Netzwerk der FHNW können Sie STAN auch über den Citrix Workspace ausführen. Studierende der FHNW finden hier Informationen zur Installation von Citrix.\n\nBei Bedarf, finden Sie hier ein Erklärvideo zur Installation von STAN.\nFalls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den FAQ."
   },
   {
     "objectID": "Lektion0_2_Software.html#stan---substance-flow-analysis",
     "href": "Lektion0_2_Software.html#stan---substance-flow-analysis",
     "title": "Software",
     "section": "",
-    "text": "In diesem Kurs nutzen wir die gratis verfügbare Software STAN (www.stan2web.net). STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.\nSTAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.\n\n\n\nSTAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:\n\nVariante 1: Download der Software von www.stan2web.net (Sie müssen sich vorher auf der Website registrieren)\nVariante 2: Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar\n\nBei Bedarf, finden Sie hier ein Erklärvideo zur Installation.\nFalls Sie Probleme mit der Installation haben, schauen Sie unter Installation in den FAQ."
+    "text": "In diesem Kurs nutzen wir die gratis verfügbare Software STAN (www.stan2web.net). STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.\nSTAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.\n\n\n\nSTAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:\n\nVariante 1: Download der Software von www.stan2web.net (Sie müssen sich vorher auf der Website registrieren).\nVariante 2: Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar.\nVariante 3: Im Netzwerk der FHNW können Sie STAN auch über den Citrix Workspace ausführen. Studierende der FHNW finden hier Informationen zur Installation von Citrix.\n\nBei Bedarf, finden Sie hier ein Erklärvideo zur Installation von STAN.\nFalls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den FAQ."
   },
   {
     "objectID": "Lektion0_3_Bewertung.html",
@@ -63,11 +63,18 @@
     "text": "Extrahieren Sie die Zip-Datei\nÖffnen Sie die Eigenschaften der Installationsdatei (z.B. STAN-2-7-101-EN.exe) mittels Rechtsklick auf die Datei und dann Eigenschaften wählen.\nSetzen Sie bei der Schaltfläche “Zulassen” ein Häkchen.\nJetzt sollte die Installation klappen."
   },
   {
-    "objectID": "Lektion0_4_FAQ.html#installationsprobleme",
-    "href": "Lektion0_4_FAQ.html#installationsprobleme",
+    "objectID": "Lektion0_4_FAQ.html#installation-von-stan",
+    "href": "Lektion0_4_FAQ.html#installation-von-stan",
     "title": "FAQ",
     "section": "",
     "text": "Extrahieren Sie die Zip-Datei\nÖffnen Sie die Eigenschaften der Installationsdatei (z.B. STAN-2-7-101-EN.exe) mittels Rechtsklick auf die Datei und dann Eigenschaften wählen.\nSetzen Sie bei der Schaltfläche “Zulassen” ein Häkchen.\nJetzt sollte die Installation klappen."
+  },
+  {
+    "objectID": "Lektion0_4_FAQ.html#anders-betriebssystem-als-windows",
+    "href": "Lektion0_4_FAQ.html#anders-betriebssystem-als-windows",
+    "title": "FAQ",
+    "section": "Anders Betriebssystem als Windows",
+    "text": "Anders Betriebssystem als Windows\nSTAN ist leider nur für Windows verfügbar. Im Netzwerk der FHNW können Sie STAN auch auf anderen Betriebssystemen über den Citrix Workspace ausführen. Studierende der FHNW finden hier Informationen zur Installation von Citrix."
   },
   {
     "objectID": "Lektion1_1_Grundlagen.html",
@@ -102,7 +109,7 @@
     "href": "Lektion1_1_Grundlagen.html#anwendungsbeispiel-stickstoffflüsse-in-der-schweiz",
     "title": "Grundlagen",
     "section": "Anwendungsbeispiel: Stickstoffflüsse in der Schweiz",
-    "text": "Anwendungsbeispiel: Stickstoffflüsse in der Schweiz\nNachfolgend sollen am Beispiel der Stickstoffflüsse in der Schweiz die Möglichkeiten und Anwendungen einer Stoffflussanalyse aufgezeigt werden. In einer Studie zuhanden des Bundesamtes für Umwelt (BAFU 2013) wurde die Entwicklung der Stickstoffflüsse in der Schweiz bis 2020 im Rahmen einer Stoffflusssanalyse analysiert. Es wurden verschiedene Szenarien untersucht, darunter ein Basisszenario und drei Wenn-Dann-Analysen, die mögliche politische und gesellschaftliche Entwicklungen abbilden.\nBitte lesen Sie in dem angesprochenen Bericht die Zusammenfassung und betrachten Sie Abbildung 8. Beantworten bzw. diskutieren Sie die folgenden Fragen:\n\nWelche Prozesse werden in Abbildung 8 dargestellt?\nWelches sind die grössten Inportflüsse von Stickstoff in die Schweiz? Welches sind die grössten Exportflüsse?\nWas sind die wichtigsten Treiber für Stickstoffflüsse in der Schweiz?"
+    "text": "Anwendungsbeispiel: Stickstoffflüsse in der Schweiz\nNachfolgend sollen am Beispiel der Stickstoffflüsse in der Schweiz die Möglichkeiten und Anwendungen einer Stoffflussanalyse aufgezeigt werden. In einer Studie zuhanden des Bundesamtes für Umwelt (BAFU 2013) wurde die Entwicklung der Stickstoffflüsse in der Schweiz bis 2020 im Rahmen einer Stoffflusssanalyse analysiert. Es wurden verschiedene Szenarien untersucht, darunter ein Basisszenario und drei Wenn-Dann-Analysen, die mögliche politische und gesellschaftliche Entwicklungen abbilden.\n\n\n\nStickstoff-Flüsse im Jahr 2020 (aus: BAFU 2013)\n\n\nBitte lesen Sie in dem angesprochenen Bericht die Zusammenfassung und betrachten Sie Abbildung 8. Beantworten bzw. diskutieren Sie die folgenden Fragen:\n\nWelche Prozesse werden in Abbildung 8 dargestellt?\nWelches sind die grössten Inportflüsse von Stickstoff in die Schweiz? Welches sind die grössten Exportflüsse?\nWas sind die wichtigsten Treiber für Stickstoffflüsse in der Schweiz?"
   },
   {
     "objectID": "Lektion1_2_LBD.html",
@@ -130,14 +137,14 @@
     "href": "Lektion1_3_Workshop.html",
     "title": "Workshop",
     "section": "",
-    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung? Passen Sie die Transferkoeffizienten im Prozess “Trennung von biogenem Abfall” entsprechend an.\nWelche Hürfen bei der Umsetzung erwarten Sie?"
+    "text": "Erstellen Sie nun eine weitere Ebene für Phosphorflüsse (P) basierend auf dem “Learning-by-doing” Beispiel. Sie können Angaben aus Jensen et al. (2017) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.\n\nWelche Mengen an N und P erwarten Sie jährlich im Digestat der anaeroben Vergärung?\nWas wären mögliche Abnehmer des Digestats?\nWo sehen Sie mögliche Schwierigkeiten? Erwarten Sie z.B. Umweltbelastungen durch die Nutzung von Digestat?"
   },
   {
     "objectID": "Lektion1_3_Workshop.html#aufgabe",
     "href": "Lektion1_3_Workshop.html#aufgabe",
     "title": "Workshop",
     "section": "",
-    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung? Passen Sie die Transferkoeffizienten im Prozess “Trennung von biogenem Abfall” entsprechend an.\nWelche Hürfen bei der Umsetzung erwarten Sie?"
+    "text": "Erstellen Sie nun eine weitere Ebene für Phosphorflüsse (P) basierend auf dem “Learning-by-doing” Beispiel. Sie können Angaben aus Jensen et al. (2017) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.\n\nWelche Mengen an N und P erwarten Sie jährlich im Digestat der anaeroben Vergärung?\nWas wären mögliche Abnehmer des Digestats?\nWo sehen Sie mögliche Schwierigkeiten? Erwarten Sie z.B. Umweltbelastungen durch die Nutzung von Digestat?"
   },
   {
     "objectID": "Lektion2_1_Bilanzierung.html",
@@ -158,7 +165,7 @@
     "href": "Lektion2_1_Bilanzierung.html#gleichungssysteme",
     "title": "Gleichungssysteme und Ebenen",
     "section": "Gleichungssysteme",
-    "text": "Gleichungssysteme\nZur mathematischen Beschreibung von MFA- und SFA-Systemen sind das Massen- und Energieerhaltungsgesetz, lineare Beziehungen zwischen In- und Outputflüssen sowie Konzentrationsverhältnisse wichtig.\nFür jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das Massen-und Energieerhaltungsgesetz erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Zum Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Tonnen Stickstoff pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.\nTransferkoeffizienten drücken eine lineare Beziehung zwischen In- und Outputflüssen eines Prozesses aus. So könnte man die Transferkoeffizienten des Prozesses Pflanzenbau als Prozentwerte der Inputs darstellen:\n\n61% der Stickstoffinputs in den Pflanzenbau gehen in die Tierhaltung (131 Tonnen Stickstoff pro Jahr)\n5% gehen in pflanzliche Produkte\n34% sind Auswaschung und Emissionen\n\nDer Prozess Pflanzenbau stellt somit eine “Blackbox” über ein sehr viel komplexeres System dar. Diese Vereinfachung ist sinnvoll, um beispielsweise die Grössenordnung verschiedener Prozesse und Flüsse darzustellen.\nKonzentrationsgleichungen [Text folgt]"
+    "text": "Gleichungssysteme\nZur mathematischen Beschreibung von MFA- und SFA-Systemen sind das Massen- und Energieerhaltungsgesetz, lineare Beziehungen zwischen In- und Outputflüssen sowie Konzentrationsverhältnisse wichtig.\nFür jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das Massen-und Energieerhaltungsgesetz erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Tonnen Stickstoff pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.\n\n\n\n\n\nTransferkoeffizienten drücken eine lineare Beziehung zwischen In- und Outputflüssen eines Prozesses aus. So könnte man die Transferkoeffizienten des Prozesses Tierhaltung als Prozentwerte der Inputs darstellen:\n\n21% der Stickstoffinputs gehen in Produkte\n25% gehen in Emissionen über\n54% gehen in Hofdünger\n\n\nDer Prozess Pflanzenbau stellt somit eine “Blackbox” über ein sehr viel komplexeres System dar. Diese Vereinfachung ist sinnvoll, um beispielsweise die Grössenordnung verschiedener Prozesse und Flüsse darzustellen.\nKonzentrationsgleichungen [Text folgt]"
   },
   {
     "objectID": "Lektion2_1_Bilanzierung.html#ebenen",
@@ -179,20 +186,34 @@
     "href": "Lektion2_2_LBD.html",
     "title": "Learning-by-doing",
     "section": "",
-    "text": "In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben hier die Massen modelliert. In der jetzigen Übung werden wir eine zweite Ebene mit in unser System einfügen, mit welcher wir die Sticksoffflüsse durch das System berechnen werden."
+    "text": "In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben hier die Massen modelliert. In der jetzigen Übung werden wir eine zweite Ebene in unser System einfügen, mit welcher wir die Sticksoffflüsse durch das System berechnen werden."
   },
   {
     "objectID": "Lektion2_2_LBD.html#ziel",
     "href": "Lektion2_2_LBD.html#ziel",
     "title": "Learning-by-doing",
     "section": "",
-    "text": "In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben hier die Massen modelliert. In der jetzigen Übung werden wir eine zweite Ebene mit in unser System einfügen, mit welcher wir die Sticksoffflüsse durch das System berechnen werden."
+    "text": "In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben hier die Massen modelliert. In der jetzigen Übung werden wir eine zweite Ebene in unser System einfügen, mit welcher wir die Sticksoffflüsse durch das System berechnen werden."
   },
   {
     "objectID": "Lektion2_2_LBD.html#vorgehen",
     "href": "Lektion2_2_LBD.html#vorgehen",
     "title": "Learning-by-doing",
     "section": "Vorgehen",
-    "text": "Vorgehen\n\n1. Öffnen Sie die STAN-Datei aus der ersten Übung\nAlternativ können Sie auch eine vorbereitete STAN-Datei von Moodle oder hier [Link] herunterladen.\n\n\n2. Ebene Stickstoff zufügen\nFügen Sie über das Menu Bearbeiten –&gt; Ebenen und Perioden die Ebene Stickstoff (N) hinzu.\n\nNun stehen zwei Ebenen zur Verfügung: Güter (mit dieser Ebene haben wir in der ersten Übung gearbeitet) und N, Stickstoff"
+    "text": "Vorgehen\n\n1. Öffnen Sie die STAN-Datei aus der ersten Übung\nAlternativ können Sie auch die auf Moodle verfügbare STAN-Datei verwenden (Lektion 2: STAN-Datei aus Learning-by-doing).\n\n\n2. Prozess “Kommunale Sammlung von Bioabfällen”\nFügen Sie den Prozess “Kommunale Sammlung von Bioabfällen” hinzu und verbinden Sie diesen durch Flüsse mit den Prozessen “Entsorgung durch Haushalte und Kleingewerbe” und “Anaerobe Vergärung”.\nNehmen Sie an, dass 100% der Nicht-biogenen Abfälle in die kommunale Abfallsammlung gehen und 50% des Bioabfalls in die kommunale Sammlung von Bioabfällen. Dies können Sie über die Transferkoeffizienten (Prozess bearbeiten) tun.\n\n\n\n\n\n\n\n2. Ebene Stickstoff (N) zufügen\nFügen Sie über das Menu Bearbeiten –&gt; Ebenen und Perioden die Ebene Stickstoff (N) hinzu.\n\n\n\n\n\nNun stehen zwei Ebenen zur Verfügung: Güter (mit dieser Ebene haben wir in der ersten Übung gearbeitet) und N, Stickstoff\n\n\n\n3. Konzentrationen von Stickstoff in Abfällen\nGeben Sie nun für die Input-Flüsse die angenommene Stickstoffkonzentration ein. Wir nehmen vereinfacht folgende Werte an:\n\n0.5% +/- 0.2% in allen Bioabfällen (kommunaler Bioabfall, Grüngut, Hofdünger)\n0% in Nicht-biogenem Abfall\n\n\n\n4. Das Modell neu berechnen für beide Ebenen\nNun können Sie das Modell neu berechnen für die Ebene Stickstoff.\n\nSie werden feststellen, dass verschiedene Flüsse nicht berechnet werden können. Dies liegt daran, dass in den Prozessen für die Ebene Stickstoff auch Transferkoeffizienten eingegen werden müssen. Es werden nicht automatisch die Transferkoeffizienten der Güter-Ebene übernommen, da diese für jede Substanz spezifisch sind.\n\n\n\n5. Transferkoeffizienten für die Ebene Stickstoff eingeben\nUm das gesamte System berechnen zu können, geben wir nun die Transferkoeffizenten folgendermassen ein (Prozent der Input-Stickstoffflüsse in den Prozess):\n\nAnaerobe Vergärung: 10% in Biogas, 69% ins Digestat, 21% Verluste (z.B. Emissionen in die Luft während der Nachkompostierung des Digestats). Wir nehmen hier Trockenverärung an und die Werte basieren auf Jensen et al. 2017.\nKehrichtverbrennung: 90% in Abgas und 10% in Asche (grobe Schätzung).\nAschebehandlung: 0% in Metallrecycling, 100% in Deponie.\n\n\n\n6. Exportieren Sie das finale Modell als Bild\nSie können das STAN-Modell nun exportieren via Datei –&gt; Systembild exportieren. Dieses sollte etwa so aussehen für Stickstoffflüsse:"
+  },
+  {
+    "objectID": "Lektion2_3_Workshop.html",
+    "href": "Lektion2_3_Workshop.html",
+    "title": "Workshop",
+    "section": "",
+    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung? Passen Sie die Transferkoeffizienten im Prozess “Trennung von biogenem Abfall” entsprechend an.\nWelche Hürfen bei der Umsetzung erwarten Sie?"
+  },
+  {
+    "objectID": "Lektion2_3_Workshop.html#aufgabe",
+    "href": "Lektion2_3_Workshop.html#aufgabe",
+    "title": "Workshop",
+    "section": "",
+    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung? Passen Sie die Transferkoeffizienten im Prozess “Trennung von biogenem Abfall” entsprechend an.\nWelche Hürfen bei der Umsetzung erwarten Sie?"
   }
 ]

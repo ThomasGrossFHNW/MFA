@@ -4,20 +4,62 @@ title: "Learning-by-doing"
 
 ## Ziel
 
-In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben hier die Massen modelliert. In der jetzigen Übung werden wir eine zweite Ebene mit in unser System einfügen, mit welcher wir die Sticksoffflüsse durch das System berechnen werden.
+In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben hier die Massen modelliert. In der jetzigen Übung werden wir eine zweite Ebene in unser System einfügen, mit welcher wir die Sticksoffflüsse durch das System berechnen werden.
 
 ## Vorgehen
 
 ### 1. Öffnen Sie die STAN-Datei aus der ersten Übung
 
-Alternativ können Sie auch eine vorbereitete STAN-Datei von Moodle oder hier \[Link\] herunterladen.
+Alternativ können Sie auch die auf Moodle verfügbare STAN-Datei verwenden (Lektion 2: STAN-Datei aus Learning-by-doing).
 
-### 2. Ebene Stickstoff zufügen
+### 2. Prozess "Kommunale Sammlung von Bioabfällen"
+
+Fügen Sie den Prozess "Kommunale Sammlung von Bioabfällen" hinzu und verbinden Sie diesen durch Flüsse mit den Prozessen "Entsorgung durch Haushalte und Kleingewerbe" und "Anaerobe Vergärung".
+
+Nehmen Sie an, dass 100% der Nicht-biogenen Abfälle in die kommunale Abfallsammlung gehen und 50% des Bioabfalls in die kommunale Sammlung von Bioabfällen. Dies können Sie über die Transferkoeffizienten (Prozess bearbeiten) tun.
+
+![](images/Lektion_2_2_1.png){fig-align="center" width="668"}
+
+### 2. Ebene Stickstoff (N) zufügen
 
 Fügen Sie über das Menu Bearbeiten --\> Ebenen und Perioden die Ebene Stickstoff (N) hinzu.
 
-![](images/Lektion2_2_1.png)
+![](images/Lektion_2_2_2.png){fig-align="center" width="501"}
 
 Nun stehen zwei Ebenen zur Verfügung: Güter (mit dieser Ebene haben wir in der ersten Übung gearbeitet) und N, Stickstoff
 
-![](images/Lektion2_2_2.png)
+![](images/Lektion_2_2_3.png)
+
+### 3. Konzentrationen von Stickstoff in Abfällen
+
+Geben Sie nun für die Input-Flüsse die angenommene Stickstoffkonzentration ein. Wir nehmen vereinfacht folgende Werte an:
+
+-   0.5% +/- 0.2% in allen Bioabfällen (kommunaler Bioabfall, Grüngut, Hofdünger)
+
+-   0% in Nicht-biogenem Abfall
+
+### 4. Das Modell neu berechnen für beide Ebenen
+
+Nun können Sie das Modell neu berechnen für die Ebene Stickstoff.
+
+![](images/Lektion_2_2_4.png)
+
+Sie werden feststellen, dass verschiedene Flüsse nicht berechnet werden können. Dies liegt daran, dass in den Prozessen für die Ebene Stickstoff auch Transferkoeffizienten eingegen werden müssen. Es werden nicht automatisch die Transferkoeffizienten der Güter-Ebene übernommen, da diese für jede Substanz spezifisch sind.
+
+![](images/Lektion_2_2_5.png)
+
+### 5. Transferkoeffizienten für die Ebene Stickstoff eingeben
+
+Um das gesamte System berechnen zu können, geben wir nun die Transferkoeffizenten folgendermassen ein (Prozent der Input-Stickstoffflüsse in den Prozess):
+
+-   **Anaerobe Vergärung:** 10% in Biogas, 69% ins Digestat, 21% Verluste (z.B. Emissionen in die Luft während der Nachkompostierung des Digestats). Wir nehmen hier Trockenverärung an und die Werte basieren auf [Jensen et al. 2017](https://www.sciencedirect.com/science/article/pii/S0956053X17301769?via%3Dihub).
+
+-   **Kehrichtverbrennung:** 90% in Abgas und 10% in Asche (grobe Schätzung).
+
+-   **Aschebehandlung:** 0% in Metallrecycling, 100% in Deponie.
+
+### 6. Exportieren Sie das finale Modell als Bild
+
+Sie können das STAN-Modell nun exportieren via Datei --\> Systembild exportieren. Dieses sollte etwa so aussehen für Stickstoffflüsse:
+
+![](images/Lektion_2_2_6.png)

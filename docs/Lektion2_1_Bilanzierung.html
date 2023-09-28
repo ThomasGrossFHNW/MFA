@@ -206,6 +206,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Learning-by-doing</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Lektion2_3_Workshop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshop</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -251,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Futtermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen Systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar. Als Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produckten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (112 Tonnen Stockstoff pro Jahr). Die Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (<a href="https://www.bafu.admin.ch/bafu/de/home/themen/chemikalien/publikationen-studien/publikationen/stickstofffluesse-schweiz-2020.html">BAFU 2013</a>).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Lektion2_1_1.png" class="img-fluid figure-img" width="660"></p>
+<p><img src="images/Lektion_2_1_1.png" class="img-fluid figure-img" width="660"></p>
 <figcaption class="figure-caption">Stickstoffflüsse in der Landwirtschaft (vereinfacht auf <a href="https://www.bafu.admin.ch/bafu/de/home/themen/chemikalien/publikationen-studien/publikationen/stickstofffluesse-schweiz-2020.html">BAFU 2013</a>)</figcaption>
 </figure>
 </div>
@@ -259,13 +265,19 @@ ul.task-list li input[type="checkbox"] {
 <section id="gleichungssysteme" class="level2">
 <h2 class="anchored" data-anchor-id="gleichungssysteme">Gleichungssysteme</h2>
 <p>Zur mathematischen Beschreibung von MFA- und SFA-Systemen sind das Massen- und Energieerhaltungsgesetz, lineare Beziehungen zwischen In- und Outputflüssen sowie Konzentrationsverhältnisse wichtig.</p>
-<p>Für jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das <strong>Massen-und Energieerhaltungsgesetz</strong> erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Zum Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Tonnen Stickstoff pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.</p>
-<p>Transferkoeffizienten drücken eine <strong>lineare Beziehung</strong> zwischen In- und Outputflüssen eines Prozesses aus. So könnte man die Transferkoeffizienten des Prozesses Pflanzenbau als Prozentwerte der Inputs darstellen:</p>
+<p>Für jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das <strong>Massen-und Energieerhaltungsgesetz</strong> erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Tonnen Stickstoff pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Lektion_2_1_2.png" class="img-fluid figure-img" width="352"></p>
+</figure>
+</div>
+<p>Transferkoeffizienten drücken eine <strong>lineare Beziehung</strong> zwischen In- und Outputflüssen eines Prozesses aus. So könnte man die Transferkoeffizienten des Prozesses Tierhaltung als Prozentwerte der Inputs darstellen:</p>
 <ul>
-<li><p>61% der Stickstoffinputs in den Pflanzenbau gehen in die Tierhaltung (131 Tonnen Stickstoff pro Jahr)</p></li>
-<li><p>5% gehen in pflanzliche Produkte</p></li>
-<li><p>34% sind Auswaschung und Emissionen</p></li>
+<li><p>21% der Stickstoffinputs gehen in Produkte</p></li>
+<li><p>25% gehen in Emissionen über</p></li>
+<li><p>54% gehen in Hofdünger</p></li>
 </ul>
+<p><img src="images/Lektion_2_1_3.png" class="img-fluid" width="390"></p>
 <p>Der Prozess Pflanzenbau stellt somit eine “Blackbox” über ein sehr viel komplexeres System dar. Diese Vereinfachung ist sinnvoll, um beispielsweise die Grössenordnung verschiedener Prozesse und Flüsse darzustellen.</p>
 <p>Konzentrationsgleichungen [Text folgt]</p>
 </section>
