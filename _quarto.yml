@@ -9,7 +9,7 @@ website:
   back-to-top-navigation: true
   page-footer:
     background: lightgrey
-    left: "Copyright 2023, FHNW"
+    left: "Copyright 2023, Thomas Gross"
     right:
       - icon: github
         href: https://github.com/
