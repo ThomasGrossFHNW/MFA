@@ -1,6 +1,6 @@
 ---
 title: "About"
-sidebar: false
+sidebar: true
 ---
 
 Diese Website soll die Vorlesungen über Tools für nachhaltiges Ressourcenmanagement an der Fachhochschule Nordwestschweiz (FHNW) unterstützen. Die Entwicklung der Website ist in Arbeit. Für Informationen kontaktieren Sie Thomas.Gross\@fhnw.ch.

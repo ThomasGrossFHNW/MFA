@@ -11,6 +11,6 @@ title: "FAQ"
 3.  Setzen Sie bei der Schaltfläche "Zulassen" ein Häkchen.
 4.  Jetzt sollte die Installation klappen.
 
-## Anders Betriebssystem als Windows
+## Anderes Betriebssystem als Windows
 
 STAN ist leider nur für Windows verfügbar. Im Netzwerk der FHNW können Sie STAN auch auf anderen Betriebssystemen über den Citrix Workspace ausführen. Studierende der FHNW finden [hier](https://help.fhnw.ch/1304/citrix-installieren-aktivieren/#F%C3%BCr+Studenten) Informationen zur Installation von Citrix.
