@@ -10,7 +10,7 @@ Die Material- und Stoffflussanalyse (MFA und SFA) ist eine naturwissenschaftlich
 
 -   [**Haben wir die richtigen Indikatoren für die Kreislaufwirtschaft - Einblick in das Schweizer Abfallwirtschaftssystem**](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jiec.12506?download=true) **(Haupt et al. 2016):** Die MFA des Schweizer Abfallmanagements zeigt, dass die Hälfte der kommunalten Feststoffabfälle rezyliert werden. Der Rest geht in Kehrichtverbrennungsanlagen. Die Studie geht detailliert auf die Recyclingmodelle verschiederen Stoffe wie Glas, PET und Metalle ein. Sie zeigt, dass Sammelquoten nicht ausreichend sind, um die Nachhaltigkeit einer Kreislaufwirtschaft zu quantifizieren, da sie keine Aussage darüber macht, ob die gesammelten Abfälle verwertet werden und in welcher Form sie wieder in den Wirtschaftskreislauf rückgeführt werden.
 
--   [**Materialflussanalysen biogener Abfälle in Indien**](10.1016/j.resconrec.2021.105569) **(Gross et al. 2021):** Die Studie stellt Materialflussanalysen des Abfallmanagements in indischen Gemeinden dar und diskutiert Möglichkeiten zur Verwertung biogener Abfälle mittels anaerober Vergärung.
+-   [**Materialflussanalysen biogener Abfälle in Indien**](https://www.sciencedirect.com/science/article/pii/S0921344921001762) **(Gross et al. 2021):** Die Studie stellt Materialflussanalysen des Abfallmanagements in indischen Gemeinden dar und diskutiert Möglichkeiten zur Verwertung biogener Abfälle mittels anaerober Vergärung.
 
 Mithilfe von Stoffflussanalysen (SFA) lassen sich analog bestimmte Stoffe durch ein System verfolgen.
 
