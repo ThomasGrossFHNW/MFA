@@ -22,4 +22,4 @@ STAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier
 
 Bei Bedarf, finden Sie [hier](https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi?playlistPosition=1&resume=true) ein Erklärvideo zur Installation von STAN.
 
-Falls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den [FAQ](Lektion0_4_FAQ.qmd).
+Falls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den [FAQ](Lektion0_3_FAQ.qmd).

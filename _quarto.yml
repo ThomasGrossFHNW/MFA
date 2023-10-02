@@ -37,8 +37,7 @@ website:
         contents:
           - Lektion0_1_Lernziele.qmd
           - Lektion0_2_Software.qmd
-          - Lektion0_3_Bewertung.qmd
-          - Lektion0_4_FAQ.qmd
+          - Lektion0_3_FAQ.qmd
       - section: "Einführung"
         contents:
           - Lektion1_1_Grundlagen.qmd

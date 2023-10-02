@@ -6,9 +6,9 @@ title: "Learning-by-doing"
 
 Wir modellieren das Abfallmanagement einer Gemeinde mit ca. 10'000 Einwohnern über ein Jahr.
 
-Das derzeitige Abfallmanagement der Gemeinde besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle ("Bioabfälle"). Pro Person fallen ca. 700 kg Siedlungsabfälle pro Jahr an. 60% der Siedlungsabfälle (Masse) ist biogen (biologisch Abbaubar). In der Gemeinde besteht bereits eine anaerobe Vergärungsanlage ("Biogasanlage"), welche 9'000 Tonnen Grünabfälle (Schnittgut) und 2'000 Tonnen Hofdünger mehrerer Gemeinden behandelt.
+Das derzeitige Abfallmanagement der Gemeinde besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle ("Bioabfälle"). Pro Person fallen ca. 700 kg Siedlungsabfälle pro Jahr an. 60% der Siedlungsabfälle (Masse) ist biogen (biologisch abbaubar). In der Gemeinde besteht bereits eine anaerobe Vergärungsanlage ("Biogasanlage"), welche 9'000 Tonnen Grünabfälle (Schnittgut) und 2'000 Tonnen Hofdünger mehrerer Gemeinden behandelt. Wir werden zunächst Schritt für Schritt das derzeitige System in STAN modellieren (Abbildung).
 
-Wir werden zunächst Schritt für Schritt das derzeitige System in STAN modellieren (Abbildung). Danach werden wir im Workshop-Teil Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall modellieren.
+Danach werden wir im Workshop-Teil Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall modellieren.
 
 ![](images/Lektion_1_2_1.png)
 
@@ -29,7 +29,7 @@ Machen Sie sich zunächst mit der Benutzeroberfläche von STAN vertraut.
 1.  **Menüzeile:** In der Menüzeile sind Befehle zur Bearbeitung und Steuerung aufrufbar.
 2.  **Symbolleiste:** Die wichtigsten Befehle grafisch dargestellt.
 3.  **Modell-Explorer:** Stellt Prozesse, Flüsse und Subsysteme in einer Baumstruktur dar.
-4.  **Diagrammsymbole**: Die Bausteine zur Erstellung einer MFA, welche per drag-and-drop in die Arbeitsfläche gezogen werden. Wenn Sie mit dem Mauszeiger über den Symbolen bleiben, wird der Symboltyp (z.B. Prozess) angezeigt.
+4.  **Diagrammsymbole**: Die Bausteine zur Erstellung einer MFA, welche mittels Mausklick angewählt werden, um sich danach im Zeichenbereich einzufügen. Wenn Sie mit dem Mauszeiger über den Symbolen bleiben, wird der Symboltyp (z.B. Prozess) angezeigt.
 5.  **Zeichenbereich:** Hier wird das MFA-Modell erstellt.
 6.  **Eigenschaften:** Im Fenster Systemeigenschaften werden die ausgewählten Prozesse, Flüsse und andere Felder der MFA bearbeitet und angepasst. Dies beinhaltet u.a. grafische Parameter und Werte.
 7.  **Systemmeldungen:** In diesem Fenster werden Fehlermeldungen und Informationen angegeben.
@@ -64,29 +64,35 @@ Die Deponie repräsentiert ein Lager, das sich über die Zeit füllt. Wählen Si
 
 Nun zeichnen Sie die ersten Flüsse zwischen den Prozessen.
 
-Zunächst können Sie den Importfluss "Nicht-biogener Abfall" von ganz links hin zum Prozess "Trennung von Biomüll" ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsun von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.
+Zunächst können Sie den Importfluss "Nicht-biogener Abfall" von ganz links hin zum Prozess "Trennung von Biomüll" ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsum von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.
 
 ![](images/Lektion_1_2_6.png)
 
-Verbinden Sie nun die Prozesse mit Flüssen wie in der Abbilung unten dargestellt. Flüsse zwischen Prozessen sind keine Importflüsse sondern "normale" Flüsse innerhalb der Systemgrenze.
+Verbinden Sie nun die Prozesse mit Flüssen wie in der Abbildung unten dargestellt. Flüsse zwischen Prozessen sind keine Importflüsse sondern "normale" Flüsse innerhalb der Systemgrenze.
 
 ![](images/Lektion_1_2_7.png)
 
-Ausgehend von der "Aschebehandlung (Flug- und Bodenasche)" erstellen Sie nun als ersten Exportfluss "Metallrecycling". Hierbei handelt es sich um das rückgewonnene Metall aus der Aschebehandlung welche Reyclingprozessen zugeführt werden. Diese Recyclingprozesse interessieren uns hier nicht weiter, da wir uns mit biogenen Abfällen beschäftigen. Daher sind Reyclingprozesse für Metall in diesem konkreten Fall ausserhalb der Systemgrenze.
+Ausgehend von der "Aschebehandlung (Flug- und Bodenasche)" erstellen Sie nun als ersten Exportfluss "Metallrecycling". Hierbei handelt es sich um das rückgewonnene Metall aus der Aschebehandlung welche Recyclingprozessen zugeführt werden. Diese Recyclingprozesse interessieren uns hier nicht weiter, da wir uns mit biogenen Abfällen beschäftigen. Daher sind Recyclingprozesse für Metall in diesem konkreten Fall ausserhalb der Systemgrenze.
 
 Nachdem alle Flüsse gezeichnet wurden, können Sie nun alle Flüsse über das Fenster Flusseigenschaften benennen.
 
-Ergänzen Sie nun alle Prozelle und Flüsse, bis Ihr Modell folgendermassen aussieht.
+Sie können auch die Farbe der Flüsse anpassen über das Fenster Flusseigenschaften im Karteiblatt "Symbol" (siehe nächste Abbildung)
 
-![](images/Prozesse%20und%20Flüsse%20Bennenen%20(003)-01.png)
+![](images/Lektion_1_2_7b.png)
+
+Ergänzen Sie nun alle Prozesse und Flüsse, bis Ihr Modell folgendermassen aussieht.
+
+![](images/Lektion_1_2_8.png)
 
 ### 6. Eingabe der Werte für die Materialflüsse
 
-Aus der Beschreibung des Abfallmanagements der Gemeinde kennen Sie u.a. die anfallende Menge an biogenem und nicht-biogenem Abfall pro Jahr. Tragen Sie die Werte in die Import-Flüsse ein. Klicken Sie hierzu auf den zu bearbeitenden Import-Fluss und klicken Sie dann auf Werte im Eigenschaftenfenster (Pfeile im rechten Teil des Bildes unten). Es handelt sich um einen Massenfluss.
+Aus der Beschreibung des Abfallmanagements der Gemeinde kennen Sie u.a. die anfallende Menge an biogenem und nicht-biogenem Abfall pro Jahr. Tragen Sie die Werte in die Import-Flüsse ein. Nutzen Sie Tonnen pro Jahr (t/a) als Einheit.
 
-Die Abfallmenge (Masse) pro Jahr ist nie genau bekannt. Daher haben Sie zusätzlich die Möglichkeit, einen Wertebereich einzugeben (+/-), wir nehmen hier eine Unsicherheit von 20% an, also +/- 10%. Wir gehen später detaillierter auf die Unsicherheitsanalyse ein.
+Klicken Sie hierzu auf den zu bearbeitenden Import-Fluss und klicken Sie dann auf Werte im Eigenschaftenfenster (grüne Box im rechten Teil der Abbildung unten). Es handelt sich um einen Massenfluss.
 
-Sie können die Pfeildicke der Flüsse im Regler des Sankey-Diagramms (Pfeil) anpassen. Sie können auch alle Massenflüsse gleich dick erscheinen lassen ("Sankey-Darstellung der Flüsse (ein/aus)").
+Die Abfallmenge (Masse) pro Jahr ist nie genau bekannt. Daher haben Sie die Möglichkeit, einen Wertebereich einzugeben (+/-). Wir nehmen hier eine Unsicherheit von 20% an, also +/- 10%. Wir gehen später detaillierter auf die Unsicherheitsanalyse ein.
+
+Sie können die Pfeildicke der Flüsse im Regler des Sankey-Diagramms (grüner Pfeil Pfeil in der Abbildung unten) anpassen. Sie können auch alle Massenflüsse gleich dick erscheinen lassen ("Sankey-Darstellung der Flüsse (ein/aus)").
 
 ![](images/Lektion_1_2_9.png)
 
@@ -100,7 +106,7 @@ Wir geben zunächst die Transferkoeffizienten für die Kehrichtverbrennung ein. 
 
 2\. Wählen Sie "Prozess bearbeiten" aus dem Kontextmenü des Prozesses (mit Rechtsklick).
 
-3\. Sie können die Transferkoeffizienten direkt in die einzelnen Zellen eintragen. Dabei können Sie zwischen einer Eingabe als Zahl zwischen 0 und 1 (z.B. 0,9) oder einer Eingabe als Prozentzahl (z.B. 90%) wählen. In unserem Beipiel geben Sie 0,9 in Richtung "Abgase" und 0,1 in Richtung "Asche" ein.
+3\. Sie können die Transferkoeffizienten direkt in die einzelnen Zellen eintragen. Dabei können Sie zwischen einer Eingabe als Zahl zwischen 0 und 1 (z.B. 0,9) oder einer Eingabe als Prozentzahl (z.B. 90%) wählen. In unserem Beipiel geben Sie 0,9 in Richtung "Abgase" und 0,1 in Richtung "Asche" ein. Dezimalwerte müssen mit einem Komma abgegrenzt werden.
 
 4\. Datenunsicherheiten der TK (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge "+-" eingegeben werden (z.B. 0,90+-0,045 oder 90%+-4.5%)
 
@@ -110,9 +116,9 @@ Wir geben zunächst die Transferkoeffizienten für die Kehrichtverbrennung ein. 
 
 Sie können von folgenden Annahmen ausgehen:
 
--   Kehrichtverbrennung: 90% der Inputmasse wird zu Asche, 10% zu Abgasen
+-   Kehrichtverbrennung: 90% der Inputmasse wird zu Abgasen, 10% zu Asche
 
--   Aschebehandlung: 90% der Inputmasse wird Deponiert, 10% geht ins Metallrecycling
+-   Aschebehandlung: 90% der Inputmasse wird deponiert, 10% geht ins Metallrecycling
 
 -   Anaerobe Vergärung: 10% der Inputmasse wird zu Biogas, 80% zu Digestat und 10% sind Verluste
 
@@ -128,12 +134,12 @@ Zeichnen Sie nun die geografische Systemgrenze. Klicken Sie dazu auf das Symbol 
 
 Nun sind alle wichtigen Rechengrössen zum Berechenen des Models eingegeben. Klicken Sie auf das Berechenen Icon in der Symbolleiste.
 
-![](images/Lektion1_2_3.png)
+![](images/Lektion_1_2_12.png)
 
 ### 10. Systemmeldungen prüfen
 
 Prüfen Sie die Systemmeldungen, welche Informationen, Warnungen und Fehler enthalten können. Sollten Fehler auftauchen, versuchen Sie diese aufgrund der Fehlermeldung zu korrigieren und rechnen Sie das Modell danach neu.
 
-![Die hier gezeigten Systemmeldungen sind rein informativ und weisen nicht auf Fehler hin](images/Lektion1_2_4.png)
+![Die hier gezeigten Systemmeldungen sind rein informativ und weisen nicht auf Fehler hin](images/Lektion_1_2_13.png)
 
 ### 
