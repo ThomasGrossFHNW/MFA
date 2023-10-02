@@ -23,3 +23,9 @@ STAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier
 Bei Bedarf, finden Sie [hier](https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi?playlistPosition=1&resume=true) ein Erklärvideo zur Installation von STAN.
 
 Falls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den [FAQ](Lektion0_3_FAQ.qmd).
+
+## Anleitungen und Tutorials
+
+-   Das STAN-Benutzerhandbuch ist über <https://www.stan2web.net/downloads/documentation> nach Registration auf der Website verfügbar. Zudem finden Sie die Benutzeranleitung in Moodle.
+
+-   Zu verschiedenen Themen gibt es hilfreiche Video-Tutorials über STAN: <https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi>

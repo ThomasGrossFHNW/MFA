@@ -52,7 +52,7 @@ Nun erweitern Sie die MFA mit weiteren Prozessen.
 
 Fügen Sie rechts des Prozesses "Kommunale Abfallsammlung" die Prozesse "Kehrichtverbrennung" und "Aschebehandlung (Flug- und Bodenasche)" ein. Unterhalb der "Aschebehandlung (Flug- und Bodenasche)" fügen Sie den Prozess "Deponie" ein.
 
-Fügen Sie links des Prozesses "Kommunale Abfallsammlung" den Prozess "Entsorgung durch Haushalte und Kleingewerbe" ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Biomüll und nicht-biogenem Restmüll zu simulieren. Im IST-Modell gehen 100% des Biomülls in die kommunale Abfallsammlung.
+Fügen Sie links des Prozesses "Kommunale Abfallsammlung" den Prozess "Entsorgung durch Haushalte und Kleingewerbe" ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Bioabfall und nicht-biogenem Restabfall zu simulieren. Im IST-Modell gehen 100% des Bioafalls in die kommunale Abfallsammlung.
 
 Bei Bedarf können Sie die Prozesse verschieben, verkleinern und vergrössern.
 
@@ -64,7 +64,7 @@ Die Deponie repräsentiert ein Lager, das sich über die Zeit füllt. Wählen Si
 
 Nun zeichnen Sie die ersten Flüsse zwischen den Prozessen.
 
-Zunächst können Sie den Importfluss "Nicht-biogener Abfall" von ganz links hin zum Prozess "Trennung von Biomüll" ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsum von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.
+Zunächst können Sie den Importfluss "Nicht-biogener Abfall" von ganz links hin zum Prozess "Entsorgung durch Haushalte und Kleingewerbe" ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsum von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.
 
 ![](images/Lektion_1_2_6.png)
 
@@ -78,7 +78,7 @@ Nachdem alle Flüsse gezeichnet wurden, können Sie nun alle Flüsse über das F
 
 Sie können auch die Farbe der Flüsse anpassen über das Fenster Flusseigenschaften im Karteiblatt "Symbol" (siehe nächste Abbildung)
 
-![](images/Lektion_1_2_7b.png)
+![](images/Lektion_1_2_7b.png){fig-align="center" width="369"}
 
 Ergänzen Sie nun alle Prozesse und Flüsse, bis Ihr Modell folgendermassen aussieht.
 
@@ -108,7 +108,7 @@ Wir geben zunächst die Transferkoeffizienten für die Kehrichtverbrennung ein. 
 
 3\. Sie können die Transferkoeffizienten direkt in die einzelnen Zellen eintragen. Dabei können Sie zwischen einer Eingabe als Zahl zwischen 0 und 1 (z.B. 0,9) oder einer Eingabe als Prozentzahl (z.B. 90%) wählen. In unserem Beipiel geben Sie 0,9 in Richtung "Abgase" und 0,1 in Richtung "Asche" ein. Dezimalwerte müssen mit einem Komma abgegrenzt werden.
 
-4\. Datenunsicherheiten der TK (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge "+-" eingegeben werden (z.B. 0,90+-0,045 oder 90%+-4.5%)
+4\. Datenunsicherheiten der Transferkoeffizienten (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge "+-" eingegeben werden (z.B. 0,90+-0,045 oder 90%+-4.5%)
 
 5\. Klicken Sie OK bzw. Übernehmen.
 

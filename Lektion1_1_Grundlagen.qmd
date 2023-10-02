@@ -36,7 +36,7 @@ Folgende Elemente sind in einer MFA bzw. SFA enthalten (Baccini & Bader 1996):
 
 -   **Güter** sind Stoffe oder Stoffgemische, die vom Menschen wirtschaftlich bewertete Funktionen erfüllen z.B. Smartphones oder Trinkwasser (positiver Wert) oder nicht genutztes Abwasser (negativer Wert). Stoffe sind die chemischen Grundbausteine, während Güter die Stoffe oder Stoffgemische sind, die einen wirtschaftlichen Wert haben und vom Menschen für bestimmte Zwecke verwendet werden. Güter können also aus verschiedenen Stoffen bestehen und werden entsprechend ihrer wirtschaftlichen Bedeutung bewertet und verwendet.
 
--   **Material** ist ein allgemeiner übergeordneter Begriff für Güter und Stoffe (Materialflussanalyse als verallgemeinernder Begriff für Stoffflussanalyse
+-   **Material** ist ein allgemeiner übergeordneter Begriff für Güter und Stoffe (Materialflussanalyse als verallgemeinernder Begriff für Stoffflussanalyse)
 
 -   **Prozesse** stehen für Eingriffe wie Transport, Umwandlung, Lagerung und Wertveränderungen von Stoffen oder Gütern, z.B. Transport, Umwandlung, Lagerung und Wertveränderungen
 
@@ -44,7 +44,7 @@ Folgende Elemente sind in einer MFA bzw. SFA enthalten (Baccini & Bader 1996):
 
 -   **Flüsse** sind pro Zeiteinheit zwischen zwei Prozessen verschobene Stoffe oder Güter
 
--   Die **Systemgrenze** definiert, welche Daten räumlich und zeitlich in die Analyse einfliessen. Räumlich meint hierbei unteranderem die physische oder logistische Ausdehnung eines Unternehmens oder eine Landesgrenze. Zeitlich kann sich z.B, auf ein konkretes Geschäftsjahr beziehen.
+-   Die **Systemgrenze** definiert, welche Daten räumlich und zeitlich in die Analyse einfliessen. Räumlich meint hierbei unter anderem die physische oder logistische Ausdehnung eines Unternehmens oder eine Landesgrenze. Zeitlich kann sich z.B, auf ein konkretes Geschäftsjahr beziehen.
 
 ## Schritte zum Modellieren einer MFA bzw. SFA
 
@@ -52,7 +52,7 @@ Ihre Modellierung von MFA bzw. SFA lässt sich grob in vier Hauptschritten zusam
 
 1.  **Definition des Systems:** In diesem ersten Schritt wird das System konzeptualisiert. Dieses ist durch Prozesse, Güter, mindestens einen Stoff sowie eine Systemgrenze beschrieben. Oftmals geschieht die Systemdefinition durch einen iterativen Prozess im Austausch mit Projektpartnern bzw. Akteuren des zu untersuchenden Systems.
 
-2.  **Messung der Güterflüsse:** In diesem Schritt werden die Daten erhoben, insbesondere die Güterflüsse, die Konzentration von Stoffen sowie Lagerbestände. Die Daten können gemessen werden und müssen oftmals durch Literaturangaben und/oder Schätzungen ergänzt werden.
+2.  **Bestimmung der Material-/Stoffflüsse:** In diesem Schritt werden die Daten erhoben, insbesondere die Güterflüsse, die Konzentration von Stoffen sowie Lagerbestände. Die Daten können gemessen werden und müssen oftmals durch Literaturangaben und/oder Schätzungen ergänzt werden.
 
 3.  **Simulation der Massen- und Stoffflüsse:** Wir nutzen hierzu die Software STAN.
 

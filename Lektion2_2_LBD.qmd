@@ -4,7 +4,7 @@ title: "Learning-by-doing"
 
 ## Ziel
 
-In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben hier die Massen modelliert. In der jetzigen Übung werden wir eine zweite Ebene in unser System einfügen, mit welcher wir die Sticksoffflüsse durch das System berechnen werden.
+In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben dort die Massen innerhalb der Systemgrenzen modelliert. In der jetzigen Übung werden wir eine zweite Ebene in unser System einfügen, mit welcher wir die Stickstoffflüsse innerhalb der Systemgrenzen berechnen werden.
 
 ## Vorgehen
 
@@ -16,13 +16,15 @@ Alternativ können Sie auch die auf Moodle verfügbare STAN-Datei verwenden (Lek
 
 Fügen Sie den Prozess "Kommunale Sammlung von Bioabfällen" hinzu und verbinden Sie diesen durch Flüsse mit den Prozessen "Entsorgung durch Haushalte und Kleingewerbe" und "Anaerobe Vergärung".
 
-Nehmen Sie an, dass 100% der Nicht-biogenen Abfälle in die kommunale Abfallsammlung gehen und 50% des Bioabfalls in die kommunale Sammlung von Bioabfällen. Dies können Sie über die Transferkoeffizienten (Prozess bearbeiten) tun.
+Nehmen Sie an, dass 100% der Nicht-biogenen Abfälle in die kommunale Abfallsammlung gehen.
+
+Nehmen Sie weiter an, dass 50% des Bioabfalls in die kommunale Sammlung von Bioabfällen und der Rest in die kommunale Abfallsammlung geht. Dies können Sie über die Transferkoeffizienten (Doppelklick auf Prozess) tun.
 
 ![](images/Lektion_2_2_1.png){fig-align="center" width="668"}
 
 ### 2. Ebene Stickstoff (N) zufügen
 
-Fügen Sie über das Menu Bearbeiten --\> Ebenen und Perioden die Ebene Stickstoff (N) hinzu.
+Fügen Sie über das Menü Bearbeiten --\> Ebenen und Perioden die Ebene Stickstoff (N) hinzu.
 
 ![](images/Lektion_2_2_2.png){fig-align="center" width="501"}
 

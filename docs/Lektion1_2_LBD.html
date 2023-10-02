@@ -296,7 +296,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="weitere-prozesse-und-prozess-mit-lager">4. Weitere Prozesse und Prozess mit Lager</h3>
 <p>Nun erweitern Sie die MFA mit weiteren Prozessen.</p>
 <p>Fügen Sie rechts des Prozesses “Kommunale Abfallsammlung” die Prozesse “Kehrichtverbrennung” und “Aschebehandlung (Flug- und Bodenasche)” ein. Unterhalb der “Aschebehandlung (Flug- und Bodenasche)” fügen Sie den Prozess “Deponie” ein.</p>
-<p>Fügen Sie links des Prozesses “Kommunale Abfallsammlung” den Prozess “Entsorgung durch Haushalte und Kleingewerbe” ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Biomüll und nicht-biogenem Restmüll zu simulieren. Im IST-Modell gehen 100% des Biomülls in die kommunale Abfallsammlung.</p>
+<p>Fügen Sie links des Prozesses “Kommunale Abfallsammlung” den Prozess “Entsorgung durch Haushalte und Kleingewerbe” ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Bioabfall und nicht-biogenem Restabfall zu simulieren. Im IST-Modell gehen 100% des Bioafalls in die kommunale Abfallsammlung.</p>
 <p>Bei Bedarf können Sie die Prozesse verschieben, verkleinern und vergrössern.</p>
 <p>Die Deponie repräsentiert ein Lager, das sich über die Zeit füllt. Wählen Sie daher den Prozess “Deponie” aus und setzen Sie in den Prozesseigenschaften ein Häkchen bei Lager.</p>
 <p><img src="images/Lektion_1_2_5.png" class="img-fluid"></p>
@@ -304,14 +304,18 @@ ul.task-list li input[type="checkbox"] {
 <section id="flüsse-zeichnen" class="level3">
 <h3 class="anchored" data-anchor-id="flüsse-zeichnen">5. Flüsse zeichnen</h3>
 <p>Nun zeichnen Sie die ersten Flüsse zwischen den Prozessen.</p>
-<p>Zunächst können Sie den Importfluss “Nicht-biogener Abfall” von ganz links hin zum Prozess “Trennung von Biomüll” ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsum von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.</p>
+<p>Zunächst können Sie den Importfluss “Nicht-biogener Abfall” von ganz links hin zum Prozess “Entsorgung durch Haushalte und Kleingewerbe” ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsum von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.</p>
 <p><img src="images/Lektion_1_2_6.png" class="img-fluid"></p>
 <p>Verbinden Sie nun die Prozesse mit Flüssen wie in der Abbildung unten dargestellt. Flüsse zwischen Prozessen sind keine Importflüsse sondern “normale” Flüsse innerhalb der Systemgrenze.</p>
 <p><img src="images/Lektion_1_2_7.png" class="img-fluid"></p>
 <p>Ausgehend von der “Aschebehandlung (Flug- und Bodenasche)” erstellen Sie nun als ersten Exportfluss “Metallrecycling”. Hierbei handelt es sich um das rückgewonnene Metall aus der Aschebehandlung welche Recyclingprozessen zugeführt werden. Diese Recyclingprozesse interessieren uns hier nicht weiter, da wir uns mit biogenen Abfällen beschäftigen. Daher sind Recyclingprozesse für Metall in diesem konkreten Fall ausserhalb der Systemgrenze.</p>
 <p>Nachdem alle Flüsse gezeichnet wurden, können Sie nun alle Flüsse über das Fenster Flusseigenschaften benennen.</p>
 <p>Sie können auch die Farbe der Flüsse anpassen über das Fenster Flusseigenschaften im Karteiblatt “Symbol” (siehe nächste Abbildung)</p>
-<p><img src="images/Lektion_1_2_7b.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Lektion_1_2_7b.png" class="img-fluid figure-img" width="369"></p>
+</figure>
+</div>
 <p>Ergänzen Sie nun alle Prozesse und Flüsse, bis Ihr Modell folgendermassen aussieht.</p>
 <p><img src="images/Lektion_1_2_8.png" class="img-fluid"></p>
 </section>
@@ -330,7 +334,7 @@ ul.task-list li input[type="checkbox"] {
 <p>1. Selektieren Sie den Prozess “Kehrichtverbrennung”.</p>
 <p>2. Wählen Sie “Prozess bearbeiten” aus dem Kontextmenü des Prozesses (mit Rechtsklick).</p>
 <p>3. Sie können die Transferkoeffizienten direkt in die einzelnen Zellen eintragen. Dabei können Sie zwischen einer Eingabe als Zahl zwischen 0 und 1 (z.B. 0,9) oder einer Eingabe als Prozentzahl (z.B. 90%) wählen. In unserem Beipiel geben Sie 0,9 in Richtung “Abgase” und 0,1 in Richtung “Asche” ein. Dezimalwerte müssen mit einem Komma abgegrenzt werden.</p>
-<p>4. Datenunsicherheiten der TK (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge “+-” eingegeben werden (z.B. 0,90+-0,045 oder 90%+-4.5%)</p>
+<p>4. Datenunsicherheiten der Transferkoeffizienten (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge “+-” eingegeben werden (z.B. 0,90+-0,045 oder 90%+-4.5%)</p>
 <p>5. Klicken Sie OK bzw. Übernehmen.</p>
 <p><strong>Transferkoeffizienten müssen für alle Prozesse eingegeben werden. Wenn Transferkoeffizienten in einzelnen Prozessen fehlen, kann dies ein möglicher Grund für Fehlermeldungen sein.</strong></p>
 <p>Sie können von folgenden Annahmen ausgehen:</p>
