@@ -56,9 +56,6 @@ format:
     css: styles.css
     toc: true
 
-execute:
-  cache: false
-
 editor: visual
 
 
