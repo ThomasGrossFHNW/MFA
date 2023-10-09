@@ -260,13 +260,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="vorgehen">Vorgehen</h2>
 <section id="öffnen-sie-die-stan-datei-aus-der-ersten-übung" class="level3">
 <h3 class="anchored" data-anchor-id="öffnen-sie-die-stan-datei-aus-der-ersten-übung">1. Öffnen Sie die STAN-Datei aus der ersten Übung</h3>
-<p>Alternativ können Sie auch die auf Moodle verfügbare STAN-Datei verwenden (Lektion 2: STAN-Datei aus Learning-by-doing).</p>
+<p>Alternativ können Sie auch die auf Moodle verfügbare STAN-Datei verwenden (Lektion 2: STAN-Datei aus Learning-by-doing). Ihr System sollte in Etwa so aussehen:</p>
+<p><img src="images/Lektion_1_2_1.png" class="img-fluid"></p>
 </section>
 <section id="prozess-kommunale-sammlung-von-bioabfällen" class="level3">
 <h3 class="anchored" data-anchor-id="prozess-kommunale-sammlung-von-bioabfällen">2. Prozess “Kommunale Sammlung von Bioabfällen”</h3>
 <p>Fügen Sie den Prozess “Kommunale Sammlung von Bioabfällen” hinzu und verbinden Sie diesen durch Flüsse mit den Prozessen “Entsorgung durch Haushalte und Kleingewerbe” und “Anaerobe Vergärung”.</p>
-<p>Nehmen Sie an, dass 100% der Nicht-biogenen Abfälle in die kommunale Abfallsammlung gehen.</p>
-<p>Nehmen Sie weiter an, dass 50% des Bioabfalls in die kommunale Sammlung von Bioabfällen und der Rest in die kommunale Abfallsammlung geht. Dies können Sie über die Transferkoeffizienten (Doppelklick auf Prozess) tun.</p>
+<p>Nehmen Sie an, dass 100% der nicht-biogenen Abfälle in die kommunale Abfallsammlung gehen.</p>
+<p>Nehmen Sie weiter an, dass 50% des Bioabfalls von Haushalten und Kleingewerbe in die kommunale Sammlung von Bioabfällen und der Rest in die kommunale Abfallsammlung geht. Dies können Sie über die Transferkoeffizienten (Doppelklick auf Prozess) implementieren.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Lektion_2_2_1.png" class="img-fluid figure-img" width="668"></p>
@@ -291,27 +292,28 @@ ul.task-list li input[type="checkbox"] {
 <li><p>0.5% +/- 0.2% in allen Bioabfällen (kommunaler Bioabfall, Grüngut, Hofdünger)</p></li>
 <li><p>0% in Nicht-biogenem Abfall</p></li>
 </ul>
+<p><img src="images/Lektion_2_2_4.png" class="img-fluid"></p>
 </section>
 <section id="das-modell-neu-berechnen-für-beide-ebenen" class="level3">
 <h3 class="anchored" data-anchor-id="das-modell-neu-berechnen-für-beide-ebenen">4. Das Modell neu berechnen für beide Ebenen</h3>
 <p>Nun können Sie das Modell neu berechnen für die Ebene Stickstoff.</p>
-<p><img src="images/Lektion_2_2_4.png" class="img-fluid"></p>
-<p>Sie werden feststellen, dass verschiedene Flüsse nicht berechnet werden können. Dies liegt daran, dass in den Prozessen für die Ebene Stickstoff auch Transferkoeffizienten eingegen werden müssen. Es werden nicht automatisch die Transferkoeffizienten der Güter-Ebene übernommen, da diese für jede Substanz spezifisch sind.</p>
 <p><img src="images/Lektion_2_2_5.png" class="img-fluid"></p>
+<p>Sie werden feststellen, dass verschiedene Flüsse nicht berechnet werden. Dies liegt daran, dass in den Prozessen für die Ebene Stickstoff auch Transferkoeffizienten eingegen werden müssen. Es werden nicht automatisch die Transferkoeffizienten der Güter-Ebene übernommen, da diese für jede Substanz spezifisch sind.</p>
+<p><img src="images/Lektion_2_2_6.png" class="img-fluid"></p>
 </section>
 <section id="transferkoeffizienten-für-die-ebene-stickstoff-eingeben" class="level3">
 <h3 class="anchored" data-anchor-id="transferkoeffizienten-für-die-ebene-stickstoff-eingeben">5. Transferkoeffizienten für die Ebene Stickstoff eingeben</h3>
 <p>Um das gesamte System berechnen zu können, geben wir nun die Transferkoeffizenten folgendermassen ein (Prozent der Input-Stickstoffflüsse in den Prozess):</p>
 <ul>
 <li><p><strong>Anaerobe Vergärung:</strong> 10% in Biogas, 69% ins Digestat, 21% Verluste (z.B. Emissionen in die Luft während der Nachkompostierung des Digestats). Wir nehmen hier Trockenverärung an und die Werte basieren auf <a href="https://www.sciencedirect.com/science/article/pii/S0956053X17301769?via%3Dihub">Jensen et al.&nbsp;2017</a>.</p></li>
-<li><p><strong>Kehrichtverbrennung:</strong> 90% in Abgas und 10% in Asche (grobe Schätzung).</p></li>
+<li><p><strong>Kehrichtverbrennung:</strong> 90% in Abgas und 10% in Asche (grobe Schätzung). Dies ist eine Vereinfachtung, da sich in der Realität durch die veränderte Zusammensetzung des verbrannten Abfalls (weniger Bioabfall) auch die Transferkoeffizienten verändern würden.</p></li>
 <li><p><strong>Aschebehandlung:</strong> 0% in Metallrecycling, 100% in Deponie.</p></li>
 </ul>
 </section>
 <section id="exportieren-sie-das-finale-modell-als-bild" class="level3">
 <h3 class="anchored" data-anchor-id="exportieren-sie-das-finale-modell-als-bild">6. Exportieren Sie das finale Modell als Bild</h3>
 <p>Sie können das STAN-Modell nun exportieren via Datei –&gt; Systembild exportieren. Dieses sollte etwa so aussehen für Stickstoffflüsse:</p>
-<p><img src="images/Lektion_2_2_6.png" class="img-fluid"></p>
+<p><img src="images/Lektion_2_2_7.png" class="img-fluid"></p>
 
 
 </section>

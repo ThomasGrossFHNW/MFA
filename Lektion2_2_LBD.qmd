@@ -10,15 +10,17 @@ In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer G
 
 ### 1. Öffnen Sie die STAN-Datei aus der ersten Übung
 
-Alternativ können Sie auch die auf Moodle verfügbare STAN-Datei verwenden (Lektion 2: STAN-Datei aus Learning-by-doing).
+Alternativ können Sie auch die auf Moodle verfügbare STAN-Datei verwenden (Lektion 2: STAN-Datei aus Learning-by-doing). Ihr System sollte in Etwa so aussehen:
+
+![](images/Lektion_1_2_1.png)
 
 ### 2. Prozess "Kommunale Sammlung von Bioabfällen"
 
 Fügen Sie den Prozess "Kommunale Sammlung von Bioabfällen" hinzu und verbinden Sie diesen durch Flüsse mit den Prozessen "Entsorgung durch Haushalte und Kleingewerbe" und "Anaerobe Vergärung".
 
-Nehmen Sie an, dass 100% der Nicht-biogenen Abfälle in die kommunale Abfallsammlung gehen.
+Nehmen Sie an, dass 100% der nicht-biogenen Abfälle in die kommunale Abfallsammlung gehen.
 
-Nehmen Sie weiter an, dass 50% des Bioabfalls in die kommunale Sammlung von Bioabfällen und der Rest in die kommunale Abfallsammlung geht. Dies können Sie über die Transferkoeffizienten (Doppelklick auf Prozess) tun.
+Nehmen Sie weiter an, dass 50% des Bioabfalls von Haushalten und Kleingewerbe in die kommunale Sammlung von Bioabfällen und der Rest in die kommunale Abfallsammlung geht. Dies können Sie über die Transferkoeffizienten (Doppelklick auf Prozess) implementieren.
 
 ![](images/Lektion_2_2_1.png){fig-align="center" width="668"}
 
@@ -40,15 +42,17 @@ Geben Sie nun für die Input-Flüsse die angenommene Stickstoffkonzentration ein
 
 -   0% in Nicht-biogenem Abfall
 
+![](images/Lektion_2_2_4.png)
+
 ### 4. Das Modell neu berechnen für beide Ebenen
 
 Nun können Sie das Modell neu berechnen für die Ebene Stickstoff.
 
-![](images/Lektion_2_2_4.png)
-
-Sie werden feststellen, dass verschiedene Flüsse nicht berechnet werden können. Dies liegt daran, dass in den Prozessen für die Ebene Stickstoff auch Transferkoeffizienten eingegen werden müssen. Es werden nicht automatisch die Transferkoeffizienten der Güter-Ebene übernommen, da diese für jede Substanz spezifisch sind.
-
 ![](images/Lektion_2_2_5.png)
+
+Sie werden feststellen, dass verschiedene Flüsse nicht berechnet werden. Dies liegt daran, dass in den Prozessen für die Ebene Stickstoff auch Transferkoeffizienten eingegen werden müssen. Es werden nicht automatisch die Transferkoeffizienten der Güter-Ebene übernommen, da diese für jede Substanz spezifisch sind.
+
+![](images/Lektion_2_2_6.png)
 
 ### 5. Transferkoeffizienten für die Ebene Stickstoff eingeben
 
@@ -56,7 +60,7 @@ Um das gesamte System berechnen zu können, geben wir nun die Transferkoeffizent
 
 -   **Anaerobe Vergärung:** 10% in Biogas, 69% ins Digestat, 21% Verluste (z.B. Emissionen in die Luft während der Nachkompostierung des Digestats). Wir nehmen hier Trockenverärung an und die Werte basieren auf [Jensen et al. 2017](https://www.sciencedirect.com/science/article/pii/S0956053X17301769?via%3Dihub).
 
--   **Kehrichtverbrennung:** 90% in Abgas und 10% in Asche (grobe Schätzung).
+-   **Kehrichtverbrennung:** 90% in Abgas und 10% in Asche (grobe Schätzung). Dies ist eine Vereinfachtung, da sich in der Realität durch die veränderte Zusammensetzung des verbrannten Abfalls (weniger Bioabfall) auch die Transferkoeffizienten verändern würden.
 
 -   **Aschebehandlung:** 0% in Metallrecycling, 100% in Deponie.
 
@@ -64,4 +68,4 @@ Um das gesamte System berechnen zu können, geben wir nun die Transferkoeffizent
 
 Sie können das STAN-Modell nun exportieren via Datei --\> Systembild exportieren. Dieses sollte etwa so aussehen für Stickstoffflüsse:
 
-![](images/Lektion_2_2_6.png)
+![](images/Lektion_2_2_7.png)
