@@ -34,7 +34,7 @@ Transferkoeffizienten drücken eine **lineare Beziehung** zwischen In- und Outpu
 
 Der Prozess Tierhaltung stellt eine "Blackbox" über ein sehr viel komplexeres System dar. Diese Vereinfachung ist sinnvoll, um beispielsweise die Grössenordnung verschiedener Prozesse und Flüsse darzustellen.
 
-Konzentrationsgleichungen stellen eine Beziehung her zwischen der Konzentration eines Stoffs innerhalb eines Guts (oder Materials) und dessen Masse oder Volumen. Wenn wir beispielsweise annehmen, dass Bioabfälle 0.5% Stickstoff enthalten, so können wir aufgrund der Materialflüsse (z.B. Tonnen pro Jahr) die Masse an Stickstoff berechnen. Konzentrationsgleichungen können folgendermassen formuliert werden ([STAN 2022](https://www.stan2web.net/downloads/documentation), online verfügbar nach Registation auf Webpage):
+Konzentrationsgleichungen stellen eine Beziehung her zwischen der Konzentration eines Stoffs innerhalb eines Guts (oder Materials) und dessen Masse oder Volumen. Wenn wir beispielsweise annehmen, dass Bioabfälle 0.5% Stickstoff enthalten, so können wir aufgrund der Materialflüsse (z.B. Tonnen pro Jahr) die Masse an Stickstoff berechnen. Konzentrationsgleichungen können folgendermassen formuliert werden ([STAN 2022](https://www.stan2web.net/downloads/documentation), online verfügbar nach Registration auf Webpage):
 
 -   Masse (Stoff) = Masse (Gut) \* Konzentration (Stoff in Gut)
 
