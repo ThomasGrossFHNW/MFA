@@ -40,7 +40,7 @@ Geben Sie nun für die Input-Flüsse die angenommene Stickstoffkonzentration ein
 
 -   0.5% +/- 0.2% in allen Bioabfällen (kommunaler Bioabfall, Grüngut, Hofdünger)
 
--   0% in Nicht-biogenem Abfall
+-   0% in nicht-biogenem Abfall
 
 ![](images/Lektion_2_2_4.png)
 
