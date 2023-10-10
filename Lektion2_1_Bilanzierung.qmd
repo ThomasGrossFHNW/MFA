@@ -18,7 +18,7 @@ Die Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie 
 
 Zur mathematischen Beschreibung von MFA- und SFA-Systemen sind das Massen- und Energieerhaltungsgesetz, lineare Beziehungen zwischen In- und Outputflüssen sowie Konzentrationsverhältnisse wichtig.
 
-Für jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das **Massen-und Energieerhaltungsgesetz** erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Tonnen Stickstoff (N) pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.
+Für jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das **Massen-und Energieerhaltungsgesetz** erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Kilotonnen (kt) Stickstoff (N) pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.
 
 ![](images/Lektion_2_1_2.png){fig-align="center" width="352"}
 
