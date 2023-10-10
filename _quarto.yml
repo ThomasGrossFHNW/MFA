@@ -55,6 +55,7 @@ format:
     theme: sandstone
     css: styles.css
     toc: true
+    minimal: false
 
 editor: visual
 
