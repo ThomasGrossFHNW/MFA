@@ -1,10 +1,77 @@
 project:
   type: website
+  output-dir: docs
+
+website:
+
+#General Webside Design
+  reader-mode: true
+  back-to-top-navigation: true
+  page-footer:
+    background: lightgrey
+    left: "Copyright 2023, Thomas Gross"
+    right:
+      - icon: github
+        href: https://github.com/
+      
   
-profile: 
-  default: german
-  group: 
-  - [german,english]
+#Webside Organisation
+  title: "Tools für NRM"
+  navbar:
+    background: dark
+    left:
+      - text: "MFA"
+        file: Lektion0_1_Lernziele.qmd
+      - text: "About"
+        file: about.qmd
+      - text: "Home" 
+        file: index.qmd
+
+  sidebar:
+    - titel: "Lektionen"
+      style: "docked"
+      background: info
+      contents:
+      - section: "Überblick"
+        contents:
+          - Lektion0_1_Lernziele.qmd
+          - Lektion0_2_Software.qmd
+          - Lektion0_3_FAQ.qmd
+      - section: "Einführung"
+        contents:
+          - Lektion1_1_Grundlagen.qmd
+          - Lektion1_2_LBD.qmd
+          - Lektion1_3_Workshop.qmd
+      - section: "Bilanzierung"
+        contents:
+          - Lektion2_1_Bilanzierung.qmd
+          - Lektion2_2_LBD.qmd
+          - Lektion2_3_Workshop.qmd
+
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+    minimal: false
+
+editor: visual
+
+
+
+babelquarto:
+  languagecodes:
+  - name: de
+    text: "Deutsch"
+  - name: en
+    text: "English"
+  mainlanguage: 'de'
+  languages: ['en']
+  title-de: title in fr
+  description-de: description in fr
+  author-de: author in fr
+  lang: de
 
 
 
