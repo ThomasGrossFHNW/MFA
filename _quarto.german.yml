@@ -25,12 +25,7 @@ website:
         file: about.qmd
       - text: "Home" 
         file: index.qmd
-    right:
-      - href: ../de
-        text: Deutsch
-      - href: ../en
-        text: English
-      
+
   sidebar:
     - titel: "Lektionen"
       style: "docked"
