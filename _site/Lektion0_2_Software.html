@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Software</title>
+<title>MFA - Software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -39,11 +40,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -60,16 +61,164 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">MFA</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./Lektion0_1_Ueberblick.qmd" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Lektion0_1_Lernziele.html">Überblick</a></li><li class="breadcrumb-item"><a href="./Lektion0_2_Software.html">Software</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Überblick</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Lektion0_1_Lernziele.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lernziele</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Lektion0_2_Software.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Software</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Lektion0_3_Bewertung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bewertung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Lektion0_4_FAQ.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAQ</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Einführung</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Lektion1_1_Grundlagen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grundlagen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Lektion1_2_LBD.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Learning-by-doing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Lektion1_3_DYS.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Do-it-yourself</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Modellierung</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Lektion2_1_Grundlagen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grundlagen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Lektion2_2_LBD.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Learning-by-doing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Lektion2_3_DYS.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Do-it-yourself</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#stan---substance-flow-analysis" id="toc-stan---substance-flow-analysis" class="nav-link active" data-scroll-target="#stan---substance-flow-analysis">STAN - subSTance flow ANalysis</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -92,29 +241,9 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="stan---substance-flow-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="stan---substance-flow-analysis">STAN - subSTance flow ANalysis</h2>
-<section id="was-ist-stan" class="level3">
-<h3 class="anchored" data-anchor-id="was-ist-stan">Was ist STAN?</h3>
-<p>In diesem Kurs nutzen wir die gratis verfügbare Software STAN. STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.</p>
+<p>In diesem Kurs nutzen wir die gratis verfügbare Software STAN (<a href="www.stan2web.net">www.stan2web.net</a>). STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.</p>
 <p>STAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.</p>
-</section>
-<section id="installation" class="level3">
-<h3 class="anchored" data-anchor-id="installation">Installation</h3>
-<p>STAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:</p>
-<ul>
-<li><p><strong>Variante 1:</strong> Download der Software von <a href="http://www.stan2web.net/">www.stan2web.net</a> (Sie müssen sich vorher auf der Website registrieren).</p></li>
-<li><p><strong>Variante 2:</strong> Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar.</p></li>
-<li><p><strong>Variante 3:</strong> Im Netzwerk der FHNW können Sie STAN auch über den Citrix Workspace ausführen. Studierende der FHNW finden <a href="https://help.fhnw.ch/1304/citrix-installieren-aktivieren/#F%C3%BCr+Studenten">hier</a> Informationen zur Installation von Citrix.</p></li>
-</ul>
-<p>Bei Bedarf, finden Sie <a href="https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi?playlistPosition=1&amp;resume=true">hier</a> ein Erklärvideo zur Installation von STAN.</p>
-<p>Falls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den <a href="./Lektion0_3_FAQ.html">FAQ</a>.</p>
-</section>
-</section>
-<section id="anleitungen-und-tutorials" class="level2">
-<h2 class="anchored" data-anchor-id="anleitungen-und-tutorials">Anleitungen und Tutorials</h2>
-<ul>
-<li><p>Das STAN-Benutzerhandbuch ist über <a href="https://www.stan2web.net/downloads/documentation" class="uri">https://www.stan2web.net/downloads/documentation</a> nach Registration auf der Website verfügbar. Zudem finden Sie die Benutzeranleitung in Moodle.</p></li>
-<li><p>Zu verschiedenen Themen gibt es hilfreiche Video-Tutorials über STAN: <a href="https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi" class="uri">https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi</a></p></li>
-</ul>
+<p>STAN funktioniert leider nur auf Windows Betriebssystemen. Falls Sie Probleme mit der Installation haben, schauen Sie unter Installation in den <a href="Lektion0_1_FAQ.qmd">FAQ</a>.</p>
 
 
 </section>
