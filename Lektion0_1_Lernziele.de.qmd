@@ -1,0 +1,15 @@
+---
+title: "Lernziele"
+---
+
+Dieser Kurs gibt Ihnen eine Einführung in Material- und Stoffflussanalyse (MFA und SFA) mithilfe des gratis verfügbaren Programms STAN. Der Kurs ist setzt sich aus Selbststudium, Einzelübungen, Gruppenübungen, Vorlesungen und Coaching durch Dozierende der FHNW zusammen.
+
+Im Rahmen dieses Kurses erwerben Sie folgende Kompetenzen:
+
+-   Kenntnis von Material- und Stoffflussanalysen (MFA/SFA) für nachhaltiges Ressourcenmanagement
+
+-   Modellieren und Interpretieren von MFA/SFA mithilfe der gratis verfügbaren Software STAN
+
+-   Schnittstellen zu anderen Themen und Anwendungen, insbesondere Lebenszyklusanalyse
+
+# 

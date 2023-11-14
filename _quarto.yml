@@ -14,7 +14,6 @@ website:
       - icon: github
         href: https://github.com/
       
-      
   
 #Webside Organisation
   title: "Tools für NRM"
@@ -58,6 +57,21 @@ format:
     minimal: false
 
 editor: visual
+
+
+
+babelquarto:
+  languagecodes:
+  - name: de
+    text: "Deutsch"
+  - name: en
+    text: "English"
+  mainlanguage: 'de'
+  languages: ['en']
+  title-de: title in fr
+  description-de: description in fr
+  author-de: author in fr
+  lang: de
 
 
 
