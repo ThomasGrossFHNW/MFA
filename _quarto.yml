@@ -3,7 +3,8 @@ project:
   
 profile: 
   default: german
-  group: [german,english]
+  group: 
+  - [german,english]
 
 
 
