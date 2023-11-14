@@ -1,66 +1,102 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "Lektion2_3_Workshop.html",
+    "href": "Lektion2_3_Workshop.html",
+    "title": "Workshop",
     "section": "",
-    "text": "Diese Website soll die Vorlesungen über Tools für nachhaltiges Ressourcenmanagement an der Fachhochschule Nordwestschweiz (FHNW) unterstützen. Die Entwicklung der Website ist in Arbeit. Für Informationen kontaktieren Sie Thomas.Gross@fhnw.ch.\n\n\n\n Back to top"
+    "text": "Erstellen Sie nun eine weitere Ebene für Phosphorflüsse (P) basierend auf dem “Learning-by-doing” Beispiel. Sie können Angaben aus Jensen et al. (2017) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.\n\nWelche Mengen an N und P erwarten Sie jährlich im Digestat der anaeroben Vergärung?\nWas wären mögliche Abnehmer des Digestats?\nWo sehen Sie mögliche Schwierigkeiten? Erwarten Sie z.B. Umweltbelastungen durch die Nutzung von Digestat? Wenn ja, welche?",
+    "crumbs": [
+      "Bilanzierung",
+      "Workshop"
+    ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tools für nachhaltiges Ressourcenmanagement",
+    "objectID": "Lektion2_3_Workshop.html#aufgabe",
+    "href": "Lektion2_3_Workshop.html#aufgabe",
+    "title": "Workshop",
     "section": "",
-    "text": "Diese Website ist Bestandteil der Vorlesungen zu nachhaltigem Ressourcenmanagement (NRM)\n\n\n\n Back to top"
+    "text": "Erstellen Sie nun eine weitere Ebene für Phosphorflüsse (P) basierend auf dem “Learning-by-doing” Beispiel. Sie können Angaben aus Jensen et al. (2017) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.\n\nWelche Mengen an N und P erwarten Sie jährlich im Digestat der anaeroben Vergärung?\nWas wären mögliche Abnehmer des Digestats?\nWo sehen Sie mögliche Schwierigkeiten? Erwarten Sie z.B. Umweltbelastungen durch die Nutzung von Digestat? Wenn ja, welche?",
+    "crumbs": [
+      "Bilanzierung",
+      "Workshop"
+    ]
   },
   {
-    "objectID": "Lektion0_1_Lernziele.html",
-    "href": "Lektion0_1_Lernziele.html",
-    "title": "Lernziele",
+    "objectID": "Lektion2_1_Bilanzierung.html",
+    "href": "Lektion2_1_Bilanzierung.html",
+    "title": "Gleichungssysteme und Ebenen",
     "section": "",
-    "text": "Dieser Kurs gibt Ihnen eine Einführung in Material- und Stoffflussanalyse (MFA und SFA) mithilfe des gratis verfügbaren Programms STAN. Der Kurs ist setzt sich aus Selbststudium, Einzelübungen, Gruppenübungen, Vorlesungen und Coaching durch Dozierende der FHNW zusammen.\nIm Rahmen dieses Kurses erwerben Sie folgende Kompetenzen:\n\nKenntnis von Material- und Stoffflussanalysen (MFA/SFA) für nachhaltiges Ressourcenmanagement\nModellieren und Interpretieren von MFA/SFA mithilfe der gratis verfügbaren Software STAN\nSchnittstellen zu anderen Themen und Anwendungen, insbesondere Lebenszyklusanalyse\n\n\n\n\n\n\n\n Back to top"
+    "text": "Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Schweizer Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.\nFuttermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar.\nAls Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produkten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (113 Tonnen Stockstoff pro Jahr).\nDie Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (BAFU 2013).\n\n\n\nStickstoffflüsse in der Landwirtschaft (vereinfacht auf BAFU 2013)",
+    "crumbs": [
+      "Bilanzierung",
+      "Gleichungssysteme und Ebenen"
+    ]
   },
   {
-    "objectID": "Lektion0_2_Software.html",
-    "href": "Lektion0_2_Software.html",
-    "title": "Software",
+    "objectID": "Lektion2_1_Bilanzierung.html#einführung",
+    "href": "Lektion2_1_Bilanzierung.html#einführung",
+    "title": "Gleichungssysteme und Ebenen",
     "section": "",
-    "text": "In diesem Kurs nutzen wir die gratis verfügbare Software STAN. STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.\nSTAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.\n\n\n\nSTAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:\n\nVariante 1: Download der Software von www.stan2web.net (Sie müssen sich vorher auf der Website registrieren).\nVariante 2: Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar.\nVariante 3: Im Netzwerk der FHNW können Sie STAN auch über den Citrix Workspace ausführen. Studierende der FHNW finden hier Informationen zur Installation von Citrix.\n\nBei Bedarf, finden Sie hier ein Erklärvideo zur Installation von STAN.\nFalls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den FAQ."
+    "text": "Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Schweizer Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.\nFuttermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar.\nAls Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produkten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (113 Tonnen Stockstoff pro Jahr).\nDie Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (BAFU 2013).\n\n\n\nStickstoffflüsse in der Landwirtschaft (vereinfacht auf BAFU 2013)",
+    "crumbs": [
+      "Bilanzierung",
+      "Gleichungssysteme und Ebenen"
+    ]
   },
   {
-    "objectID": "Lektion0_2_Software.html#stan---substance-flow-analysis",
-    "href": "Lektion0_2_Software.html#stan---substance-flow-analysis",
-    "title": "Software",
+    "objectID": "Lektion2_1_Bilanzierung.html#gleichungssysteme",
+    "href": "Lektion2_1_Bilanzierung.html#gleichungssysteme",
+    "title": "Gleichungssysteme und Ebenen",
+    "section": "Gleichungssysteme",
+    "text": "Gleichungssysteme\nZur mathematischen Beschreibung von MFA- und SFA-Systemen sind das Massen- und Energieerhaltungsgesetz, lineare Beziehungen zwischen In- und Outputflüssen sowie Konzentrationsverhältnisse wichtig.\nFür jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das Massen-und Energieerhaltungsgesetz erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Kilotonnen (kt) Stickstoff (N) pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.\n\n\n\n\n\nTransferkoeffizienten drücken eine lineare Beziehung zwischen In- und Outputflüssen eines Prozesses aus. So könnte man die Transferkoeffizienten des Prozesses Tierhaltung als Prozentwerte der Inputs darstellen:\n\n21% der Stickstoffinputs gehen in Produkte\n25% gehen in Emissionen über\n54% gehen in Hofdünger\n\n\n\n\n\n\nDer Prozess Tierhaltung stellt eine “Blackbox” über ein sehr viel komplexeres System dar. Diese Vereinfachung ist sinnvoll, um beispielsweise die Grössenordnung verschiedener Prozesse und Flüsse darzustellen.\nKonzentrationsgleichungen stellen eine Beziehung her zwischen der Konzentration eines Stoffs innerhalb eines Guts (oder Materials) und dessen Masse oder Volumen. Wenn wir beispielsweise annehmen, dass Bioabfälle 0.5% Stickstoff enthalten, so können wir aufgrund der Materialflüsse (z.B. Tonnen pro Jahr) die Masse an Stickstoff berechnen. Konzentrationsgleichungen können folgendermassen formuliert werden (STAN 2022, online verfügbar nach Registration auf Webpage):\n\nMasse (Stoff) = Masse (Gut) * Konzentration (Stoff in Gut)\nMasse (Stoff) = Volumen (Gut) * Konzentration (Stoff in Gut)\nMasse (Gut) = Volumen (Gut) * Dichte (Gut)",
+    "crumbs": [
+      "Bilanzierung",
+      "Gleichungssysteme und Ebenen"
+    ]
+  },
+  {
+    "objectID": "Lektion2_1_Bilanzierung.html#ebenen",
+    "href": "Lektion2_1_Bilanzierung.html#ebenen",
+    "title": "Gleichungssysteme und Ebenen",
+    "section": "Ebenen",
+    "text": "Ebenen\nIn der ersten Lektion haben wir die Materialflüsse im Abfallmanagement einer Gemeinde simuliert. Wir können darauf basierend zusätzlich Stoffebenen und eine Energieebene zufügen. Beispiele von Stoffen in Bioabfall sind Pflanzennährstoffe wie Stickstoff (N), Phosphor (P) und Kalium (K), sowie Mikronährstoffe (z.B. Kupfer und Zink) oder Schadstoffe (z.B. Cadmium, Mikroplastik).\nIm Learning-by-doing dieser Lektion erstellen wir eine Stickstoff-Ebene im MFA/SFA-System des Abfallmanagements einer Gemeinde.",
+    "crumbs": [
+      "Bilanzierung",
+      "Gleichungssysteme und Ebenen"
+    ]
+  },
+  {
+    "objectID": "Lektion1_2_LBD.html",
+    "href": "Lektion1_2_LBD.html",
+    "title": "Learning-by-doing",
     "section": "",
-    "text": "In diesem Kurs nutzen wir die gratis verfügbare Software STAN. STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.\nSTAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.\n\n\n\nSTAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:\n\nVariante 1: Download der Software von www.stan2web.net (Sie müssen sich vorher auf der Website registrieren).\nVariante 2: Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar.\nVariante 3: Im Netzwerk der FHNW können Sie STAN auch über den Citrix Workspace ausführen. Studierende der FHNW finden hier Informationen zur Installation von Citrix.\n\nBei Bedarf, finden Sie hier ein Erklärvideo zur Installation von STAN.\nFalls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den FAQ."
+    "text": "Wir modellieren das Abfallmanagement einer Gemeinde mit ca. 10’000 Einwohnern über ein Jahr.\nDas derzeitige Abfallmanagement der Gemeinde besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle (“Bioabfälle”). Pro Person fallen ca. 700 kg Siedlungsabfälle pro Jahr an. 60% der Siedlungsabfälle (Masse) ist biogen (biologisch abbaubar). In der Gemeinde besteht bereits eine anaerobe Vergärungsanlage (“Biogasanlage”), welche 9’000 Tonnen Grünabfälle (Schnittgut) und 2’000 Tonnen Hofdünger mehrerer Gemeinden behandelt. Wir werden zunächst Schritt für Schritt das derzeitige System in STAN modellieren (Abbildung).\nDanach werden wir im Workshop-Teil Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall modellieren.",
+    "crumbs": [
+      "Einführung",
+      "Learning-by-doing"
+    ]
   },
   {
-    "objectID": "Lektion0_2_Software.html#anleitungen-und-tutorials",
-    "href": "Lektion0_2_Software.html#anleitungen-und-tutorials",
-    "title": "Software",
-    "section": "Anleitungen und Tutorials",
-    "text": "Anleitungen und Tutorials\n\nDas STAN-Benutzerhandbuch ist über https://www.stan2web.net/downloads/documentation nach Registration auf der Website verfügbar. Zudem finden Sie die Benutzeranleitung in Moodle.\nZu verschiedenen Themen gibt es hilfreiche Video-Tutorials über STAN: https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi"
-  },
-  {
-    "objectID": "Lektion0_3_FAQ.html",
-    "href": "Lektion0_3_FAQ.html",
-    "title": "FAQ",
+    "objectID": "Lektion1_2_LBD.html#ziel",
+    "href": "Lektion1_2_LBD.html#ziel",
+    "title": "Learning-by-doing",
     "section": "",
-    "text": "Extrahieren Sie die Zip-Datei\nÖffnen Sie die Eigenschaften der Installationsdatei (z.B. STAN-2-7-101-EN.exe) mittels Rechtsklick auf die Datei und dann Eigenschaften wählen.\nSetzen Sie bei der Schaltfläche “Zulassen” ein Häkchen.\nJetzt sollte die Installation klappen."
+    "text": "Wir modellieren das Abfallmanagement einer Gemeinde mit ca. 10’000 Einwohnern über ein Jahr.\nDas derzeitige Abfallmanagement der Gemeinde besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle (“Bioabfälle”). Pro Person fallen ca. 700 kg Siedlungsabfälle pro Jahr an. 60% der Siedlungsabfälle (Masse) ist biogen (biologisch abbaubar). In der Gemeinde besteht bereits eine anaerobe Vergärungsanlage (“Biogasanlage”), welche 9’000 Tonnen Grünabfälle (Schnittgut) und 2’000 Tonnen Hofdünger mehrerer Gemeinden behandelt. Wir werden zunächst Schritt für Schritt das derzeitige System in STAN modellieren (Abbildung).\nDanach werden wir im Workshop-Teil Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall modellieren.",
+    "crumbs": [
+      "Einführung",
+      "Learning-by-doing"
+    ]
   },
   {
-    "objectID": "Lektion0_3_FAQ.html#installation-von-stan",
-    "href": "Lektion0_3_FAQ.html#installation-von-stan",
-    "title": "FAQ",
-    "section": "",
-    "text": "Extrahieren Sie die Zip-Datei\nÖffnen Sie die Eigenschaften der Installationsdatei (z.B. STAN-2-7-101-EN.exe) mittels Rechtsklick auf die Datei und dann Eigenschaften wählen.\nSetzen Sie bei der Schaltfläche “Zulassen” ein Häkchen.\nJetzt sollte die Installation klappen."
-  },
-  {
-    "objectID": "Lektion0_3_FAQ.html#anderes-betriebssystem-als-windows",
-    "href": "Lektion0_3_FAQ.html#anderes-betriebssystem-als-windows",
-    "title": "FAQ",
-    "section": "Anderes Betriebssystem als Windows",
-    "text": "Anderes Betriebssystem als Windows\nSTAN ist leider nur für Windows verfügbar. Im Netzwerk der FHNW können Sie STAN auch auf anderen Betriebssystemen über den Citrix Workspace ausführen. Studierende der FHNW finden hier Informationen zur Installation von Citrix."
+    "objectID": "Lektion1_2_LBD.html#vorgehen",
+    "href": "Lektion1_2_LBD.html#vorgehen",
+    "title": "Learning-by-doing",
+    "section": "Vorgehen",
+    "text": "Vorgehen\n\n1. STAN installieren, öffnen und speichern\nInstallieren Sie STAN, nähere Angaben finden Sie hier.\nÖffnen Sie STAN und speichern Sie das Projekt in einem geeigneten Ordner. Es wird eine Datei mit der Projektendung .zmfa generiert. Machen Sie regelmässig Zwischenspeicherungen Ihrer Projekte, da STAN dies nicht automatisch macht.\n\n\n2. Navigation und Benutzeroberfläche\nMachen Sie sich zunächst mit der Benutzeroberfläche von STAN vertraut.\n\n\nMenüzeile: In der Menüzeile sind Befehle zur Bearbeitung und Steuerung aufrufbar.\nSymbolleiste: Die wichtigsten Befehle grafisch dargestellt.\nModell-Explorer: Stellt Prozesse, Flüsse und Subsysteme in einer Baumstruktur dar.\nDiagrammsymbole: Die Bausteine zur Erstellung einer MFA, welche mittels Mausklick angewählt werden, um sich danach im Zeichenbereich einzufügen. Wenn Sie mit dem Mauszeiger über den Symbolen bleiben, wird der Symboltyp (z.B. Prozess) angezeigt.\nZeichenbereich: Hier wird das MFA-Modell erstellt.\nEigenschaften: Im Fenster Systemeigenschaften werden die ausgewählten Prozesse, Flüsse und andere Felder der MFA bearbeitet und angepasst. Dies beinhaltet u.a. grafische Parameter und Werte.\nSystemmeldungen: In diesem Fenster werden Fehlermeldungen und Informationen angegeben.\n\nAlle Fenster können in der Größe angepasst und wie Kacheln modular verschoben und angeordnet werden. Sie können sich auch ein kurzes Erklärvideo hier anschauen.\n\n\n3. Der erste Prozess\nNun zeichnen Sie als ersten Prozess die kommunale Abfallsammlung (Sie können grundsätzlich auch mit einem beliebigen anderen Prozess beginnen). Wählen Sie dazu in der Symbolleiste das Symbol P (grün markiert) aus und zeichnen Sie ein Rechteck (“Prozess 1”).\n\nBenennen Sie den Prozess “Kommunale Abfallsammlung”. Wählen Sie dazu den Prozess aus und ändern Sie im Fenster Prozesseigenschaften den Namen.\n\n\n\n4. Weitere Prozesse und Prozess mit Lager\nNun erweitern Sie die MFA mit weiteren Prozessen.\nFügen Sie rechts des Prozesses “Kommunale Abfallsammlung” die Prozesse “Kehrichtverbrennung” und “Aschebehandlung (Flug- und Bodenasche)” ein. Unterhalb der “Aschebehandlung (Flug- und Bodenasche)” fügen Sie den Prozess “Deponie” ein.\nFügen Sie links des Prozesses “Kommunale Abfallsammlung” den Prozess “Entsorgung durch Haushalte und Kleingewerbe” ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Bioabfall und nicht-biogenem Restabfall zu simulieren. Im IST-Modell gehen 100% des Bioafalls in die kommunale Abfallsammlung.\nBei Bedarf können Sie die Prozesse verschieben, verkleinern und vergrössern.\nDie Deponie repräsentiert ein Lager, das sich über die Zeit füllt. Wählen Sie daher den Prozess “Deponie” aus und setzen Sie in den Prozesseigenschaften ein Häkchen bei Lager.\n\n\n\n5. Flüsse zeichnen\nNun zeichnen Sie die ersten Flüsse zwischen den Prozessen.\nZunächst können Sie den Importfluss “Nicht-biogener Abfall” von ganz links hin zum Prozess “Entsorgung durch Haushalte und Kleingewerbe” ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsum von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.\n\nVerbinden Sie nun die Prozesse mit Flüssen wie in der Abbildung unten dargestellt. Flüsse zwischen Prozessen sind keine Importflüsse sondern “normale” Flüsse innerhalb der Systemgrenze.\n\nAusgehend von der “Aschebehandlung (Flug- und Bodenasche)” erstellen Sie nun als ersten Exportfluss “Metallrecycling”. Hierbei handelt es sich um das rückgewonnene Metall aus der Aschebehandlung welche Recyclingprozessen zugeführt werden. Diese Recyclingprozesse interessieren uns hier nicht weiter, da wir uns mit biogenen Abfällen beschäftigen. Daher sind Recyclingprozesse für Metall in diesem konkreten Fall ausserhalb der Systemgrenze.\nNachdem alle Flüsse gezeichnet wurden, können Sie nun alle Flüsse über das Fenster Flusseigenschaften benennen.\nSie können auch die Farbe der Flüsse anpassen über das Fenster Flusseigenschaften im Karteiblatt “Symbol” (siehe nächste Abbildung)\n\n\n\n\n\nErgänzen Sie nun alle Prozesse und Flüsse, bis Ihr Modell folgendermassen aussieht.\n\n\n\n6. Eingabe der Werte für die Materialflüsse\nAus der Beschreibung des Abfallmanagements der Gemeinde kennen Sie u.a. die anfallende Menge an biogenem und nicht-biogenem Abfall pro Jahr. Tragen Sie die Werte in die Import-Flüsse ein. Nutzen Sie Tonnen pro Jahr (t/a) als Einheit.\nKlicken Sie hierzu auf den zu bearbeitenden Import-Fluss und klicken Sie dann auf Werte im Eigenschaftenfenster (grüne Box im rechten Teil der Abbildung unten). Es handelt sich um einen Massenfluss.\nDie Abfallmenge (Masse) pro Jahr ist nie genau bekannt. Daher haben Sie die Möglichkeit, einen Wertebereich einzugeben (+/-). Wir nehmen hier eine Unsicherheit von 20% an, also +/- 10%. Wir gehen später detaillierter auf die Unsicherheitsanalyse ein.\nSie können die Pfeildicke der Flüsse im Regler des Sankey-Diagramms (grüner Pfeil Pfeil in der Abbildung unten) anpassen. Sie können auch alle Massenflüsse gleich dick erscheinen lassen (“Sankey-Darstellung der Flüsse (ein/aus)”).\n\n\n\n7. Transferkoeffizienten eingeben\nEin Transferkoeffizient (TK) gibt an, welcher Anteil eines bestimmten Input-Flusses in einen Prozess einem Output-Fluss des gleichen Prozesses zugewiesen wird.\nWir geben zunächst die Transferkoeffizienten für die Kehrichtverbrennung ein. Sie können davon ausgehen, dass rund 10% der Inputmasse zu Asche wird und 90% als Abgase entweicht.\n1. Selektieren Sie den Prozess “Kehrichtverbrennung”.\n2. Wählen Sie “Prozess bearbeiten” aus dem Kontextmenü des Prozesses (mit Rechtsklick).\n3. Sie können die Transferkoeffizienten direkt in die einzelnen Zellen eintragen. Dabei können Sie zwischen einer Eingabe als Zahl zwischen 0 und 1 (z.B. 0,9) oder einer Eingabe als Prozentzahl (z.B. 90%) wählen. In unserem Beipiel geben Sie 0,9 in Richtung “Abgase” und 0,1 in Richtung “Asche” ein. Dezimalwerte müssen mit einem Komma abgegrenzt werden.\n4. Datenunsicherheiten der Transferkoeffizienten (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge “+-” eingegeben werden (z.B. 0,90+-0,045 oder 90%+-4.5%)\n5. Klicken Sie OK bzw. Übernehmen.\nTransferkoeffizienten müssen für alle Prozesse eingegeben werden. Wenn Transferkoeffizienten in einzelnen Prozessen fehlen, kann dies ein möglicher Grund für Fehlermeldungen sein.\nSie können von folgenden Annahmen ausgehen:\n\nKehrichtverbrennung: 90% der Inputmasse wird zu Abgasen, 10% zu Asche\nAschebehandlung: 90% der Inputmasse wird deponiert, 10% geht ins Metallrecycling\nAnaerobe Vergärung: 10% der Inputmasse wird zu Biogas, 80% zu Digestat und 10% sind Verluste\n\n\n\n\nTransferkoeffizienten\n\n\n\n\n8. Systemgrenze\nZeichnen Sie nun die geografische Systemgrenze. Klicken Sie dazu auf das Symbol Systemgrenze und platzieren Sie die Systemgrenze so, dass alle Startpunkte der Import- und Exportflüsse außerhalb und alle Prozesse und systeminternen Flüsse innerhalb der Systemgrenze liegen.\n\n\n\n9. Berechnen\nNun sind alle wichtigen Rechengrössen zum Berechenen des Models eingegeben. Klicken Sie auf das Berechenen Icon in der Symbolleiste.\n\n\n\n10. Systemmeldungen prüfen\nPrüfen Sie die Systemmeldungen, welche Informationen, Warnungen und Fehler enthalten können. Sollten Fehler auftauchen, versuchen Sie diese aufgrund der Fehlermeldung zu korrigieren und rechnen Sie das Modell danach neu.\n\n\n\nDie hier gezeigten Systemmeldungen sind rein informativ und weisen nicht auf Fehler hin",
+    "crumbs": [
+      "Einführung",
+      "Learning-by-doing"
+    ]
   },
   {
     "objectID": "Lektion0_4_Bewertung.html",
@@ -84,136 +120,225 @@
     "text": "Bewertung des Moduls durch Studierende\n…"
   },
   {
+    "objectID": "Lektion0_2_Software.html",
+    "href": "Lektion0_2_Software.html",
+    "title": "Software",
+    "section": "",
+    "text": "In diesem Kurs nutzen wir die gratis verfügbare Software STAN. STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.\nSTAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.\n\n\n\nSTAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:\n\nVariante 1: Download der Software von www.stan2web.net (Sie müssen sich vorher auf der Website registrieren).\nVariante 2: Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar.\nVariante 3: Im Netzwerk der FHNW können Sie STAN auch über den Citrix Workspace ausführen. Studierende der FHNW finden hier Informationen zur Installation von Citrix.\n\nBei Bedarf, finden Sie hier ein Erklärvideo zur Installation von STAN.\nFalls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den FAQ.",
+    "crumbs": [
+      "Überblick",
+      "Software"
+    ]
+  },
+  {
+    "objectID": "Lektion0_2_Software.html#stan---substance-flow-analysis",
+    "href": "Lektion0_2_Software.html#stan---substance-flow-analysis",
+    "title": "Software",
+    "section": "",
+    "text": "In diesem Kurs nutzen wir die gratis verfügbare Software STAN. STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.\nSTAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.\n\n\n\nSTAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:\n\nVariante 1: Download der Software von www.stan2web.net (Sie müssen sich vorher auf der Website registrieren).\nVariante 2: Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar.\nVariante 3: Im Netzwerk der FHNW können Sie STAN auch über den Citrix Workspace ausführen. Studierende der FHNW finden hier Informationen zur Installation von Citrix.\n\nBei Bedarf, finden Sie hier ein Erklärvideo zur Installation von STAN.\nFalls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den FAQ.",
+    "crumbs": [
+      "Überblick",
+      "Software"
+    ]
+  },
+  {
+    "objectID": "Lektion0_2_Software.html#anleitungen-und-tutorials",
+    "href": "Lektion0_2_Software.html#anleitungen-und-tutorials",
+    "title": "Software",
+    "section": "Anleitungen und Tutorials",
+    "text": "Anleitungen und Tutorials\n\nDas STAN-Benutzerhandbuch ist über https://www.stan2web.net/downloads/documentation nach Registration auf der Website verfügbar. Zudem finden Sie die Benutzeranleitung in Moodle.\nZu verschiedenen Themen gibt es hilfreiche Video-Tutorials über STAN: https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi",
+    "crumbs": [
+      "Überblick",
+      "Software"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tools für nachhaltiges Ressourcenmanagement",
+    "section": "",
+    "text": "Diese Website ist Bestandteil der Vorlesungen zu nachhaltigem Ressourcenmanagement (NRM)\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Diese Website soll die Vorlesungen über Tools für nachhaltiges Ressourcenmanagement an der Fachhochschule Nordwestschweiz (FHNW) unterstützen. Die Entwicklung der Website ist in Arbeit. Für Informationen kontaktieren Sie Thomas.Gross@fhnw.ch.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Engl_Lektion1_2_LBD.html",
+    "href": "Engl_Lektion1_2_LBD.html",
+    "title": "Learning-by-doing",
+    "section": "",
+    "text": "We model the waste management of a municipality with approx. 10,000 inhabitants over the course of a year.\nThe municipality’s current waste management system consists of municipal waste collection with waste incineration without separate collection of biogenic waste (“biowaste”). Each person produces approx. 700 kg of municipal waste per year. 60% of municipal waste (mass) is biogenic (biodegradable). The municipality already has an anaerobic digestion plant (“biogas plant”), which treats 9,000 tonnes of green waste (cuttings) and 2,000 tonnes of farmyard manure from several municipalities. We will first model the current system in STAN step by step (figure).\nThen, in the workshop part, we will model options for additional separate collection of municipal biowaste."
+  },
+  {
+    "objectID": "Engl_Lektion1_2_LBD.html#goal",
+    "href": "Engl_Lektion1_2_LBD.html#goal",
+    "title": "Learning-by-doing",
+    "section": "",
+    "text": "We model the waste management of a municipality with approx. 10,000 inhabitants over the course of a year.\nThe municipality’s current waste management system consists of municipal waste collection with waste incineration without separate collection of biogenic waste (“biowaste”). Each person produces approx. 700 kg of municipal waste per year. 60% of municipal waste (mass) is biogenic (biodegradable). The municipality already has an anaerobic digestion plant (“biogas plant”), which treats 9,000 tonnes of green waste (cuttings) and 2,000 tonnes of farmyard manure from several municipalities. We will first model the current system in STAN step by step (figure).\nThen, in the workshop part, we will model options for additional separate collection of municipal biowaste."
+  },
+  {
+    "objectID": "Engl_Lektion1_2_LBD.html#vorgehen",
+    "href": "Engl_Lektion1_2_LBD.html#vorgehen",
+    "title": "Learning-by-doing",
+    "section": "Vorgehen",
+    "text": "Vorgehen\n\n1. STAN installieren, öffnen und speichern\nInstallieren Sie STAN, nähere Angaben finden Sie hier.\nÖffnen Sie STAN und speichern Sie das Projekt in einem geeigneten Ordner. Es wird eine Datei mit der Projektendung .zmfa generiert. Machen Sie regelmässig Zwischenspeicherungen Ihrer Projekte, da STAN dies nicht automatisch macht.\n\n\n2. Navigation und Benutzeroberfläche\nMachen Sie sich zunächst mit der Benutzeroberfläche von STAN vertraut.\n\n\nMenüzeile: In der Menüzeile sind Befehle zur Bearbeitung und Steuerung aufrufbar.\nSymbolleiste: Die wichtigsten Befehle grafisch dargestellt.\nModell-Explorer: Stellt Prozesse, Flüsse und Subsysteme in einer Baumstruktur dar.\nDiagrammsymbole: Die Bausteine zur Erstellung einer MFA, welche mittels Mausklick angewählt werden, um sich danach im Zeichenbereich einzufügen. Wenn Sie mit dem Mauszeiger über den Symbolen bleiben, wird der Symboltyp (z.B. Prozess) angezeigt.\nZeichenbereich: Hier wird das MFA-Modell erstellt.\nEigenschaften: Im Fenster Systemeigenschaften werden die ausgewählten Prozesse, Flüsse und andere Felder der MFA bearbeitet und angepasst. Dies beinhaltet u.a. grafische Parameter und Werte.\nSystemmeldungen: In diesem Fenster werden Fehlermeldungen und Informationen angegeben.\n\nAlle Fenster können in der Größe angepasst und wie Kacheln modular verschoben und angeordnet werden. Sie können sich auch ein kurzes Erklärvideo hier anschauen.\n\n\n3. Der erste Prozess\nNun zeichnen Sie als ersten Prozess die kommunale Abfallsammlung (Sie können grundsätzlich auch mit einem beliebigen anderen Prozess beginnen). Wählen Sie dazu in der Symbolleiste das Symbol P (grün markiert) aus und zeichnen Sie ein Rechteck (“Prozess 1”).\n\nBenennen Sie den Prozess “Kommunale Abfallsammlung”. Wählen Sie dazu den Prozess aus und ändern Sie im Fenster Prozesseigenschaften den Namen.\n\n\n\n4. Weitere Prozesse und Prozess mit Lager\nNun erweitern Sie die MFA mit weiteren Prozessen.\nFügen Sie rechts des Prozesses “Kommunale Abfallsammlung” die Prozesse “Kehrichtverbrennung” und “Aschebehandlung (Flug- und Bodenasche)” ein. Unterhalb der “Aschebehandlung (Flug- und Bodenasche)” fügen Sie den Prozess “Deponie” ein.\nFügen Sie links des Prozesses “Kommunale Abfallsammlung” den Prozess “Entsorgung durch Haushalte und Kleingewerbe” ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Bioabfall und nicht-biogenem Restabfall zu simulieren. Im IST-Modell gehen 100% des Bioafalls in die kommunale Abfallsammlung.\nBei Bedarf können Sie die Prozesse verschieben, verkleinern und vergrössern.\nDie Deponie repräsentiert ein Lager, das sich über die Zeit füllt. Wählen Sie daher den Prozess “Deponie” aus und setzen Sie in den Prozesseigenschaften ein Häkchen bei Lager.\n\n\n\n5. Flüsse zeichnen\nNun zeichnen Sie die ersten Flüsse zwischen den Prozessen.\nZunächst können Sie den Importfluss “Nicht-biogener Abfall” von ganz links hin zum Prozess “Entsorgung durch Haushalte und Kleingewerbe” ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsum von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.\n\nVerbinden Sie nun die Prozesse mit Flüssen wie in der Abbildung unten dargestellt. Flüsse zwischen Prozessen sind keine Importflüsse sondern “normale” Flüsse innerhalb der Systemgrenze.\n\nAusgehend von der “Aschebehandlung (Flug- und Bodenasche)” erstellen Sie nun als ersten Exportfluss “Metallrecycling”. Hierbei handelt es sich um das rückgewonnene Metall aus der Aschebehandlung welche Recyclingprozessen zugeführt werden. Diese Recyclingprozesse interessieren uns hier nicht weiter, da wir uns mit biogenen Abfällen beschäftigen. Daher sind Recyclingprozesse für Metall in diesem konkreten Fall ausserhalb der Systemgrenze.\nNachdem alle Flüsse gezeichnet wurden, können Sie nun alle Flüsse über das Fenster Flusseigenschaften benennen.\nSie können auch die Farbe der Flüsse anpassen über das Fenster Flusseigenschaften im Karteiblatt “Symbol” (siehe nächste Abbildung)\n\n\n\n\n\nErgänzen Sie nun alle Prozesse und Flüsse, bis Ihr Modell folgendermassen aussieht.\n\n\n\n6. Eingabe der Werte für die Materialflüsse\nAus der Beschreibung des Abfallmanagements der Gemeinde kennen Sie u.a. die anfallende Menge an biogenem und nicht-biogenem Abfall pro Jahr. Tragen Sie die Werte in die Import-Flüsse ein. Nutzen Sie Tonnen pro Jahr (t/a) als Einheit.\nKlicken Sie hierzu auf den zu bearbeitenden Import-Fluss und klicken Sie dann auf Werte im Eigenschaftenfenster (grüne Box im rechten Teil der Abbildung unten). Es handelt sich um einen Massenfluss.\nDie Abfallmenge (Masse) pro Jahr ist nie genau bekannt. Daher haben Sie die Möglichkeit, einen Wertebereich einzugeben (+/-). Wir nehmen hier eine Unsicherheit von 20% an, also +/- 10%. Wir gehen später detaillierter auf die Unsicherheitsanalyse ein.\nSie können die Pfeildicke der Flüsse im Regler des Sankey-Diagramms (grüner Pfeil Pfeil in der Abbildung unten) anpassen. Sie können auch alle Massenflüsse gleich dick erscheinen lassen (“Sankey-Darstellung der Flüsse (ein/aus)”).\n\n\n\n7. Transferkoeffizienten eingeben\nEin Transferkoeffizient (TK) gibt an, welcher Anteil eines bestimmten Input-Flusses in einen Prozess einem Output-Fluss des gleichen Prozesses zugewiesen wird.\nWir geben zunächst die Transferkoeffizienten für die Kehrichtverbrennung ein. Sie können davon ausgehen, dass rund 10% der Inputmasse zu Asche wird und 90% als Abgase entweicht.\n1. Selektieren Sie den Prozess “Kehrichtverbrennung”.\n2. Wählen Sie “Prozess bearbeiten” aus dem Kontextmenü des Prozesses (mit Rechtsklick).\n3. Sie können die Transferkoeffizienten direkt in die einzelnen Zellen eintragen. Dabei können Sie zwischen einer Eingabe als Zahl zwischen 0 und 1 (z.B. 0,9) oder einer Eingabe als Prozentzahl (z.B. 90%) wählen. In unserem Beipiel geben Sie 0,9 in Richtung “Abgase” und 0,1 in Richtung “Asche” ein. Dezimalwerte müssen mit einem Komma abgegrenzt werden.\n4. Datenunsicherheiten der Transferkoeffizienten (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge “+-” eingegeben werden (z.B. 0,90+-0,045 oder 90%+-4.5%)\n5. Klicken Sie OK bzw. Übernehmen.\nTransferkoeffizienten müssen für alle Prozesse eingegeben werden. Wenn Transferkoeffizienten in einzelnen Prozessen fehlen, kann dies ein möglicher Grund für Fehlermeldungen sein.\nSie können von folgenden Annahmen ausgehen:\n\nKehrichtverbrennung: 90% der Inputmasse wird zu Abgasen, 10% zu Asche\nAschebehandlung: 90% der Inputmasse wird deponiert, 10% geht ins Metallrecycling\nAnaerobe Vergärung: 10% der Inputmasse wird zu Biogas, 80% zu Digestat und 10% sind Verluste\n\n\n\n\nTransferkoeffizienten\n\n\n\n\n8. Systemgrenze\nZeichnen Sie nun die geografische Systemgrenze. Klicken Sie dazu auf das Symbol Systemgrenze und platzieren Sie die Systemgrenze so, dass alle Startpunkte der Import- und Exportflüsse außerhalb und alle Prozesse und systeminternen Flüsse innerhalb der Systemgrenze liegen.\n\n\n\n9. Berechnen\nNun sind alle wichtigen Rechengrössen zum Berechenen des Models eingegeben. Klicken Sie auf das Berechenen Icon in der Symbolleiste.\n\n\n\n10. Systemmeldungen prüfen\nPrüfen Sie die Systemmeldungen, welche Informationen, Warnungen und Fehler enthalten können. Sollten Fehler auftauchen, versuchen Sie diese aufgrund der Fehlermeldung zu korrigieren und rechnen Sie das Modell danach neu.\n\n\n\nDie hier gezeigten Systemmeldungen sind rein informativ und weisen nicht auf Fehler hin"
+  },
+  {
+    "objectID": "Lektion0_1_Lernziele.html",
+    "href": "Lektion0_1_Lernziele.html",
+    "title": "Lernziele",
+    "section": "",
+    "text": "Dieser Kurs gibt Ihnen eine Einführung in Material- und Stoffflussanalyse (MFA und SFA) mithilfe des gratis verfügbaren Programms STAN. Der Kurs ist setzt sich aus Selbststudium, Einzelübungen, Gruppenübungen, Vorlesungen und Coaching durch Dozierende der FHNW zusammen.\nIm Rahmen dieses Kurses erwerben Sie folgende Kompetenzen:\n\nKenntnis von Material- und Stoffflussanalysen (MFA/SFA) für nachhaltiges Ressourcenmanagement\nModellieren und Interpretieren von MFA/SFA mithilfe der gratis verfügbaren Software STAN\nSchnittstellen zu anderen Themen und Anwendungen, insbesondere Lebenszyklusanalyse\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Überblick",
+      "Lernziele"
+    ]
+  },
+  {
+    "objectID": "Lektion0_3_FAQ.html",
+    "href": "Lektion0_3_FAQ.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "Extrahieren Sie die Zip-Datei\nÖffnen Sie die Eigenschaften der Installationsdatei (z.B. STAN-2-7-101-EN.exe) mittels Rechtsklick auf die Datei und dann Eigenschaften wählen.\nSetzen Sie bei der Schaltfläche “Zulassen” ein Häkchen.\nJetzt sollte die Installation klappen.",
+    "crumbs": [
+      "Überblick",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "Lektion0_3_FAQ.html#installation-von-stan",
+    "href": "Lektion0_3_FAQ.html#installation-von-stan",
+    "title": "FAQ",
+    "section": "",
+    "text": "Extrahieren Sie die Zip-Datei\nÖffnen Sie die Eigenschaften der Installationsdatei (z.B. STAN-2-7-101-EN.exe) mittels Rechtsklick auf die Datei und dann Eigenschaften wählen.\nSetzen Sie bei der Schaltfläche “Zulassen” ein Häkchen.\nJetzt sollte die Installation klappen.",
+    "crumbs": [
+      "Überblick",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "Lektion0_3_FAQ.html#anderes-betriebssystem-als-windows",
+    "href": "Lektion0_3_FAQ.html#anderes-betriebssystem-als-windows",
+    "title": "FAQ",
+    "section": "Anderes Betriebssystem als Windows",
+    "text": "Anderes Betriebssystem als Windows\nSTAN ist leider nur für Windows verfügbar. Im Netzwerk der FHNW können Sie STAN auch auf anderen Betriebssystemen über den Citrix Workspace ausführen. Studierende der FHNW finden hier Informationen zur Installation von Citrix.",
+    "crumbs": [
+      "Überblick",
+      "FAQ"
+    ]
+  },
+  {
     "objectID": "Lektion1_1_Grundlagen.html",
     "href": "Lektion1_1_Grundlagen.html",
     "title": "Grundlagen",
     "section": "",
-    "text": "Die Material- und Stoffflussanalyse (MFA und SFA) ist eine naturwissenschaftliche Methode, um Materialflüsse innerhalb von Systemen zu erfassen, zu beschreiben, darzustellen und zu interpretieren (Baccini & Bader 1996). Beispiele von Massenflussanalysen sind:\n\nOrganische Verluste aus der Lebensmittelindustrie in der Schweiz (Moserberger et al. 2016): Die Studie zeigt Lebensmittelverluste in der Schweizer Lebensmittelindustrie. Ca. 20% der verarbeiteten Lebensmittel gehen nicht in Produkte, sondern werden als Lebensmittelverluste ausgeschieden. Gemäss der Studie wären drei Viertel dieser Lebensmittelverluste vermeidbar.\nHaben wir die richtigen Indikatoren für die Kreislaufwirtschaft - Einblick in das Schweizer Abfallwirtschaftssystem (Haupt et al. 2016): Die MFA des Schweizer Abfallmanagements zeigt, dass die Hälfte der kommunalten Feststoffabfälle rezyliert werden. Der Rest geht in Kehrichtverbrennungsanlagen. Die Studie geht detailliert auf die Recyclingmodelle verschiederen Stoffe wie Glas, PET und Metalle ein. Sie zeigt, dass Sammelquoten nicht ausreichend sind, um die Nachhaltigkeit einer Kreislaufwirtschaft zu quantifizieren, da sie keine Aussage darüber macht, ob die gesammelten Abfälle verwertet werden und in welcher Form sie wieder in den Wirtschaftskreislauf rückgeführt werden.\nMaterialflussanalysen biogener Abfälle in Indien (Gross et al. 2021): Die Studie stellt Materialflussanalysen des Abfallmanagements in indischen Gemeinden dar und diskutiert Möglichkeiten zur Verwertung biogener Abfälle mittels anaerober Vergärung.\n\nMithilfe von Stoffflussanalysen (SFA) lassen sich analog bestimmte Stoffe durch ein System verfolgen.\nMFA und SFA finden in vielen Bereichen Anwendung, z.B. in der Chemie und im Ingenieurwesen, bei Produktionsprozessen, in der Wirtschaft (Baccini & Bader 1996). MFA/SFA kann somit für eine Vielzahl von Anwendungen und Fragestellungen herangezogen werden, u.a.:\n\nMassen- und Stoffströme quantifizieren und darstellen\nMathematische Modellierung von Systemen zur Analyse des Ist-Zustandes und zur Abschätzung der zeitlichen Entwicklung unter verschiedenen Handlungsoptionen (Szenarienanalyse)\nIn Kombination mit Lebenszyklusanalysen (LCAs) können Umweltauswirkungen verschiedener Optionen verglichen werden, zum Beispiel im Abfallmanagement der Schweiz (Haupt et al. 2018)\nBeitrag zum Systemverständnis verschiedener Akteure\nInput in Planung technischer Lösungen\nBeitrag zur Stakeholderanalyse, z.B. entlang von Wertschöpfungsketten"
+    "text": "Die Material- und Stoffflussanalyse (MFA und SFA) ist eine naturwissenschaftliche Methode, um Materialflüsse innerhalb von Systemen zu erfassen, zu beschreiben, darzustellen und zu interpretieren (Baccini & Bader 1996). Beispiele von Massenflussanalysen sind:\n\nOrganische Verluste aus der Lebensmittelindustrie in der Schweiz (Moserberger et al. 2016): Die Studie zeigt Lebensmittelverluste in der Schweizer Lebensmittelindustrie. Ca. 20% der verarbeiteten Lebensmittel gehen nicht in Produkte, sondern werden als Lebensmittelverluste ausgeschieden. Gemäss der Studie wären drei Viertel dieser Lebensmittelverluste vermeidbar.\nHaben wir die richtigen Indikatoren für die Kreislaufwirtschaft - Einblick in das Schweizer Abfallwirtschaftssystem (Haupt et al. 2016): Die MFA des Schweizer Abfallmanagements zeigt, dass die Hälfte der kommunalten Feststoffabfälle rezyliert werden. Der Rest geht in Kehrichtverbrennungsanlagen. Die Studie geht detailliert auf die Recyclingmodelle verschiederen Stoffe wie Glas, PET und Metalle ein. Sie zeigt, dass Sammelquoten nicht ausreichend sind, um die Nachhaltigkeit einer Kreislaufwirtschaft zu quantifizieren, da sie keine Aussage darüber macht, ob die gesammelten Abfälle verwertet werden und in welcher Form sie wieder in den Wirtschaftskreislauf rückgeführt werden.\nMaterialflussanalysen biogener Abfälle in Indien (Gross et al. 2021): Die Studie stellt Materialflussanalysen des Abfallmanagements in indischen Gemeinden dar und diskutiert Möglichkeiten zur Verwertung biogener Abfälle mittels anaerober Vergärung.\n\nMithilfe von Stoffflussanalysen (SFA) lassen sich analog bestimmte Stoffe durch ein System verfolgen.\nMFA und SFA finden in vielen Bereichen Anwendung, z.B. in der Chemie und im Ingenieurwesen, bei Produktionsprozessen, in der Wirtschaft (Baccini & Bader 1996). MFA/SFA kann somit für eine Vielzahl von Anwendungen und Fragestellungen herangezogen werden, u.a.:\n\nMassen- und Stoffströme quantifizieren und darstellen\nMathematische Modellierung von Systemen zur Analyse des Ist-Zustandes und zur Abschätzung der zeitlichen Entwicklung unter verschiedenen Handlungsoptionen (Szenarienanalyse)\nIn Kombination mit Lebenszyklusanalysen (LCAs) können Umweltauswirkungen verschiedener Optionen verglichen werden, zum Beispiel im Abfallmanagement der Schweiz (Haupt et al. 2018)\nBeitrag zum Systemverständnis verschiedener Akteure\nInput in Planung technischer Lösungen\nBeitrag zur Stakeholderanalyse, z.B. entlang von Wertschöpfungsketten",
+    "crumbs": [
+      "Einführung",
+      "Grundlagen"
+    ]
   },
   {
     "objectID": "Lektion1_1_Grundlagen.html#was-ist-material--und-stoffflussanalyse",
     "href": "Lektion1_1_Grundlagen.html#was-ist-material--und-stoffflussanalyse",
     "title": "Grundlagen",
     "section": "",
-    "text": "Die Material- und Stoffflussanalyse (MFA und SFA) ist eine naturwissenschaftliche Methode, um Materialflüsse innerhalb von Systemen zu erfassen, zu beschreiben, darzustellen und zu interpretieren (Baccini & Bader 1996). Beispiele von Massenflussanalysen sind:\n\nOrganische Verluste aus der Lebensmittelindustrie in der Schweiz (Moserberger et al. 2016): Die Studie zeigt Lebensmittelverluste in der Schweizer Lebensmittelindustrie. Ca. 20% der verarbeiteten Lebensmittel gehen nicht in Produkte, sondern werden als Lebensmittelverluste ausgeschieden. Gemäss der Studie wären drei Viertel dieser Lebensmittelverluste vermeidbar.\nHaben wir die richtigen Indikatoren für die Kreislaufwirtschaft - Einblick in das Schweizer Abfallwirtschaftssystem (Haupt et al. 2016): Die MFA des Schweizer Abfallmanagements zeigt, dass die Hälfte der kommunalten Feststoffabfälle rezyliert werden. Der Rest geht in Kehrichtverbrennungsanlagen. Die Studie geht detailliert auf die Recyclingmodelle verschiederen Stoffe wie Glas, PET und Metalle ein. Sie zeigt, dass Sammelquoten nicht ausreichend sind, um die Nachhaltigkeit einer Kreislaufwirtschaft zu quantifizieren, da sie keine Aussage darüber macht, ob die gesammelten Abfälle verwertet werden und in welcher Form sie wieder in den Wirtschaftskreislauf rückgeführt werden.\nMaterialflussanalysen biogener Abfälle in Indien (Gross et al. 2021): Die Studie stellt Materialflussanalysen des Abfallmanagements in indischen Gemeinden dar und diskutiert Möglichkeiten zur Verwertung biogener Abfälle mittels anaerober Vergärung.\n\nMithilfe von Stoffflussanalysen (SFA) lassen sich analog bestimmte Stoffe durch ein System verfolgen.\nMFA und SFA finden in vielen Bereichen Anwendung, z.B. in der Chemie und im Ingenieurwesen, bei Produktionsprozessen, in der Wirtschaft (Baccini & Bader 1996). MFA/SFA kann somit für eine Vielzahl von Anwendungen und Fragestellungen herangezogen werden, u.a.:\n\nMassen- und Stoffströme quantifizieren und darstellen\nMathematische Modellierung von Systemen zur Analyse des Ist-Zustandes und zur Abschätzung der zeitlichen Entwicklung unter verschiedenen Handlungsoptionen (Szenarienanalyse)\nIn Kombination mit Lebenszyklusanalysen (LCAs) können Umweltauswirkungen verschiedener Optionen verglichen werden, zum Beispiel im Abfallmanagement der Schweiz (Haupt et al. 2018)\nBeitrag zum Systemverständnis verschiedener Akteure\nInput in Planung technischer Lösungen\nBeitrag zur Stakeholderanalyse, z.B. entlang von Wertschöpfungsketten"
+    "text": "Die Material- und Stoffflussanalyse (MFA und SFA) ist eine naturwissenschaftliche Methode, um Materialflüsse innerhalb von Systemen zu erfassen, zu beschreiben, darzustellen und zu interpretieren (Baccini & Bader 1996). Beispiele von Massenflussanalysen sind:\n\nOrganische Verluste aus der Lebensmittelindustrie in der Schweiz (Moserberger et al. 2016): Die Studie zeigt Lebensmittelverluste in der Schweizer Lebensmittelindustrie. Ca. 20% der verarbeiteten Lebensmittel gehen nicht in Produkte, sondern werden als Lebensmittelverluste ausgeschieden. Gemäss der Studie wären drei Viertel dieser Lebensmittelverluste vermeidbar.\nHaben wir die richtigen Indikatoren für die Kreislaufwirtschaft - Einblick in das Schweizer Abfallwirtschaftssystem (Haupt et al. 2016): Die MFA des Schweizer Abfallmanagements zeigt, dass die Hälfte der kommunalten Feststoffabfälle rezyliert werden. Der Rest geht in Kehrichtverbrennungsanlagen. Die Studie geht detailliert auf die Recyclingmodelle verschiederen Stoffe wie Glas, PET und Metalle ein. Sie zeigt, dass Sammelquoten nicht ausreichend sind, um die Nachhaltigkeit einer Kreislaufwirtschaft zu quantifizieren, da sie keine Aussage darüber macht, ob die gesammelten Abfälle verwertet werden und in welcher Form sie wieder in den Wirtschaftskreislauf rückgeführt werden.\nMaterialflussanalysen biogener Abfälle in Indien (Gross et al. 2021): Die Studie stellt Materialflussanalysen des Abfallmanagements in indischen Gemeinden dar und diskutiert Möglichkeiten zur Verwertung biogener Abfälle mittels anaerober Vergärung.\n\nMithilfe von Stoffflussanalysen (SFA) lassen sich analog bestimmte Stoffe durch ein System verfolgen.\nMFA und SFA finden in vielen Bereichen Anwendung, z.B. in der Chemie und im Ingenieurwesen, bei Produktionsprozessen, in der Wirtschaft (Baccini & Bader 1996). MFA/SFA kann somit für eine Vielzahl von Anwendungen und Fragestellungen herangezogen werden, u.a.:\n\nMassen- und Stoffströme quantifizieren und darstellen\nMathematische Modellierung von Systemen zur Analyse des Ist-Zustandes und zur Abschätzung der zeitlichen Entwicklung unter verschiedenen Handlungsoptionen (Szenarienanalyse)\nIn Kombination mit Lebenszyklusanalysen (LCAs) können Umweltauswirkungen verschiedener Optionen verglichen werden, zum Beispiel im Abfallmanagement der Schweiz (Haupt et al. 2018)\nBeitrag zum Systemverständnis verschiedener Akteure\nInput in Planung technischer Lösungen\nBeitrag zur Stakeholderanalyse, z.B. entlang von Wertschöpfungsketten",
+    "crumbs": [
+      "Einführung",
+      "Grundlagen"
+    ]
   },
   {
     "objectID": "Lektion1_1_Grundlagen.html#elemente-einer-mfa-bzw.-sfa",
     "href": "Lektion1_1_Grundlagen.html#elemente-einer-mfa-bzw.-sfa",
     "title": "Grundlagen",
     "section": "Elemente einer MFA bzw. SFA",
-    "text": "Elemente einer MFA bzw. SFA\nFolgende Elemente sind in einer MFA bzw. SFA enthalten (Baccini & Bader 1996):\n\nStoffe sind chemischen Grundbausteine (Elemente oder chemische Verbindungen) aus denen sich Güter, Flüsse und/oder Lager zusammensetzen\nGüter sind Stoffe oder Stoffgemische, die vom Menschen wirtschaftlich bewertete Funktionen erfüllen z.B. Smartphones oder Trinkwasser (positiver Wert) oder nicht genutztes Abwasser (negativer Wert). Stoffe sind die chemischen Grundbausteine, während Güter die Stoffe oder Stoffgemische sind, die einen wirtschaftlichen Wert haben und vom Menschen für bestimmte Zwecke verwendet werden. Güter können also aus verschiedenen Stoffen bestehen und werden entsprechend ihrer wirtschaftlichen Bedeutung bewertet und verwendet.\nMaterial ist ein allgemeiner übergeordneter Begriff für Güter und Stoffe (Materialflussanalyse als verallgemeinernder Begriff für Stoffflussanalyse)\nProzesse stehen für Eingriffe wie Transport, Umwandlung, Lagerung und Wertveränderungen von Stoffen oder Gütern, z.B. Transport, Umwandlung, Lagerung und Wertveränderungen\nLager bezeichnen den Bestand von Stoffen oder Gütern innerhalb eines Systems, z.B. auf einer Restmülldeponie oder ein Kompostlager\nFlüsse sind pro Zeiteinheit zwischen zwei Prozessen verschobene Stoffe oder Güter\nDie Systemgrenze definiert, welche Daten räumlich und zeitlich in die Analyse einfliessen. Räumlich meint hierbei unter anderem die physische oder logistische Ausdehnung eines Unternehmens oder eine Landesgrenze. Zeitlich kann sich z.B, auf ein konkretes Geschäftsjahr beziehen."
+    "text": "Elemente einer MFA bzw. SFA\nFolgende Elemente sind in einer MFA bzw. SFA enthalten (Baccini & Bader 1996):\n\nStoffe sind chemischen Grundbausteine (Elemente oder chemische Verbindungen) aus denen sich Güter, Flüsse und/oder Lager zusammensetzen\nGüter sind Stoffe oder Stoffgemische, die vom Menschen wirtschaftlich bewertete Funktionen erfüllen z.B. Smartphones oder Trinkwasser (positiver Wert) oder nicht genutztes Abwasser (negativer Wert). Stoffe sind die chemischen Grundbausteine, während Güter die Stoffe oder Stoffgemische sind, die einen wirtschaftlichen Wert haben und vom Menschen für bestimmte Zwecke verwendet werden. Güter können also aus verschiedenen Stoffen bestehen und werden entsprechend ihrer wirtschaftlichen Bedeutung bewertet und verwendet.\nMaterial ist ein allgemeiner übergeordneter Begriff für Güter und Stoffe (Materialflussanalyse als verallgemeinernder Begriff für Stoffflussanalyse)\nProzesse stehen für Eingriffe wie Transport, Umwandlung, Lagerung und Wertveränderungen von Stoffen oder Gütern, z.B. Transport, Umwandlung, Lagerung und Wertveränderungen\nLager bezeichnen den Bestand von Stoffen oder Gütern innerhalb eines Systems, z.B. auf einer Restmülldeponie oder ein Kompostlager\nFlüsse sind pro Zeiteinheit zwischen zwei Prozessen verschobene Stoffe oder Güter\nDie Systemgrenze definiert, welche Daten räumlich und zeitlich in die Analyse einfliessen. Räumlich meint hierbei unter anderem die physische oder logistische Ausdehnung eines Unternehmens oder eine Landesgrenze. Zeitlich kann sich z.B, auf ein konkretes Geschäftsjahr beziehen.",
+    "crumbs": [
+      "Einführung",
+      "Grundlagen"
+    ]
   },
   {
     "objectID": "Lektion1_1_Grundlagen.html#schritte-zum-modellieren-einer-mfa-bzw.-sfa",
     "href": "Lektion1_1_Grundlagen.html#schritte-zum-modellieren-einer-mfa-bzw.-sfa",
     "title": "Grundlagen",
     "section": "Schritte zum Modellieren einer MFA bzw. SFA",
-    "text": "Schritte zum Modellieren einer MFA bzw. SFA\nIhre Modellierung von MFA bzw. SFA lässt sich grob in vier Hauptschritten zusammenfassen:\n\nDefinition des Systems: In diesem ersten Schritt wird das System konzeptualisiert. Dieses ist durch Prozesse, Güter, mindestens einen Stoff sowie eine Systemgrenze beschrieben. Oftmals geschieht die Systemdefinition durch einen iterativen Prozess im Austausch mit Projektpartnern bzw. Akteuren des zu untersuchenden Systems.\nBestimmung der Material-/Stoffflüsse: In diesem Schritt werden die Daten erhoben, insbesondere die Güterflüsse, die Konzentration von Stoffen sowie Lagerbestände. Die Daten können gemessen werden und müssen oftmals durch Literaturangaben und/oder Schätzungen ergänzt werden.\nSimulation der Massen- und Stoffflüsse: Wir nutzen hierzu die Software STAN.\nAnalyse, Diskussion und Kommunikation: Das System wird dargestellt, plausibilisiert und es werden Sensitivitäts- und Unsicherheitsanalysen durchgeführt. Wichtig ist in diesem Schritt die Diskussion und kritische Reflexion der Ergebnisse sowie im Anschluss die Kommunikation z.B. durch Publikationen oder Vorträge."
+    "text": "Schritte zum Modellieren einer MFA bzw. SFA\nIhre Modellierung von MFA bzw. SFA lässt sich grob in vier Hauptschritten zusammenfassen:\n\nDefinition des Systems: In diesem ersten Schritt wird das System konzeptualisiert. Dieses ist durch Prozesse, Güter, mindestens einen Stoff sowie eine Systemgrenze beschrieben. Oftmals geschieht die Systemdefinition durch einen iterativen Prozess im Austausch mit Projektpartnern bzw. Akteuren des zu untersuchenden Systems.\nBestimmung der Material-/Stoffflüsse: In diesem Schritt werden die Daten erhoben, insbesondere die Güterflüsse, die Konzentration von Stoffen sowie Lagerbestände. Die Daten können gemessen werden und müssen oftmals durch Literaturangaben und/oder Schätzungen ergänzt werden.\nSimulation der Massen- und Stoffflüsse: Wir nutzen hierzu die Software STAN.\nAnalyse, Diskussion und Kommunikation: Das System wird dargestellt, plausibilisiert und es werden Sensitivitäts- und Unsicherheitsanalysen durchgeführt. Wichtig ist in diesem Schritt die Diskussion und kritische Reflexion der Ergebnisse sowie im Anschluss die Kommunikation z.B. durch Publikationen oder Vorträge.",
+    "crumbs": [
+      "Einführung",
+      "Grundlagen"
+    ]
   },
   {
     "objectID": "Lektion1_1_Grundlagen.html#anwendungsbeispiel-stickstoffflüsse-in-der-schweiz",
     "href": "Lektion1_1_Grundlagen.html#anwendungsbeispiel-stickstoffflüsse-in-der-schweiz",
     "title": "Grundlagen",
     "section": "Anwendungsbeispiel: Stickstoffflüsse in der Schweiz",
-    "text": "Anwendungsbeispiel: Stickstoffflüsse in der Schweiz\nNachfolgend sollen am Beispiel der Stickstoffflüsse in der Schweiz die Möglichkeiten und Anwendungen einer Stoffflussanalyse aufgezeigt werden. In einer Studie zuhanden des Bundesamtes für Umwelt (BAFU 2013) wurde die Entwicklung der Stickstoffflüsse in der Schweiz bis 2020 im Rahmen einer Stoffflusssanalyse analysiert. Es wurden verschiedene Szenarien untersucht, darunter ein Basisszenario und drei Wenn-Dann-Analysen, die mögliche politische und gesellschaftliche Entwicklungen abbilden.\n\n\n\nStickstoff-Flüsse im Jahr 2020 (aus: BAFU 2013)\n\n\nBitte lesen Sie in dem angesprochenen Bericht die Zusammenfassung und betrachten Sie Abbildung 8. Beantworten bzw. diskutieren Sie die folgenden Fragen:\n\nWelche Prozesse werden in Abbildung 8 dargestellt?\nWelches sind die grössten Importflüsse von Stickstoff in die Schweiz? Welches sind die grössten Exportflüsse?\nWas sind die wichtigsten Treiber für Stickstoffflüsse in der Schweiz?"
-  },
-  {
-    "objectID": "Lektion1_2_LBD.html",
-    "href": "Lektion1_2_LBD.html",
-    "title": "Learning-by-doing",
-    "section": "",
-    "text": "Wir modellieren das Abfallmanagement einer Gemeinde mit ca. 10’000 Einwohnern über ein Jahr.\nDas derzeitige Abfallmanagement der Gemeinde besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle (“Bioabfälle”). Pro Person fallen ca. 700 kg Siedlungsabfälle pro Jahr an. 60% der Siedlungsabfälle (Masse) ist biogen (biologisch abbaubar). In der Gemeinde besteht bereits eine anaerobe Vergärungsanlage (“Biogasanlage”), welche 9’000 Tonnen Grünabfälle (Schnittgut) und 2’000 Tonnen Hofdünger mehrerer Gemeinden behandelt. Wir werden zunächst Schritt für Schritt das derzeitige System in STAN modellieren (Abbildung).\nDanach werden wir im Workshop-Teil Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall modellieren."
-  },
-  {
-    "objectID": "Lektion1_2_LBD.html#ziel",
-    "href": "Lektion1_2_LBD.html#ziel",
-    "title": "Learning-by-doing",
-    "section": "",
-    "text": "Wir modellieren das Abfallmanagement einer Gemeinde mit ca. 10’000 Einwohnern über ein Jahr.\nDas derzeitige Abfallmanagement der Gemeinde besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle (“Bioabfälle”). Pro Person fallen ca. 700 kg Siedlungsabfälle pro Jahr an. 60% der Siedlungsabfälle (Masse) ist biogen (biologisch abbaubar). In der Gemeinde besteht bereits eine anaerobe Vergärungsanlage (“Biogasanlage”), welche 9’000 Tonnen Grünabfälle (Schnittgut) und 2’000 Tonnen Hofdünger mehrerer Gemeinden behandelt. Wir werden zunächst Schritt für Schritt das derzeitige System in STAN modellieren (Abbildung).\nDanach werden wir im Workshop-Teil Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall modellieren."
-  },
-  {
-    "objectID": "Lektion1_2_LBD.html#vorgehen",
-    "href": "Lektion1_2_LBD.html#vorgehen",
-    "title": "Learning-by-doing",
-    "section": "Vorgehen",
-    "text": "Vorgehen\n\n1. STAN installieren, öffnen und speichern\nInstallieren Sie STAN, nähere Angaben finden Sie hier.\nÖffnen Sie STAN und speichern Sie das Projekt in einem geeigneten Ordner. Es wird eine Datei mit der Projektendung .zmfa generiert. Machen Sie regelmässig Zwischenspeicherungen Ihrer Projekte, da STAN dies nicht automatisch macht.\n\n\n2. Navigation und Benutzeroberfläche\nMachen Sie sich zunächst mit der Benutzeroberfläche von STAN vertraut.\n\n\nMenüzeile: In der Menüzeile sind Befehle zur Bearbeitung und Steuerung aufrufbar.\nSymbolleiste: Die wichtigsten Befehle grafisch dargestellt.\nModell-Explorer: Stellt Prozesse, Flüsse und Subsysteme in einer Baumstruktur dar.\nDiagrammsymbole: Die Bausteine zur Erstellung einer MFA, welche mittels Mausklick angewählt werden, um sich danach im Zeichenbereich einzufügen. Wenn Sie mit dem Mauszeiger über den Symbolen bleiben, wird der Symboltyp (z.B. Prozess) angezeigt.\nZeichenbereich: Hier wird das MFA-Modell erstellt.\nEigenschaften: Im Fenster Systemeigenschaften werden die ausgewählten Prozesse, Flüsse und andere Felder der MFA bearbeitet und angepasst. Dies beinhaltet u.a. grafische Parameter und Werte.\nSystemmeldungen: In diesem Fenster werden Fehlermeldungen und Informationen angegeben.\n\nAlle Fenster können in der Größe angepasst und wie Kacheln modular verschoben und angeordnet werden. Sie können sich auch ein kurzes Erklärvideo hier anschauen.\n\n\n3. Der erste Prozess\nNun zeichnen Sie als ersten Prozess die kommunale Abfallsammlung (Sie können grundsätzlich auch mit einem beliebigen anderen Prozess beginnen). Wählen Sie dazu in der Symbolleiste das Symbol P (grün markiert) aus und zeichnen Sie ein Rechteck (“Prozess 1”).\n\nBenennen Sie den Prozess “Kommunale Abfallsammlung”. Wählen Sie dazu den Prozess aus und ändern Sie im Fenster Prozesseigenschaften den Namen.\n\n\n\n4. Weitere Prozesse und Prozess mit Lager\nNun erweitern Sie die MFA mit weiteren Prozessen.\nFügen Sie rechts des Prozesses “Kommunale Abfallsammlung” die Prozesse “Kehrichtverbrennung” und “Aschebehandlung (Flug- und Bodenasche)” ein. Unterhalb der “Aschebehandlung (Flug- und Bodenasche)” fügen Sie den Prozess “Deponie” ein.\nFügen Sie links des Prozesses “Kommunale Abfallsammlung” den Prozess “Entsorgung durch Haushalte und Kleingewerbe” ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Bioabfall und nicht-biogenem Restabfall zu simulieren. Im IST-Modell gehen 100% des Bioafalls in die kommunale Abfallsammlung.\nBei Bedarf können Sie die Prozesse verschieben, verkleinern und vergrössern.\nDie Deponie repräsentiert ein Lager, das sich über die Zeit füllt. Wählen Sie daher den Prozess “Deponie” aus und setzen Sie in den Prozesseigenschaften ein Häkchen bei Lager.\n\n\n\n5. Flüsse zeichnen\nNun zeichnen Sie die ersten Flüsse zwischen den Prozessen.\nZunächst können Sie den Importfluss “Nicht-biogener Abfall” von ganz links hin zum Prozess “Entsorgung durch Haushalte und Kleingewerbe” ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsum von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.\n\nVerbinden Sie nun die Prozesse mit Flüssen wie in der Abbildung unten dargestellt. Flüsse zwischen Prozessen sind keine Importflüsse sondern “normale” Flüsse innerhalb der Systemgrenze.\n\nAusgehend von der “Aschebehandlung (Flug- und Bodenasche)” erstellen Sie nun als ersten Exportfluss “Metallrecycling”. Hierbei handelt es sich um das rückgewonnene Metall aus der Aschebehandlung welche Recyclingprozessen zugeführt werden. Diese Recyclingprozesse interessieren uns hier nicht weiter, da wir uns mit biogenen Abfällen beschäftigen. Daher sind Recyclingprozesse für Metall in diesem konkreten Fall ausserhalb der Systemgrenze.\nNachdem alle Flüsse gezeichnet wurden, können Sie nun alle Flüsse über das Fenster Flusseigenschaften benennen.\nSie können auch die Farbe der Flüsse anpassen über das Fenster Flusseigenschaften im Karteiblatt “Symbol” (siehe nächste Abbildung)\n\n\n\n\n\nErgänzen Sie nun alle Prozesse und Flüsse, bis Ihr Modell folgendermassen aussieht.\n\n\n\n6. Eingabe der Werte für die Materialflüsse\nAus der Beschreibung des Abfallmanagements der Gemeinde kennen Sie u.a. die anfallende Menge an biogenem und nicht-biogenem Abfall pro Jahr. Tragen Sie die Werte in die Import-Flüsse ein. Nutzen Sie Tonnen pro Jahr (t/a) als Einheit.\nKlicken Sie hierzu auf den zu bearbeitenden Import-Fluss und klicken Sie dann auf Werte im Eigenschaftenfenster (grüne Box im rechten Teil der Abbildung unten). Es handelt sich um einen Massenfluss.\nDie Abfallmenge (Masse) pro Jahr ist nie genau bekannt. Daher haben Sie die Möglichkeit, einen Wertebereich einzugeben (+/-). Wir nehmen hier eine Unsicherheit von 20% an, also +/- 10%. Wir gehen später detaillierter auf die Unsicherheitsanalyse ein.\nSie können die Pfeildicke der Flüsse im Regler des Sankey-Diagramms (grüner Pfeil Pfeil in der Abbildung unten) anpassen. Sie können auch alle Massenflüsse gleich dick erscheinen lassen (“Sankey-Darstellung der Flüsse (ein/aus)”).\n\n\n\n7. Transferkoeffizienten eingeben\nEin Transferkoeffizient (TK) gibt an, welcher Anteil eines bestimmten Input-Flusses in einen Prozess einem Output-Fluss des gleichen Prozesses zugewiesen wird.\nWir geben zunächst die Transferkoeffizienten für die Kehrichtverbrennung ein. Sie können davon ausgehen, dass rund 10% der Inputmasse zu Asche wird und 90% als Abgase entweicht.\n1. Selektieren Sie den Prozess “Kehrichtverbrennung”.\n2. Wählen Sie “Prozess bearbeiten” aus dem Kontextmenü des Prozesses (mit Rechtsklick).\n3. Sie können die Transferkoeffizienten direkt in die einzelnen Zellen eintragen. Dabei können Sie zwischen einer Eingabe als Zahl zwischen 0 und 1 (z.B. 0,9) oder einer Eingabe als Prozentzahl (z.B. 90%) wählen. In unserem Beipiel geben Sie 0,9 in Richtung “Abgase” und 0,1 in Richtung “Asche” ein. Dezimalwerte müssen mit einem Komma abgegrenzt werden.\n4. Datenunsicherheiten der Transferkoeffizienten (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge “+-” eingegeben werden (z.B. 0,90+-0,045 oder 90%+-4.5%)\n5. Klicken Sie OK bzw. Übernehmen.\nTransferkoeffizienten müssen für alle Prozesse eingegeben werden. Wenn Transferkoeffizienten in einzelnen Prozessen fehlen, kann dies ein möglicher Grund für Fehlermeldungen sein.\nSie können von folgenden Annahmen ausgehen:\n\nKehrichtverbrennung: 90% der Inputmasse wird zu Abgasen, 10% zu Asche\nAschebehandlung: 90% der Inputmasse wird deponiert, 10% geht ins Metallrecycling\nAnaerobe Vergärung: 10% der Inputmasse wird zu Biogas, 80% zu Digestat und 10% sind Verluste\n\n\n\n\nTransferkoeffizienten\n\n\n\n\n8. Systemgrenze\nZeichnen Sie nun die geografische Systemgrenze. Klicken Sie dazu auf das Symbol Systemgrenze und platzieren Sie die Systemgrenze so, dass alle Startpunkte der Import- und Exportflüsse außerhalb und alle Prozesse und systeminternen Flüsse innerhalb der Systemgrenze liegen.\n\n\n\n9. Berechnen\nNun sind alle wichtigen Rechengrössen zum Berechenen des Models eingegeben. Klicken Sie auf das Berechenen Icon in der Symbolleiste.\n\n\n\n10. Systemmeldungen prüfen\nPrüfen Sie die Systemmeldungen, welche Informationen, Warnungen und Fehler enthalten können. Sollten Fehler auftauchen, versuchen Sie diese aufgrund der Fehlermeldung zu korrigieren und rechnen Sie das Modell danach neu.\n\n\n\nDie hier gezeigten Systemmeldungen sind rein informativ und weisen nicht auf Fehler hin"
+    "text": "Anwendungsbeispiel: Stickstoffflüsse in der Schweiz\nNachfolgend sollen am Beispiel der Stickstoffflüsse in der Schweiz die Möglichkeiten und Anwendungen einer Stoffflussanalyse aufgezeigt werden. In einer Studie zuhanden des Bundesamtes für Umwelt (BAFU 2013) wurde die Entwicklung der Stickstoffflüsse in der Schweiz bis 2020 im Rahmen einer Stoffflusssanalyse analysiert. Es wurden verschiedene Szenarien untersucht, darunter ein Basisszenario und drei Wenn-Dann-Analysen, die mögliche politische und gesellschaftliche Entwicklungen abbilden.\n\n\n\nStickstoff-Flüsse im Jahr 2020 (aus: BAFU 2013)\n\n\nBitte lesen Sie in dem angesprochenen Bericht die Zusammenfassung und betrachten Sie Abbildung 8. Beantworten bzw. diskutieren Sie die folgenden Fragen:\n\nWelche Prozesse werden in Abbildung 8 dargestellt?\nWelches sind die grössten Importflüsse von Stickstoff in die Schweiz? Welches sind die grössten Exportflüsse?\nWas sind die wichtigsten Treiber für Stickstoffflüsse in der Schweiz?",
+    "crumbs": [
+      "Einführung",
+      "Grundlagen"
+    ]
   },
   {
     "objectID": "Lektion1_3_Workshop.html",
     "href": "Lektion1_3_Workshop.html",
     "title": "Workshop",
     "section": "",
-    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung?\nWelche Mengen an biogenen Abfällen werden neu behandelt und welche Ressourcen können rückgewonnen werden?"
+    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung?\nWelche Mengen an biogenen Abfällen werden neu behandelt und welche Ressourcen können rückgewonnen werden?",
+    "crumbs": [
+      "Einführung",
+      "Workshop"
+    ]
   },
   {
     "objectID": "Lektion1_3_Workshop.html#aufgabe",
     "href": "Lektion1_3_Workshop.html#aufgabe",
     "title": "Workshop",
     "section": "",
-    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung?\nWelche Mengen an biogenen Abfällen werden neu behandelt und welche Ressourcen können rückgewonnen werden?"
-  },
-  {
-    "objectID": "Lektion2_1_Bilanzierung.html",
-    "href": "Lektion2_1_Bilanzierung.html",
-    "title": "Gleichungssysteme und Ebenen",
-    "section": "",
-    "text": "Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Schweizer Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.\nFuttermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar.\nAls Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produkten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (113 Tonnen Stockstoff pro Jahr).\nDie Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (BAFU 2013).\n\n\n\nStickstoffflüsse in der Landwirtschaft (vereinfacht auf BAFU 2013)"
-  },
-  {
-    "objectID": "Lektion2_1_Bilanzierung.html#einführung",
-    "href": "Lektion2_1_Bilanzierung.html#einführung",
-    "title": "Gleichungssysteme und Ebenen",
-    "section": "",
-    "text": "Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Schweizer Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.\nFuttermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar.\nAls Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produkten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (113 Tonnen Stockstoff pro Jahr).\nDie Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (BAFU 2013).\n\n\n\nStickstoffflüsse in der Landwirtschaft (vereinfacht auf BAFU 2013)"
-  },
-  {
-    "objectID": "Lektion2_1_Bilanzierung.html#gleichungssysteme",
-    "href": "Lektion2_1_Bilanzierung.html#gleichungssysteme",
-    "title": "Gleichungssysteme und Ebenen",
-    "section": "Gleichungssysteme",
-    "text": "Gleichungssysteme\nZur mathematischen Beschreibung von MFA- und SFA-Systemen sind das Massen- und Energieerhaltungsgesetz, lineare Beziehungen zwischen In- und Outputflüssen sowie Konzentrationsverhältnisse wichtig.\nFür jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das Massen-und Energieerhaltungsgesetz erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Kilotonnen (kt) Stickstoff (N) pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.\n\n\n\n\n\nTransferkoeffizienten drücken eine lineare Beziehung zwischen In- und Outputflüssen eines Prozesses aus. So könnte man die Transferkoeffizienten des Prozesses Tierhaltung als Prozentwerte der Inputs darstellen:\n\n21% der Stickstoffinputs gehen in Produkte\n25% gehen in Emissionen über\n54% gehen in Hofdünger\n\n\n\n\n\n\nDer Prozess Tierhaltung stellt eine “Blackbox” über ein sehr viel komplexeres System dar. Diese Vereinfachung ist sinnvoll, um beispielsweise die Grössenordnung verschiedener Prozesse und Flüsse darzustellen.\nKonzentrationsgleichungen stellen eine Beziehung her zwischen der Konzentration eines Stoffs innerhalb eines Guts (oder Materials) und dessen Masse oder Volumen. Wenn wir beispielsweise annehmen, dass Bioabfälle 0.5% Stickstoff enthalten, so können wir aufgrund der Materialflüsse (z.B. Tonnen pro Jahr) die Masse an Stickstoff berechnen. Konzentrationsgleichungen können folgendermassen formuliert werden (STAN 2022, online verfügbar nach Registration auf Webpage):\n\nMasse (Stoff) = Masse (Gut) * Konzentration (Stoff in Gut)\nMasse (Stoff) = Volumen (Gut) * Konzentration (Stoff in Gut)\nMasse (Gut) = Volumen (Gut) * Dichte (Gut)"
-  },
-  {
-    "objectID": "Lektion2_1_Bilanzierung.html#ebenen",
-    "href": "Lektion2_1_Bilanzierung.html#ebenen",
-    "title": "Gleichungssysteme und Ebenen",
-    "section": "Ebenen",
-    "text": "Ebenen\nIn der ersten Lektion haben wir die Materialflüsse im Abfallmanagement einer Gemeinde simuliert. Wir können darauf basierend zusätzlich Stoffebenen und eine Energieebene zufügen. Beispiele von Stoffen in Bioabfall sind Pflanzennährstoffe wie Stickstoff (N), Phosphor (P) und Kalium (K), sowie Mikronährstoffe (z.B. Kupfer und Zink) oder Schadstoffe (z.B. Cadmium, Mikroplastik).\nIm Learning-by-doing dieser Lektion erstellen wir eine Stickstoff-Ebene im MFA/SFA-System des Abfallmanagements einer Gemeinde."
+    "text": "Entwickeln Sie in STAN ein Szenario basierend auf dem “Learning-by-Doing” Beispiel. Ziel ist es, Ressourcen in biogenen Abfällen zu verwerten, statt diese mit dem restlichen Siedlungsabfall zu verbrennen.\n\nWelche zusätzlichen Prozesse braucht es im System?\nWelchen Anteil der biogenen Abfälle auf Haushaltebene nutzen Sie zur Ressourcenverwertung?\nWelche Mengen an biogenen Abfällen werden neu behandelt und welche Ressourcen können rückgewonnen werden?",
+    "crumbs": [
+      "Einführung",
+      "Workshop"
+    ]
   },
   {
     "objectID": "Lektion2_2_LBD.html",
     "href": "Lektion2_2_LBD.html",
     "title": "Learning-by-doing",
     "section": "",
-    "text": "In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben dort die Massen innerhalb der Systemgrenzen modelliert. In der jetzigen Übung werden wir eine zweite Ebene in unser System einfügen, mit welcher wir die Stickstoffflüsse innerhalb der Systemgrenzen berechnen werden."
+    "text": "In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben dort die Massen innerhalb der Systemgrenzen modelliert. In der jetzigen Übung werden wir eine zweite Ebene in unser System einfügen, mit welcher wir die Stickstoffflüsse innerhalb der Systemgrenzen berechnen werden.",
+    "crumbs": [
+      "Bilanzierung",
+      "Learning-by-doing"
+    ]
   },
   {
     "objectID": "Lektion2_2_LBD.html#ziel",
     "href": "Lektion2_2_LBD.html#ziel",
     "title": "Learning-by-doing",
     "section": "",
-    "text": "In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben dort die Massen innerhalb der Systemgrenzen modelliert. In der jetzigen Übung werden wir eine zweite Ebene in unser System einfügen, mit welcher wir die Stickstoffflüsse innerhalb der Systemgrenzen berechnen werden."
+    "text": "In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben dort die Massen innerhalb der Systemgrenzen modelliert. In der jetzigen Übung werden wir eine zweite Ebene in unser System einfügen, mit welcher wir die Stickstoffflüsse innerhalb der Systemgrenzen berechnen werden.",
+    "crumbs": [
+      "Bilanzierung",
+      "Learning-by-doing"
+    ]
   },
   {
     "objectID": "Lektion2_2_LBD.html#vorgehen",
     "href": "Lektion2_2_LBD.html#vorgehen",
     "title": "Learning-by-doing",
     "section": "Vorgehen",
-    "text": "Vorgehen\n\n1. Öffnen Sie die STAN-Datei aus der ersten Übung\nAlternativ können Sie auch die auf Moodle verfügbare STAN-Datei verwenden (Lektion 2: STAN-Datei aus Learning-by-doing). Ihr System sollte in Etwa so aussehen:\n\n\n\n2. Prozess “Kommunale Sammlung von Bioabfällen”\nFügen Sie den Prozess “Kommunale Sammlung von Bioabfällen” hinzu und verbinden Sie diesen durch Flüsse mit den Prozessen “Entsorgung durch Haushalte und Kleingewerbe” und “Anaerobe Vergärung”.\nNehmen Sie an, dass 100% der nicht-biogenen Abfälle in die kommunale Abfallsammlung gehen.\nNehmen Sie weiter an, dass 50% des Bioabfalls von Haushalten und Kleingewerbe in die kommunale Sammlung von Bioabfällen und der Rest in die kommunale Abfallsammlung geht. Dies können Sie über die Transferkoeffizienten (Doppelklick auf Prozess) implementieren.\n\n\n\n\n\n\n\n2. Ebene Stickstoff (N) zufügen\nFügen Sie über das Menü Bearbeiten –&gt; Ebenen und Perioden die Ebene Stickstoff (N) hinzu.\n\n\n\n\n\nNun stehen zwei Ebenen zur Verfügung: Güter (mit dieser Ebene haben wir in der ersten Übung gearbeitet) und N, Stickstoff\n\n\n\n3. Konzentrationen von Stickstoff in Abfällen\nGeben Sie nun für die Input-Flüsse die angenommene Stickstoffkonzentration ein. Wir nehmen vereinfacht folgende Werte an:\n\n0.5% +/- 0.2% in allen Bioabfällen (kommunaler Bioabfall, Grüngut, Hofdünger)\n0% in nicht-biogenem Abfall\n\n\n\n\n4. Das Modell neu berechnen für beide Ebenen\nNun können Sie das Modell neu berechnen für die Ebene Stickstoff.\n\nSie werden feststellen, dass verschiedene Flüsse nicht berechnet werden. Dies liegt daran, dass in den Prozessen für die Ebene Stickstoff auch Transferkoeffizienten eingegen werden müssen. Es werden nicht automatisch die Transferkoeffizienten der Güter-Ebene übernommen, da diese für jede Substanz spezifisch sind.\n\n\n\n5. Transferkoeffizienten für die Ebene Stickstoff eingeben\nUm das gesamte System berechnen zu können, geben wir nun die Transferkoeffizenten folgendermassen ein (Prozent der Input-Stickstoffflüsse in den Prozess):\n\nAnaerobe Vergärung: 10% in Biogas, 69% ins Digestat, 21% Verluste (z.B. Emissionen in die Luft während der Nachkompostierung des Digestats). Wir nehmen hier Trockenverärung an und die Werte basieren auf Jensen et al. 2017.\nKehrichtverbrennung: 90% in Abgas und 10% in Asche (grobe Schätzung). Dies ist eine Vereinfachtung, da sich in der Realität durch die veränderte Zusammensetzung des verbrannten Abfalls (weniger Bioabfall) auch die Transferkoeffizienten verändern würden.\nAschebehandlung: 0% in Metallrecycling, 100% in Deponie.\n\n\n\n6. Exportieren Sie das finale Modell als Bild\nSie können das STAN-Modell nun exportieren via Datei –&gt; Systembild exportieren. Dieses sollte etwa so aussehen für Stickstoffflüsse:"
-  },
-  {
-    "objectID": "Lektion2_3_Workshop.html",
-    "href": "Lektion2_3_Workshop.html",
-    "title": "Workshop",
-    "section": "",
-    "text": "Erstellen Sie nun eine weitere Ebene für Phosphorflüsse (P) basierend auf dem “Learning-by-doing” Beispiel. Sie können Angaben aus Jensen et al. (2017) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.\n\nWelche Mengen an N und P erwarten Sie jährlich im Digestat der anaeroben Vergärung?\nWas wären mögliche Abnehmer des Digestats?\nWo sehen Sie mögliche Schwierigkeiten? Erwarten Sie z.B. Umweltbelastungen durch die Nutzung von Digestat? Wenn ja, welche?"
-  },
-  {
-    "objectID": "Lektion2_3_Workshop.html#aufgabe",
-    "href": "Lektion2_3_Workshop.html#aufgabe",
-    "title": "Workshop",
-    "section": "",
-    "text": "Erstellen Sie nun eine weitere Ebene für Phosphorflüsse (P) basierend auf dem “Learning-by-doing” Beispiel. Sie können Angaben aus Jensen et al. (2017) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.\n\nWelche Mengen an N und P erwarten Sie jährlich im Digestat der anaeroben Vergärung?\nWas wären mögliche Abnehmer des Digestats?\nWo sehen Sie mögliche Schwierigkeiten? Erwarten Sie z.B. Umweltbelastungen durch die Nutzung von Digestat? Wenn ja, welche?"
+    "text": "Vorgehen\n\n1. Öffnen Sie die STAN-Datei aus der ersten Übung\nAlternativ können Sie auch die auf Moodle verfügbare STAN-Datei verwenden (Lektion 2: STAN-Datei aus Learning-by-doing). Ihr System sollte in Etwa so aussehen:\n\n\n\n2. Prozess “Kommunale Sammlung von Bioabfällen”\nFügen Sie den Prozess “Kommunale Sammlung von Bioabfällen” hinzu und verbinden Sie diesen durch Flüsse mit den Prozessen “Entsorgung durch Haushalte und Kleingewerbe” und “Anaerobe Vergärung”.\nNehmen Sie an, dass 100% der nicht-biogenen Abfälle in die kommunale Abfallsammlung gehen.\nNehmen Sie weiter an, dass 50% des Bioabfalls von Haushalten und Kleingewerbe in die kommunale Sammlung von Bioabfällen und der Rest in die kommunale Abfallsammlung geht. Dies können Sie über die Transferkoeffizienten (Doppelklick auf Prozess) implementieren.\n\n\n\n\n\n\n\n2. Ebene Stickstoff (N) zufügen\nFügen Sie über das Menü Bearbeiten –&gt; Ebenen und Perioden die Ebene Stickstoff (N) hinzu.\n\n\n\n\n\nNun stehen zwei Ebenen zur Verfügung: Güter (mit dieser Ebene haben wir in der ersten Übung gearbeitet) und N, Stickstoff\n\n\n\n3. Konzentrationen von Stickstoff in Abfällen\nGeben Sie nun für die Input-Flüsse die angenommene Stickstoffkonzentration ein. Wir nehmen vereinfacht folgende Werte an:\n\n0.5% +/- 0.2% in allen Bioabfällen (kommunaler Bioabfall, Grüngut, Hofdünger)\n0% in nicht-biogenem Abfall\n\n\n\n\n4. Das Modell neu berechnen für beide Ebenen\nNun können Sie das Modell neu berechnen für die Ebene Stickstoff.\n\nSie werden feststellen, dass verschiedene Flüsse nicht berechnet werden. Dies liegt daran, dass in den Prozessen für die Ebene Stickstoff auch Transferkoeffizienten eingegen werden müssen. Es werden nicht automatisch die Transferkoeffizienten der Güter-Ebene übernommen, da diese für jede Substanz spezifisch sind.\n\n\n\n5. Transferkoeffizienten für die Ebene Stickstoff eingeben\nUm das gesamte System berechnen zu können, geben wir nun die Transferkoeffizenten folgendermassen ein (Prozent der Input-Stickstoffflüsse in den Prozess):\n\nAnaerobe Vergärung: 10% in Biogas, 69% ins Digestat, 21% Verluste (z.B. Emissionen in die Luft während der Nachkompostierung des Digestats). Wir nehmen hier Trockenverärung an und die Werte basieren auf Jensen et al. 2017.\nKehrichtverbrennung: 90% in Abgas und 10% in Asche (grobe Schätzung). Dies ist eine Vereinfachtung, da sich in der Realität durch die veränderte Zusammensetzung des verbrannten Abfalls (weniger Bioabfall) auch die Transferkoeffizienten verändern würden.\nAschebehandlung: 0% in Metallrecycling, 100% in Deponie.\n\n\n\n6. Exportieren Sie das finale Modell als Bild\nSie können das STAN-Modell nun exportieren via Datei –&gt; Systembild exportieren. Dieses sollte etwa so aussehen für Stickstoffflüsse:",
+    "crumbs": [
+      "Bilanzierung",
+      "Learning-by-doing"
+    ]
   }
 ]
