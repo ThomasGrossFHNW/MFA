@@ -1,3 +1,4 @@
+::: {.content-visible when-profile="german"}
 ---
 title: "Lernziele"
 ---
@@ -10,6 +11,21 @@ Im Rahmen dieses Kurses erwerben Sie folgende Kompetenzen:
 
 -   Modellieren und Interpretieren von MFA/SFA mithilfe der gratis verfügbaren Software STAN
 
--   Schnittstellen zu anderen Themen und Anwendungen, insbesondere Lebenszyklusanalyse
+-   Schnittstellen zu anderen Themen und Anwendungen, insbesondere Lebenszyklusanalyse (LCA)
+:::
 
-# 
+::: {.content-visible when-profile="english"}
+---
+title: "Learning objectives"
+---
+
+This course gives you an introduction to material and substance flow analysis (MFA and SFA) using the free software STAN. The course consists of self-study, individual exercises, group exercises, lectures and coaching by FHNW lecturers.
+
+You will acquire the following skills as part of this course:
+
+-   Knowledge of material and substance flow analyses (MFA/SFA) for sustainable resource management
+
+-   Modelling and interpreting MFA/SFA using the free software STAN
+
+-   Interfaces to other topics and applications, in particular life cycle analysis (LCA)
+:::
