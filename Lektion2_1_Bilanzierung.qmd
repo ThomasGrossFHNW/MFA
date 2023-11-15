@@ -1,8 +1,6 @@
 ::: {.content-visible when-profile="german"}
 
----
-title: "Gleichungssysteme und Ebenen"
----
+# Bilanzierung und Ebenen
 
 ## Einführung
 
@@ -49,14 +47,11 @@ Konzentrationsgleichungen stellen eine Beziehung her zwischen der Konzentration 
 In der ersten Lektion haben wir die Materialflüsse im Abfallmanagement einer Gemeinde simuliert. Wir können darauf basierend zusätzlich Stoffebenen und eine Energieebene zufügen. Beispiele von Stoffen in Bioabfall sind Pflanzennährstoffe wie Stickstoff (N), Phosphor (P) und Kalium (K), sowie Mikronährstoffe (z.B. Kupfer und Zink) oder Schadstoffe (z.B. Cadmium, Mikroplastik).
 
 Im [Learning-by-doing dieser Lektion](Lektion2_2_LBD.qmd) erstellen wir eine Stickstoff-Ebene im MFA/SFA-System des Abfallmanagements einer Gemeinde.
-
 :::
 
 ::: {.content-visible when-profile="english"}
 
----
-title: "Systems of equations and layers"
----
+# Mass balances and layers
 
 ## Einführung
 
@@ -103,5 +98,4 @@ Konzentrationsgleichungen stellen eine Beziehung her zwischen der Konzentration 
 In der ersten Lektion haben wir die Materialflüsse im Abfallmanagement einer Gemeinde simuliert. Wir können darauf basierend zusätzlich Stoffebenen und eine Energieebene zufügen. Beispiele von Stoffen in Bioabfall sind Pflanzennährstoffe wie Stickstoff (N), Phosphor (P) und Kalium (K), sowie Mikronährstoffe (z.B. Kupfer und Zink) oder Schadstoffe (z.B. Cadmium, Mikroplastik).
 
 Im [Learning-by-doing dieser Lektion](Lektion2_2_LBD.qmd) erstellen wir eine Stickstoff-Ebene im MFA/SFA-System des Abfallmanagements einer Gemeinde.
-
 :::

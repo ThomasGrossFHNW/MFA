@@ -24,45 +24,45 @@
   {
     "objectID": "Lektion2_1_Bilanzierung.html",
     "href": "Lektion2_1_Bilanzierung.html",
-    "title": "Systems of equations and layers",
+    "title": "Mass balances and layers",
     "section": "",
-    "text": "Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Schweizer Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.\nFuttermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar.\nAls Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produkten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (113 Tonnen Stockstoff pro Jahr).\nDie Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (BAFU 2013).\n\n\n\nStickstoffflüsse in der Landwirtschaft (vereinfacht auf BAFU 2013)",
+    "text": "Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Schweizer Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.\nFuttermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar.\nAls Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produkten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (113 Tonnen Stockstoff pro Jahr).\nDie Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (BAFU 2013).\n\n\n\nStickstoffflüsse in der Landwirtschaft (vereinfacht auf BAFU 2013)\n\n\n\n\n\nZur mathematischen Beschreibung von MFA- und SFA-Systemen sind das Massen- und Energieerhaltungsgesetz, lineare Beziehungen zwischen In- und Outputflüssen sowie Konzentrationsverhältnisse wichtig.\nFür jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das Massen-und Energieerhaltungsgesetz erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Kilotonnen (kt) Stickstoff (N) pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.\n\n\n\n\n\nTransferkoeffizienten drücken eine lineare Beziehung zwischen In- und Outputflüssen eines Prozesses aus. So könnte man die Transferkoeffizienten des Prozesses Tierhaltung als Prozentwerte der Inputs darstellen:\n\n21% der Stickstoffinputs gehen in Produkte\n25% gehen in Emissionen über\n54% gehen in Hofdünger\n\n\n\n\n\n\nDer Prozess Tierhaltung stellt eine “Blackbox” über ein sehr viel komplexeres System dar. Diese Vereinfachung ist sinnvoll, um beispielsweise die Grössenordnung verschiedener Prozesse und Flüsse darzustellen.\nKonzentrationsgleichungen stellen eine Beziehung her zwischen der Konzentration eines Stoffs innerhalb eines Guts (oder Materials) und dessen Masse oder Volumen. Wenn wir beispielsweise annehmen, dass Bioabfälle 0.5% Stickstoff enthalten, so können wir aufgrund der Materialflüsse (z.B. Tonnen pro Jahr) die Masse an Stickstoff berechnen. Konzentrationsgleichungen können folgendermassen formuliert werden (STAN 2022, online verfügbar nach Registration auf Webpage):\n\nMasse (Stoff) = Masse (Gut) * Konzentration (Stoff in Gut)\nMasse (Stoff) = Volumen (Gut) * Konzentration (Stoff in Gut)\nMasse (Gut) = Volumen (Gut) * Dichte (Gut)\n\n\n\n\nIn der ersten Lektion haben wir die Materialflüsse im Abfallmanagement einer Gemeinde simuliert. Wir können darauf basierend zusätzlich Stoffebenen und eine Energieebene zufügen. Beispiele von Stoffen in Bioabfall sind Pflanzennährstoffe wie Stickstoff (N), Phosphor (P) und Kalium (K), sowie Mikronährstoffe (z.B. Kupfer und Zink) oder Schadstoffe (z.B. Cadmium, Mikroplastik).\nIm Learning-by-doing dieser Lektion erstellen wir eine Stickstoff-Ebene im MFA/SFA-System des Abfallmanagements einer Gemeinde.",
     "crumbs": [
       "Mathematical modelling",
-      "Systems of equations and layers"
+      "Bilanzierung und Ebenen"
     ]
   },
   {
     "objectID": "Lektion2_1_Bilanzierung.html#einführung-1",
     "href": "Lektion2_1_Bilanzierung.html#einführung-1",
-    "title": "Systems of equations and layers",
+    "title": "Mass balances and layers",
     "section": "",
     "text": "Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Schweizer Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.\nFuttermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar.\nAls Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produkten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (113 Tonnen Stockstoff pro Jahr).\nDie Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (BAFU 2013).\n\n\n\nStickstoffflüsse in der Landwirtschaft (vereinfacht auf BAFU 2013)",
     "crumbs": [
       "Mathematical modelling",
-      "Systems of equations and layers"
+      "Bilanzierung und Ebenen"
     ]
   },
   {
     "objectID": "Lektion2_1_Bilanzierung.html#gleichungssysteme-1",
     "href": "Lektion2_1_Bilanzierung.html#gleichungssysteme-1",
-    "title": "Systems of equations and layers",
-    "section": "Gleichungssysteme",
-    "text": "Gleichungssysteme\nZur mathematischen Beschreibung von MFA- und SFA-Systemen sind das Massen- und Energieerhaltungsgesetz, lineare Beziehungen zwischen In- und Outputflüssen sowie Konzentrationsverhältnisse wichtig.\nFür jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das Massen-und Energieerhaltungsgesetz erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Kilotonnen (kt) Stickstoff (N) pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.\n\n\n\n\n\nTransferkoeffizienten drücken eine lineare Beziehung zwischen In- und Outputflüssen eines Prozesses aus. So könnte man die Transferkoeffizienten des Prozesses Tierhaltung als Prozentwerte der Inputs darstellen:\n\n21% der Stickstoffinputs gehen in Produkte\n25% gehen in Emissionen über\n54% gehen in Hofdünger\n\n\n\n\n\n\nDer Prozess Tierhaltung stellt eine “Blackbox” über ein sehr viel komplexeres System dar. Diese Vereinfachung ist sinnvoll, um beispielsweise die Grössenordnung verschiedener Prozesse und Flüsse darzustellen.\nKonzentrationsgleichungen stellen eine Beziehung her zwischen der Konzentration eines Stoffs innerhalb eines Guts (oder Materials) und dessen Masse oder Volumen. Wenn wir beispielsweise annehmen, dass Bioabfälle 0.5% Stickstoff enthalten, so können wir aufgrund der Materialflüsse (z.B. Tonnen pro Jahr) die Masse an Stickstoff berechnen. Konzentrationsgleichungen können folgendermassen formuliert werden (STAN 2022, online verfügbar nach Registration auf Webpage):\n\nMasse (Stoff) = Masse (Gut) * Konzentration (Stoff in Gut)\nMasse (Stoff) = Volumen (Gut) * Konzentration (Stoff in Gut)\nMasse (Gut) = Volumen (Gut) * Dichte (Gut)",
+    "title": "Mass balances and layers",
+    "section": "",
+    "text": "Zur mathematischen Beschreibung von MFA- und SFA-Systemen sind das Massen- und Energieerhaltungsgesetz, lineare Beziehungen zwischen In- und Outputflüssen sowie Konzentrationsverhältnisse wichtig.\nFür jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das Massen-und Energieerhaltungsgesetz erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Kilotonnen (kt) Stickstoff (N) pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.\n\n\n\n\n\nTransferkoeffizienten drücken eine lineare Beziehung zwischen In- und Outputflüssen eines Prozesses aus. So könnte man die Transferkoeffizienten des Prozesses Tierhaltung als Prozentwerte der Inputs darstellen:\n\n21% der Stickstoffinputs gehen in Produkte\n25% gehen in Emissionen über\n54% gehen in Hofdünger\n\n\n\n\n\n\nDer Prozess Tierhaltung stellt eine “Blackbox” über ein sehr viel komplexeres System dar. Diese Vereinfachung ist sinnvoll, um beispielsweise die Grössenordnung verschiedener Prozesse und Flüsse darzustellen.\nKonzentrationsgleichungen stellen eine Beziehung her zwischen der Konzentration eines Stoffs innerhalb eines Guts (oder Materials) und dessen Masse oder Volumen. Wenn wir beispielsweise annehmen, dass Bioabfälle 0.5% Stickstoff enthalten, so können wir aufgrund der Materialflüsse (z.B. Tonnen pro Jahr) die Masse an Stickstoff berechnen. Konzentrationsgleichungen können folgendermassen formuliert werden (STAN 2022, online verfügbar nach Registration auf Webpage):\n\nMasse (Stoff) = Masse (Gut) * Konzentration (Stoff in Gut)\nMasse (Stoff) = Volumen (Gut) * Konzentration (Stoff in Gut)\nMasse (Gut) = Volumen (Gut) * Dichte (Gut)",
     "crumbs": [
       "Mathematical modelling",
-      "Systems of equations and layers"
+      "Bilanzierung und Ebenen"
     ]
   },
   {
     "objectID": "Lektion2_1_Bilanzierung.html#ebenen-1",
     "href": "Lektion2_1_Bilanzierung.html#ebenen-1",
-    "title": "Systems of equations and layers",
-    "section": "Ebenen",
-    "text": "Ebenen\nIn der ersten Lektion haben wir die Materialflüsse im Abfallmanagement einer Gemeinde simuliert. Wir können darauf basierend zusätzlich Stoffebenen und eine Energieebene zufügen. Beispiele von Stoffen in Bioabfall sind Pflanzennährstoffe wie Stickstoff (N), Phosphor (P) und Kalium (K), sowie Mikronährstoffe (z.B. Kupfer und Zink) oder Schadstoffe (z.B. Cadmium, Mikroplastik).\nIm Learning-by-doing dieser Lektion erstellen wir eine Stickstoff-Ebene im MFA/SFA-System des Abfallmanagements einer Gemeinde.",
+    "title": "Mass balances and layers",
+    "section": "",
+    "text": "In der ersten Lektion haben wir die Materialflüsse im Abfallmanagement einer Gemeinde simuliert. Wir können darauf basierend zusätzlich Stoffebenen und eine Energieebene zufügen. Beispiele von Stoffen in Bioabfall sind Pflanzennährstoffe wie Stickstoff (N), Phosphor (P) und Kalium (K), sowie Mikronährstoffe (z.B. Kupfer und Zink) oder Schadstoffe (z.B. Cadmium, Mikroplastik).\nIm Learning-by-doing dieser Lektion erstellen wir eine Stickstoff-Ebene im MFA/SFA-System des Abfallmanagements einer Gemeinde.",
     "crumbs": [
       "Mathematical modelling",
-      "Systems of equations and layers"
+      "Bilanzierung und Ebenen"
     ]
   },
   {

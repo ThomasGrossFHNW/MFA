@@ -57,7 +57,7 @@ website:
       - section: "Bilanzierung"
         contents:
           - href: Lektion2_1_Bilanzierung.qmd
-            text: Bilanzierung
+            text: Bilanzierung und Ebenen
           - href: Lektion2_2_LBD.qmd
             text: Learning by doing
           - href: Lektion2_3_Workshop.qmd
