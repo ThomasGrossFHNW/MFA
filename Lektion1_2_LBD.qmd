@@ -1,7 +1,6 @@
 ::: {.content-visible when-profile="german"}
----
-title: "Learning-by-doing"
----
+
+# Learning by doing
 
 ## Ziel
 
@@ -145,9 +144,8 @@ Prüfen Sie die Systemmeldungen, welche Informationen, Warnungen und Fehler enth
 :::
 
 ::: {.content-visible when-profile="english"}
----
-title: "Learning-by-doing"
----
+
+# Learning by doing
 
 ## Goal
 

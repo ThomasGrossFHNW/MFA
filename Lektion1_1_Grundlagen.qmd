@@ -1,8 +1,6 @@
 ::: {.content-visible when-profile="german"}
 
----
-title: "Grundlagen"
----
+# Grundlagen
 
 ## Was ist Material- und Stoffflussanalyse?
 
@@ -78,9 +76,7 @@ Bitte lesen Sie in dem angesprochenen Bericht die Zusammenfassung und betrachten
 
 ::: {.content-visible when-profile="english"}
 
----
-title: "Basics"
----
+# Basics
 
 ## Was ist Material- und Stoffflussanalyse?
 

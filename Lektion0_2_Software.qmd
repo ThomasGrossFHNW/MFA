@@ -1,7 +1,5 @@
 ::: {.content-visible when-profile="german"}
----
-title: "Software"
----
+# Software
 
 ## STAN - subSTance flow ANalysis
 
@@ -33,6 +31,8 @@ Falls Sie Probleme mit der Installation haben, schauen Sie unter Installation vo
 :::
 
 ::: {.content-visible when-profile="english"}
+# Software
+
 ## STAN - subSTance flow ANalysis
 
 ### What is STAN?

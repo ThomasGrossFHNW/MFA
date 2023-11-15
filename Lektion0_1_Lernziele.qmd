@@ -1,8 +1,6 @@
 ::: {.content-visible when-profile="german"}
 
----
-title: "Lernziele"
----
+# Lernziele
 
 Dieser Kurs gibt Ihnen eine Einführung in Material- und Stoffflussanalyse (MFA und SFA) mithilfe des gratis verfügbaren Programms STAN. Der Kurs ist setzt sich aus Selbststudium, Einzelübungen, Gruppenübungen, Vorlesungen und Coaching durch Dozierende der FHNW zusammen.
 
@@ -16,9 +14,8 @@ Im Rahmen dieses Kurses erwerben Sie folgende Kompetenzen:
 :::
 
 ::: {.content-visible when-profile="english"}
----
-title: "Learning objectives"
----
+
+# Learning objectives
 
 This course gives you an introduction to material and substance flow analysis (MFA and SFA) using the free software STAN. The course consists of self-study, individual exercises, group exercises, lectures and coaching by FHNW lecturers.
 

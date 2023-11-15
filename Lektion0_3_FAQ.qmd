@@ -1,6 +1,4 @@
----
-title: "FAQ"
----
+# FAQ
 
 ## Installation von STAN
 

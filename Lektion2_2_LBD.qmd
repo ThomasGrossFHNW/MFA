@@ -1,6 +1,4 @@
----
-title: "Learning-by-doing"
----
+# Learning by doing
 
 ## Ziel
 
