@@ -40,19 +40,28 @@ website:
       contents:
       - section: "Überblick"
         contents:
-          - Lektion0_1_Lernziele.qmd
-          - Lektion0_2_Software.qmd
-          - Lektion0_3_FAQ.qmd
+          - href: Lektion0_1_Lernziele.qmd
+            text: Lernziele
+          - href: Lektion0_2_Software.qmd
+            text: Software
+          - href: Lektion0_3_FAQ.qmd
+            text: FAQ
       - section: "Einführung"
         contents:
-          - Lektion1_1_Grundlagen.qmd
-          - Lektion1_2_LBD.qmd
-          - Lektion1_3_Workshop.qmd
+          - href: Lektion1_1_Grundlagen.qmd
+            text: Grundlagen
+          - href: Lektion1_2_LBD.qmd
+            text: Learning by doing
+          - href: Lektion1_3_Workshop.qmd
+            text: Workshop
       - section: "Bilanzierung"
         contents:
-          - Lektion2_1_Bilanzierung.qmd
-          - Lektion2_2_LBD.qmd
-          - Lektion2_3_Workshop.qmd
+          - href: Lektion2_1_Bilanzierung.qmd
+            text: Bilanzierung
+          - href: Lektion2_2_LBD.qmd
+            text: Learning by doing
+          - href: Lektion2_3_Workshop.qmd
+            text: Workshop
 
 format:
   html:
