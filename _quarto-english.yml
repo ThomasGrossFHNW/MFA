@@ -17,7 +17,7 @@ website:
       
   
 #Webside Organisation
-  title: "Tools für NRM"
+  title: "Tools for NRM"
   navbar:
     background: dark
     left:
@@ -34,21 +34,21 @@ website:
         text: English
 
   sidebar:
-    - titel: "Lektionen"
+    - titel: "Lessons"
       style: "docked"
       background: info
       contents:
-      - section: "Überblick"
+      - section: "Overview"
         contents:
           - Lektion0_1_Lernziele.qmd
           - Lektion0_2_Software.qmd
           - Lektion0_3_FAQ.qmd
-      - section: "Einführung"
+      - section: "Introduction"
         contents:
           - Lektion1_1_Grundlagen.qmd
           - Lektion1_2_LBD.qmd
           - Lektion1_3_Workshop.qmd
-      - section: "Bilanzierung"
+      - section: "Mathematical modelling"
         contents:
           - Lektion2_1_Bilanzierung.qmd
           - Lektion2_2_LBD.qmd

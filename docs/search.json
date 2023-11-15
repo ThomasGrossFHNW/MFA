@@ -24,45 +24,45 @@
   {
     "objectID": "Lektion2_1_Bilanzierung.html",
     "href": "Lektion2_1_Bilanzierung.html",
-    "title": "Gleichungssysteme und Ebenen",
+    "title": "Systems of equations and layers",
     "section": "",
     "text": "Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Schweizer Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.\nFuttermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar.\nAls Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produkten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (113 Tonnen Stockstoff pro Jahr).\nDie Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (BAFU 2013).\n\n\n\nStickstoffflüsse in der Landwirtschaft (vereinfacht auf BAFU 2013)",
     "crumbs": [
       "Bilanzierung",
-      "Gleichungssysteme und Ebenen"
+      "Systems of equations and layers"
     ]
   },
   {
     "objectID": "Lektion2_1_Bilanzierung.html#einführung",
     "href": "Lektion2_1_Bilanzierung.html#einführung",
-    "title": "Gleichungssysteme und Ebenen",
+    "title": "Systems of equations and layers",
     "section": "",
     "text": "Um die Bilanzierung in MFA und SFA zu veranschaulichen, betrachten wir Stickstoffflüsse in der Schweizer Landwirtschaft. Insbesondere gehen wir auf Stickstoffflüsse in der Tierhaltung und im Pflanzenbau ein.\nFuttermittel- und Mineraldüngerimporte sind die grössten Import-Flüsse ins System. Die Aufnahme von im Inland angebauten Nutzpflanzen durch Nutztiere (131 Tonnen Stickstoff pro Jahr) und die Nutzung von Hofdüngern als organische Dünger (91 Tonnen Stickstoff pro Jahr) stellen die wesentlichen systeminternen Stickstoffflüsse zwischen der Tierhaltung und dem Pflanzenbau dar.\nAls Exportflüsse fallen neben den tierischen Produkten (35 Tonnen Stickstoff pro Jahr) und den pflanzlichen Produkten (11 Tonnen Stickstoff pro Jahr) auch grosse Emissionen an (113 Tonnen Stockstoff pro Jahr).\nDie Abbildung unten ist eine Vereinfachung aus der bereits thematisieren Studie zu Stickstoffflüssen in der Schweiz (BAFU 2013).\n\n\n\nStickstoffflüsse in der Landwirtschaft (vereinfacht auf BAFU 2013)",
     "crumbs": [
       "Bilanzierung",
-      "Gleichungssysteme und Ebenen"
+      "Systems of equations and layers"
     ]
   },
   {
     "objectID": "Lektion2_1_Bilanzierung.html#gleichungssysteme",
     "href": "Lektion2_1_Bilanzierung.html#gleichungssysteme",
-    "title": "Gleichungssysteme und Ebenen",
+    "title": "Systems of equations and layers",
     "section": "Gleichungssysteme",
     "text": "Gleichungssysteme\nZur mathematischen Beschreibung von MFA- und SFA-Systemen sind das Massen- und Energieerhaltungsgesetz, lineare Beziehungen zwischen In- und Outputflüssen sowie Konzentrationsverhältnisse wichtig.\nFür jeden Prozess stellt STAN eine Bilanzgleichung pro Zeiteinheit auf welche das Massen-und Energieerhaltungsgesetz erfüllt. Somit muss die Summe der Inputs der Summe der Outputs und allfälligen Lageränderungen entsprechen. Beispiel: Summe Inputs in den Prozess Tierhaltung = 167 Kilotonnen (kt) Stickstoff (N) pro Jahr = Summe Outputs aus dem Prozess Tierhaltung.\n\n\n\n\n\nTransferkoeffizienten drücken eine lineare Beziehung zwischen In- und Outputflüssen eines Prozesses aus. So könnte man die Transferkoeffizienten des Prozesses Tierhaltung als Prozentwerte der Inputs darstellen:\n\n21% der Stickstoffinputs gehen in Produkte\n25% gehen in Emissionen über\n54% gehen in Hofdünger\n\n\n\n\n\n\nDer Prozess Tierhaltung stellt eine “Blackbox” über ein sehr viel komplexeres System dar. Diese Vereinfachung ist sinnvoll, um beispielsweise die Grössenordnung verschiedener Prozesse und Flüsse darzustellen.\nKonzentrationsgleichungen stellen eine Beziehung her zwischen der Konzentration eines Stoffs innerhalb eines Guts (oder Materials) und dessen Masse oder Volumen. Wenn wir beispielsweise annehmen, dass Bioabfälle 0.5% Stickstoff enthalten, so können wir aufgrund der Materialflüsse (z.B. Tonnen pro Jahr) die Masse an Stickstoff berechnen. Konzentrationsgleichungen können folgendermassen formuliert werden (STAN 2022, online verfügbar nach Registration auf Webpage):\n\nMasse (Stoff) = Masse (Gut) * Konzentration (Stoff in Gut)\nMasse (Stoff) = Volumen (Gut) * Konzentration (Stoff in Gut)\nMasse (Gut) = Volumen (Gut) * Dichte (Gut)",
     "crumbs": [
       "Bilanzierung",
-      "Gleichungssysteme und Ebenen"
+      "Systems of equations and layers"
     ]
   },
   {
     "objectID": "Lektion2_1_Bilanzierung.html#ebenen",
     "href": "Lektion2_1_Bilanzierung.html#ebenen",
-    "title": "Gleichungssysteme und Ebenen",
+    "title": "Systems of equations and layers",
     "section": "Ebenen",
     "text": "Ebenen\nIn der ersten Lektion haben wir die Materialflüsse im Abfallmanagement einer Gemeinde simuliert. Wir können darauf basierend zusätzlich Stoffebenen und eine Energieebene zufügen. Beispiele von Stoffen in Bioabfall sind Pflanzennährstoffe wie Stickstoff (N), Phosphor (P) und Kalium (K), sowie Mikronährstoffe (z.B. Kupfer und Zink) oder Schadstoffe (z.B. Cadmium, Mikroplastik).\nIm Learning-by-doing dieser Lektion erstellen wir eine Stickstoff-Ebene im MFA/SFA-System des Abfallmanagements einer Gemeinde.",
     "crumbs": [
       "Bilanzierung",
-      "Gleichungssysteme und Ebenen"
+      "Systems of equations and layers"
     ]
   },
   {
@@ -192,56 +192,56 @@
   {
     "objectID": "Lektion1_1_Grundlagen.html",
     "href": "Lektion1_1_Grundlagen.html",
-    "title": "Grundlagen",
+    "title": "Basics",
     "section": "",
     "text": "Die Material- und Stoffflussanalyse (MFA und SFA) ist eine naturwissenschaftliche Methode, um Materialflüsse innerhalb von Systemen zu erfassen, zu beschreiben, darzustellen und zu interpretieren (Baccini & Bader 1996). Beispiele von Massenflussanalysen sind:\n\nOrganische Verluste aus der Lebensmittelindustrie in der Schweiz (Moserberger et al. 2016): Die Studie zeigt Lebensmittelverluste in der Schweizer Lebensmittelindustrie. Ca. 20% der verarbeiteten Lebensmittel gehen nicht in Produkte, sondern werden als Lebensmittelverluste ausgeschieden. Gemäss der Studie wären drei Viertel dieser Lebensmittelverluste vermeidbar.\nHaben wir die richtigen Indikatoren für die Kreislaufwirtschaft - Einblick in das Schweizer Abfallwirtschaftssystem (Haupt et al. 2016): Die MFA des Schweizer Abfallmanagements zeigt, dass die Hälfte der kommunalten Feststoffabfälle rezyliert werden. Der Rest geht in Kehrichtverbrennungsanlagen. Die Studie geht detailliert auf die Recyclingmodelle verschiederen Stoffe wie Glas, PET und Metalle ein. Sie zeigt, dass Sammelquoten nicht ausreichend sind, um die Nachhaltigkeit einer Kreislaufwirtschaft zu quantifizieren, da sie keine Aussage darüber macht, ob die gesammelten Abfälle verwertet werden und in welcher Form sie wieder in den Wirtschaftskreislauf rückgeführt werden.\nMaterialflussanalysen biogener Abfälle in Indien (Gross et al. 2021): Die Studie stellt Materialflussanalysen des Abfallmanagements in indischen Gemeinden dar und diskutiert Möglichkeiten zur Verwertung biogener Abfälle mittels anaerober Vergärung.\n\nMithilfe von Stoffflussanalysen (SFA) lassen sich analog bestimmte Stoffe durch ein System verfolgen.\nMFA und SFA finden in vielen Bereichen Anwendung, z.B. in der Chemie und im Ingenieurwesen, bei Produktionsprozessen, in der Wirtschaft (Baccini & Bader 1996). MFA/SFA kann somit für eine Vielzahl von Anwendungen und Fragestellungen herangezogen werden, u.a.:\n\nMassen- und Stoffströme quantifizieren und darstellen\nMathematische Modellierung von Systemen zur Analyse des Ist-Zustandes und zur Abschätzung der zeitlichen Entwicklung unter verschiedenen Handlungsoptionen (Szenarienanalyse)\nIn Kombination mit Lebenszyklusanalysen (LCAs) können Umweltauswirkungen verschiedener Optionen verglichen werden, zum Beispiel im Abfallmanagement der Schweiz (Haupt et al. 2018)\nBeitrag zum Systemverständnis verschiedener Akteure\nInput in Planung technischer Lösungen\nBeitrag zur Stakeholderanalyse, z.B. entlang von Wertschöpfungsketten",
     "crumbs": [
       "Einführung",
-      "Grundlagen"
+      "Basics"
     ]
   },
   {
     "objectID": "Lektion1_1_Grundlagen.html#was-ist-material--und-stoffflussanalyse",
     "href": "Lektion1_1_Grundlagen.html#was-ist-material--und-stoffflussanalyse",
-    "title": "Grundlagen",
+    "title": "Basics",
     "section": "",
     "text": "Die Material- und Stoffflussanalyse (MFA und SFA) ist eine naturwissenschaftliche Methode, um Materialflüsse innerhalb von Systemen zu erfassen, zu beschreiben, darzustellen und zu interpretieren (Baccini & Bader 1996). Beispiele von Massenflussanalysen sind:\n\nOrganische Verluste aus der Lebensmittelindustrie in der Schweiz (Moserberger et al. 2016): Die Studie zeigt Lebensmittelverluste in der Schweizer Lebensmittelindustrie. Ca. 20% der verarbeiteten Lebensmittel gehen nicht in Produkte, sondern werden als Lebensmittelverluste ausgeschieden. Gemäss der Studie wären drei Viertel dieser Lebensmittelverluste vermeidbar.\nHaben wir die richtigen Indikatoren für die Kreislaufwirtschaft - Einblick in das Schweizer Abfallwirtschaftssystem (Haupt et al. 2016): Die MFA des Schweizer Abfallmanagements zeigt, dass die Hälfte der kommunalten Feststoffabfälle rezyliert werden. Der Rest geht in Kehrichtverbrennungsanlagen. Die Studie geht detailliert auf die Recyclingmodelle verschiederen Stoffe wie Glas, PET und Metalle ein. Sie zeigt, dass Sammelquoten nicht ausreichend sind, um die Nachhaltigkeit einer Kreislaufwirtschaft zu quantifizieren, da sie keine Aussage darüber macht, ob die gesammelten Abfälle verwertet werden und in welcher Form sie wieder in den Wirtschaftskreislauf rückgeführt werden.\nMaterialflussanalysen biogener Abfälle in Indien (Gross et al. 2021): Die Studie stellt Materialflussanalysen des Abfallmanagements in indischen Gemeinden dar und diskutiert Möglichkeiten zur Verwertung biogener Abfälle mittels anaerober Vergärung.\n\nMithilfe von Stoffflussanalysen (SFA) lassen sich analog bestimmte Stoffe durch ein System verfolgen.\nMFA und SFA finden in vielen Bereichen Anwendung, z.B. in der Chemie und im Ingenieurwesen, bei Produktionsprozessen, in der Wirtschaft (Baccini & Bader 1996). MFA/SFA kann somit für eine Vielzahl von Anwendungen und Fragestellungen herangezogen werden, u.a.:\n\nMassen- und Stoffströme quantifizieren und darstellen\nMathematische Modellierung von Systemen zur Analyse des Ist-Zustandes und zur Abschätzung der zeitlichen Entwicklung unter verschiedenen Handlungsoptionen (Szenarienanalyse)\nIn Kombination mit Lebenszyklusanalysen (LCAs) können Umweltauswirkungen verschiedener Optionen verglichen werden, zum Beispiel im Abfallmanagement der Schweiz (Haupt et al. 2018)\nBeitrag zum Systemverständnis verschiedener Akteure\nInput in Planung technischer Lösungen\nBeitrag zur Stakeholderanalyse, z.B. entlang von Wertschöpfungsketten",
     "crumbs": [
       "Einführung",
-      "Grundlagen"
+      "Basics"
     ]
   },
   {
     "objectID": "Lektion1_1_Grundlagen.html#elemente-einer-mfa-bzw.-sfa",
     "href": "Lektion1_1_Grundlagen.html#elemente-einer-mfa-bzw.-sfa",
-    "title": "Grundlagen",
+    "title": "Basics",
     "section": "Elemente einer MFA bzw. SFA",
     "text": "Elemente einer MFA bzw. SFA\nFolgende Elemente sind in einer MFA bzw. SFA enthalten (Baccini & Bader 1996):\n\nStoffe sind chemischen Grundbausteine (Elemente oder chemische Verbindungen) aus denen sich Güter, Flüsse und/oder Lager zusammensetzen\nGüter sind Stoffe oder Stoffgemische, die vom Menschen wirtschaftlich bewertete Funktionen erfüllen z.B. Smartphones oder Trinkwasser (positiver Wert) oder nicht genutztes Abwasser (negativer Wert). Stoffe sind die chemischen Grundbausteine, während Güter die Stoffe oder Stoffgemische sind, die einen wirtschaftlichen Wert haben und vom Menschen für bestimmte Zwecke verwendet werden. Güter können also aus verschiedenen Stoffen bestehen und werden entsprechend ihrer wirtschaftlichen Bedeutung bewertet und verwendet.\nMaterial ist ein allgemeiner übergeordneter Begriff für Güter und Stoffe (Materialflussanalyse als verallgemeinernder Begriff für Stoffflussanalyse)\nProzesse stehen für Eingriffe wie Transport, Umwandlung, Lagerung und Wertveränderungen von Stoffen oder Gütern, z.B. Transport, Umwandlung, Lagerung und Wertveränderungen\nLager bezeichnen den Bestand von Stoffen oder Gütern innerhalb eines Systems, z.B. auf einer Restmülldeponie oder ein Kompostlager\nFlüsse sind pro Zeiteinheit zwischen zwei Prozessen verschobene Stoffe oder Güter\nDie Systemgrenze definiert, welche Daten räumlich und zeitlich in die Analyse einfliessen. Räumlich meint hierbei unter anderem die physische oder logistische Ausdehnung eines Unternehmens oder eine Landesgrenze. Zeitlich kann sich z.B, auf ein konkretes Geschäftsjahr beziehen.",
     "crumbs": [
       "Einführung",
-      "Grundlagen"
+      "Basics"
     ]
   },
   {
     "objectID": "Lektion1_1_Grundlagen.html#schritte-zum-modellieren-einer-mfa-bzw.-sfa",
     "href": "Lektion1_1_Grundlagen.html#schritte-zum-modellieren-einer-mfa-bzw.-sfa",
-    "title": "Grundlagen",
+    "title": "Basics",
     "section": "Schritte zum Modellieren einer MFA bzw. SFA",
     "text": "Schritte zum Modellieren einer MFA bzw. SFA\nIhre Modellierung von MFA bzw. SFA lässt sich grob in vier Hauptschritten zusammenfassen:\n\nDefinition des Systems: In diesem ersten Schritt wird das System konzeptualisiert. Dieses ist durch Prozesse, Güter, mindestens einen Stoff sowie eine Systemgrenze beschrieben. Oftmals geschieht die Systemdefinition durch einen iterativen Prozess im Austausch mit Projektpartnern bzw. Akteuren des zu untersuchenden Systems.\nBestimmung der Material-/Stoffflüsse: In diesem Schritt werden die Daten erhoben, insbesondere die Güterflüsse, die Konzentration von Stoffen sowie Lagerbestände. Die Daten können gemessen werden und müssen oftmals durch Literaturangaben und/oder Schätzungen ergänzt werden.\nSimulation der Massen- und Stoffflüsse: Wir nutzen hierzu die Software STAN.\nAnalyse, Diskussion und Kommunikation: Das System wird dargestellt, plausibilisiert und es werden Sensitivitäts- und Unsicherheitsanalysen durchgeführt. Wichtig ist in diesem Schritt die Diskussion und kritische Reflexion der Ergebnisse sowie im Anschluss die Kommunikation z.B. durch Publikationen oder Vorträge.",
     "crumbs": [
       "Einführung",
-      "Grundlagen"
+      "Basics"
     ]
   },
   {
     "objectID": "Lektion1_1_Grundlagen.html#anwendungsbeispiel-stickstoffflüsse-in-der-schweiz",
     "href": "Lektion1_1_Grundlagen.html#anwendungsbeispiel-stickstoffflüsse-in-der-schweiz",
-    "title": "Grundlagen",
+    "title": "Basics",
     "section": "Anwendungsbeispiel: Stickstoffflüsse in der Schweiz",
     "text": "Anwendungsbeispiel: Stickstoffflüsse in der Schweiz\nNachfolgend sollen am Beispiel der Stickstoffflüsse in der Schweiz die Möglichkeiten und Anwendungen einer Stoffflussanalyse aufgezeigt werden. In einer Studie zuhanden des Bundesamtes für Umwelt (BAFU 2013) wurde die Entwicklung der Stickstoffflüsse in der Schweiz bis 2020 im Rahmen einer Stoffflusssanalyse analysiert. Es wurden verschiedene Szenarien untersucht, darunter ein Basisszenario und drei Wenn-Dann-Analysen, die mögliche politische und gesellschaftliche Entwicklungen abbilden.\n\n\n\nStickstoff-Flüsse im Jahr 2020 (aus: BAFU 2013)\n\n\nBitte lesen Sie in dem angesprochenen Bericht die Zusammenfassung und betrachten Sie Abbildung 8. Beantworten bzw. diskutieren Sie die folgenden Fragen:\n\nWelche Prozesse werden in Abbildung 8 dargestellt?\nWelches sind die grössten Importflüsse von Stickstoff in die Schweiz? Welches sind die grössten Exportflüsse?\nWas sind die wichtigsten Treiber für Stickstoffflüsse in der Schweiz?",
     "crumbs": [
       "Einführung",
-      "Grundlagen"
+      "Basics"
     ]
   },
   {
