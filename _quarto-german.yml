@@ -28,9 +28,9 @@ website:
       - text: "Home" 
         file: index.qmd
     right:
-      - href: ../de
+      - href: https://thomasgrossfhnw.github.io/MFA
         text: Deutsch
-      - href: ../en
+      - href: https://thomasgrossfhnw.github.io/MFA/en
         text: English
 
   sidebar:
