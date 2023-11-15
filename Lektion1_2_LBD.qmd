@@ -1,3 +1,4 @@
+::: {.content-visible when-profile="german"}
 ---
 title: "Learning-by-doing"
 ---
@@ -98,7 +99,7 @@ Sie können die Pfeildicke der Flüsse im Regler des Sankey-Diagramms (grüner P
 
 ### 7. Transferkoeffizienten eingeben
 
-Ein Transferkoeffizient (TK) gibt an, welcher Anteil eines bestimmten Input-Flusses in einen Prozess einem Output-Fluss des gleichen Prozesses zugewiesen wird.
+Ein Transferkoeffizient gibt an, welcher Anteil eines bestimmten Input-Flusses in einen Prozess einem Output-Fluss des gleichen Prozesses zugewiesen wird.
 
 Wir geben zunächst die Transferkoeffizienten für die Kehrichtverbrennung ein. Sie können davon ausgehen, dass rund 10% der Inputmasse zu Asche wird und 90% als Abgase entweicht.
 
@@ -141,5 +142,152 @@ Nun sind alle wichtigen Rechengrössen zum Berechenen des Models eingegeben. Kli
 Prüfen Sie die Systemmeldungen, welche Informationen, Warnungen und Fehler enthalten können. Sollten Fehler auftauchen, versuchen Sie diese aufgrund der Fehlermeldung zu korrigieren und rechnen Sie das Modell danach neu.
 
 ![Die hier gezeigten Systemmeldungen sind rein informativ und weisen nicht auf Fehler hin](images/Lektion_1_2_13.png)
+:::
 
-### 
+::: {.content-visible when-profile="english"}
+---
+title: "Learning-by-doing"
+---
+
+## Goal
+
+We model the waste management of a municipality with ca. 10,000 inhabitants over the course of a year.
+
+The municipality's current waste management system consists of municipal waste collection with waste incineration without separate collection of biogenic waste ("biowaste"). Each person produces approx. 700 kg of municipal waste per year. 60% of municipal waste (mass) is biogenic (biodegradable). The municipality already has an anaerobic digestion plant ("biogas plant"), which treats 9,000 tons of green waste (cuttings) and 2,000 tons of farmyard manure from several municipalities. We will first model the current system in STAN step by step (figure).
+
+Then, in the workshop part, we will model options for additional separate collection of municipal biowaste.
+
+![](images/Lektion_1_2_1.png)
+
+## Approach
+
+### 1. Install STAN, open and save
+
+Install STAN, you find further information [here](Lektion0_2_Software.qmd).
+
+Open STAN and save the project in a suitable folder. A file with the project extension .zmfa is generated. You should regularly save your project, as STAN does not do this automatically.
+
+### 2. Navigation and user interface
+
+Familiarize yourself with the STAN user interface.
+
+![](images/Lektion_1_2_2.png)
+
+1.  **Menu bar:** Commands for editing and control can be called up in the menu bar.
+2.  **Toolbar:** The most important commands are displayed graphically.
+3.  **Model explorer:** Displays processes, flows and subsystems in a tree structure.
+4.  **Diagram symbols:** The building blocks for creating an MFA, which are selected by clicking with the mouse and then inserted in the drawing area. If you remain with the mouse pointer over the symbols, the symbol type (e.g. process) is displayed.
+5.  **Drawing area:** The MFA model is created here.
+6.  **Properties:** In the System properties window, the selected processes, flows and other fields of the MFA are edited and customized. This includes graphical parameters and values.
+7.  **System messages:** Error messages and information are specified in this window.
+
+All windows can be adjusted in size and moved and arranged modularly like tiles.
+
+### 3. The first process
+
+Now draw the municipal waste collection as the first process (you can also start with any other process). To do this, select the P icon (highlighted in green) in the toolbar and draw a rectangle ("Process 1").
+
+![](images/Lektion_1_2_3.png)
+
+Name the process "Municipal waste collection". To do this, select the process and change the name in the Process properties window.
+
+![](images/Lektion_1_2_4.png)
+
+### 4. Further processes and process with a stock
+
+Now expand the MFA with additional processes.
+
+Add the "Waste incineration" and "Ash treatment (fly and bottom ash)" processes to the right of the "Municipal waste collection" process. Below the "Ash treatment (fly and bottom ash)", add the "Landfill" process.
+
+To the left of the "Municipal waste collection" process, add the "Disposal by households and small businesses" process. We will use this process later to simulate the separation of biowaste and non-biodegradable residual waste. In the status quo model, 100% of the biowaste goes to municipal waste collection.
+
+If necessary, you can move, reduce and increase the size of the processes.
+
+The landfill represents a store that fills up over time. Therefore, select the "Landfill" process and place a checkmark next to Storage in the process properties.
+
+![](images/Lektion_1_2_5.png)
+
+### 5. Draw flows
+
+Now draw the first flows between the processes.
+
+First, you can draw the import flow "Non-biodegradable waste" from the far left to the process "Disposal by households and small businesses". The import flow crosses the system boundary, i.e. from processes that are not of interest to us in the question (e.g. consumption of goods) and are outside the system boundary to the first process within the system boundary.
+
+![](images/Lektion_1_2_6.png)
+
+Now connect the processes with flows as shown in the figure below. Flows between processes are not import flows but "normal" flows within the system boundary.
+
+![](images/Lektion_1_2_7.png)
+
+Starting with "Ash treatment (fly and bottom ash)", you now create "Metal recycling" as the first export flow. This is the recovered metal from ash treatment that is fed into recycling processes. We are not interested in these recycling processes here, as we are dealing with biogenic waste. Therefore, recycling processes for metal are outside the system boundary in this specific case.
+
+Once all flows have been drawn, you can now name all flows using the Flow properties window.
+
+You can also change the color of the flows via the Flow properties window in the "Symbol" tab (see next figure)
+
+![](images/Lektion_1_2_7b.png){fig-align="center" width="369"}
+
+Now add all processes and flows until your model looks like this.
+
+![](images/Lektion_1_2_8.png)
+
+### 6. Input values for the mass flow analysis
+
+From the description of the municipality's waste management, you know, among other things, the amount of biowaste and non-biodegradable waste generated per year. Enter the values in the import flows. Use tons per year (t/a) as the unit.
+
+To do this, click on the import flow to be edited and then click on values in the properties window (green box in the right-hand part of the figure below). This is a mass flow.
+
+The amount of waste (mass) per year is never known exactly. You therefore have the option of entering an uncertainty (+/-). We assume an uncertainty of 20% here, i.e. +/- 10%. We will go into the uncertainty analysis in more detail later.
+
+You can adjust the arrow thickness of the flows in the slider of the sankey diagram (green arrow in the figure below). You can also make all mass flows appear equally thick ("sankey display of flows (on/off)").
+
+![](images/Lektion_1_2_9.png)
+
+### 7. Transfer coefficients
+
+A transfer coefficient indicates what proportion of a certain input flow into a process is allocated to an output flow of the same process.
+
+We first enter the transfer coefficients for waste incineration. You can assume that around 10% of the input mass becomes ash and 90% is emitted as smoke/gasses.
+
+1)  Select the process "Waste incineration".
+
+<!-- -->
+
+2.  Select "Edit process" from the context menu of the process (right-click).
+
+3.  You can enter the transfer coefficients directly in the individual cells. You can choose between an entry as a number between 0 and 1 (e.g. 0,9) or an entry as a percentage (e.g. 90%). In our example, enter 0,9 in the direction of "Exhaust gases" and 0.1 in the direction of "Ash". Decimal values must be separated by a comma or point, depending on your system settings.
+
+4.  Data uncertainties of the transfer coefficients (as standard deviation of an assumed normal distribution) can be entered directly after the value separated by the character string "+-" (e.g. 0,90+-0,045 or 90%+-4,5%)
+
+5.  Click OK or Apply.
+
+**Transfer coefficients should be entered for all processes. If transfer coefficients are missing in individual processes, this can be a possible reason for error messages.**
+
+You can use the following assumptions:
+
+-   Waste incineration: 90% of the input mass becomes smoke/gases, 10% becomes ash
+
+-   Ash treatment: 90% of the input mass is landfilled, 10% goes to metal recycling
+
+-   Anaerobic digestion: 10% of the input mass becomes biogas, 80% becomes digestate and 10% are losses
+
+![Transfer coefficients](images/Lektion_1_2_10.png)
+
+### 8. System boundary
+
+Now draw the geographical system boundary. To do this, click on the System boundary icon and position the system boundary so that all starting points of the import and export flows are outside the system boundary and all processes and internal system flows are inside the system boundary.
+
+![](images/Lektion_1_2_11.png)
+
+### 9. Calculate
+
+All the important parameters for calculating the model have now been entered. Click on the calculate icon in the toolbar.
+
+![](images/Lektion_1_2_12.png)
+
+### 10. Check system messages
+
+Check the system messages, which may contain information, warnings and errors. If errors occur, try to correct them based on the error message and then recalculate the model.
+
+![The system messages shown here are purely informative and do not indicate errors](images/Lektion_1_2_13.png)
+:::

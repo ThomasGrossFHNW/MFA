@@ -1,3 +1,4 @@
+::: {.content-visible when-profile="german"}
 ---
 title: "Software"
 ---
@@ -6,7 +7,7 @@ title: "Software"
 
 ### Was ist STAN?
 
-In diesem Kurs nutzen wir die gratis verfügbare Software STAN. STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.
+In diesem Kurs nutzen wir die gratis verfügbare Software STAN. STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen u.a. in Firmen, von Behörden sowie für Studienszwecke eingesetzt.
 
 STAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.
 
@@ -29,3 +30,30 @@ Falls Sie Probleme mit der Installation haben, schauen Sie unter Installation vo
 -   Das STAN-Benutzerhandbuch ist über <https://www.stan2web.net/downloads/documentation> nach Registration auf der Website verfügbar. Zudem finden Sie die Benutzeranleitung in Moodle.
 
 -   Zu verschiedenen Themen gibt es hilfreiche Video-Tutorials über STAN: <https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi>
+:::
+
+::: {.content-visible when-profile="english"}
+## STAN - subSTance flow ANalysis
+
+### What is STAN?
+
+In this course we use the free STAN software. STAN (subSTance flow ANalysis) is used for modelling and visualizing material flow analyses by companies, government agencies and academic users.
+
+STAN enables the modelling of systems which are composed of processes, flows and system boundaries. Different levels can be defined, such as goods, materials and energy. The flows can be displayed in such a way that their width is proportional to their value, which enables intuitive visual evaluation (e.g. which are the most important flows?).
+
+### Installation
+
+STAN works only on Windows, but see work around below. You can get and use STAN as follows:
+
+-   **Version 1:** Download the software from [www.stan2web.net](http://www.stan2web.net/) (you have to register on the website).
+
+-   **Version 2:** If the registration and/or download do not work, you find the installation file on Moodle.
+
+-   **Version 3:** You can run STAN also on the Citrix Workspace within the FHNW network. You found information about Citrix [here](https://help.fhnw.ch/1304/citrix-installieren-aktivieren/#F%C3%BCr+Studenten) (in German).
+
+## Anleitungen und Tutorials
+
+-   The STAN manual is available on [https://www.stan2web.net/downloads/documentation](#0){.uri} after registration on the STAN website.
+
+-   You also find useful video tutorials here: <https://www.stan2web.net/support/videos>
+:::

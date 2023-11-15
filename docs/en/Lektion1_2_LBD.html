@@ -234,20 +234,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ziel" id="toc-ziel" class="nav-link active" data-scroll-target="#ziel">Ziel</a></li>
-  <li><a href="#vorgehen" id="toc-vorgehen" class="nav-link" data-scroll-target="#vorgehen">Vorgehen</a>
+  <li><a href="#goal" id="toc-goal" class="nav-link active" data-scroll-target="#goal">Goal</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
   <ul class="collapse">
-  <li><a href="#stan-installieren-öffnen-und-speichern" id="toc-stan-installieren-öffnen-und-speichern" class="nav-link" data-scroll-target="#stan-installieren-öffnen-und-speichern">1. STAN installieren, öffnen und speichern</a></li>
-  <li><a href="#navigation-und-benutzeroberfläche" id="toc-navigation-und-benutzeroberfläche" class="nav-link" data-scroll-target="#navigation-und-benutzeroberfläche">2. Navigation und Benutzeroberfläche</a></li>
-  <li><a href="#der-erste-prozess" id="toc-der-erste-prozess" class="nav-link" data-scroll-target="#der-erste-prozess">3. Der erste Prozess</a></li>
-  <li><a href="#weitere-prozesse-und-prozess-mit-lager" id="toc-weitere-prozesse-und-prozess-mit-lager" class="nav-link" data-scroll-target="#weitere-prozesse-und-prozess-mit-lager">4. Weitere Prozesse und Prozess mit Lager</a></li>
-  <li><a href="#flüsse-zeichnen" id="toc-flüsse-zeichnen" class="nav-link" data-scroll-target="#flüsse-zeichnen">5. Flüsse zeichnen</a></li>
-  <li><a href="#eingabe-der-werte-für-die-materialflüsse" id="toc-eingabe-der-werte-für-die-materialflüsse" class="nav-link" data-scroll-target="#eingabe-der-werte-für-die-materialflüsse">6. Eingabe der Werte für die Materialflüsse</a></li>
-  <li><a href="#transferkoeffizienten-eingeben" id="toc-transferkoeffizienten-eingeben" class="nav-link" data-scroll-target="#transferkoeffizienten-eingeben">7. Transferkoeffizienten eingeben</a></li>
-  <li><a href="#systemgrenze" id="toc-systemgrenze" class="nav-link" data-scroll-target="#systemgrenze">8. Systemgrenze</a></li>
-  <li><a href="#berechnen" id="toc-berechnen" class="nav-link" data-scroll-target="#berechnen">9. Berechnen</a></li>
-  <li><a href="#systemmeldungen-prüfen" id="toc-systemmeldungen-prüfen" class="nav-link" data-scroll-target="#systemmeldungen-prüfen">10. Systemmeldungen prüfen</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#install-stan-open-and-save" id="toc-install-stan-open-and-save" class="nav-link" data-scroll-target="#install-stan-open-and-save">1. Install STAN, open and save</a></li>
+  <li><a href="#navigation-and-user-interface" id="toc-navigation-and-user-interface" class="nav-link" data-scroll-target="#navigation-and-user-interface">2. Navigation and user interface</a></li>
+  <li><a href="#the-first-process" id="toc-the-first-process" class="nav-link" data-scroll-target="#the-first-process">3. The first process</a></li>
+  <li><a href="#further-processes-and-process-with-a-stock" id="toc-further-processes-and-process-with-a-stock" class="nav-link" data-scroll-target="#further-processes-and-process-with-a-stock">4. Further processes and process with a stock</a></li>
+  <li><a href="#draw-flows" id="toc-draw-flows" class="nav-link" data-scroll-target="#draw-flows">5. Draw flows</a></li>
+  <li><a href="#input-values-for-the-mass-flow-analysis" id="toc-input-values-for-the-mass-flow-analysis" class="nav-link" data-scroll-target="#input-values-for-the-mass-flow-analysis">6. Input values for the mass flow analysis</a></li>
+  <li><a href="#transfer-coefficients" id="toc-transfer-coefficients" class="nav-link" data-scroll-target="#transfer-coefficients">7. Transfer coefficients</a></li>
+  <li><a href="#system-boundary" id="toc-system-boundary" class="nav-link" data-scroll-target="#system-boundary">8. System boundary</a></li>
+  <li><a href="#calculate" id="toc-calculate" class="nav-link" data-scroll-target="#calculate">9. Calculate</a></li>
+  <li><a href="#check-system-messages" id="toc-check-system-messages" class="nav-link" data-scroll-target="#check-system-messages">10. Check system messages</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -274,122 +273,124 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="ziel" class="level2">
-<h2 class="anchored" data-anchor-id="ziel">Ziel</h2>
-<p>Wir modellieren das Abfallmanagement einer Gemeinde mit ca. 10’000 Einwohnern über ein Jahr.</p>
-<p>Das derzeitige Abfallmanagement der Gemeinde besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle (“Bioabfälle”). Pro Person fallen ca. 700 kg Siedlungsabfälle pro Jahr an. 60% der Siedlungsabfälle (Masse) ist biogen (biologisch abbaubar). In der Gemeinde besteht bereits eine anaerobe Vergärungsanlage (“Biogasanlage”), welche 9’000 Tonnen Grünabfälle (Schnittgut) und 2’000 Tonnen Hofdünger mehrerer Gemeinden behandelt. Wir werden zunächst Schritt für Schritt das derzeitige System in STAN modellieren (Abbildung).</p>
-<p>Danach werden wir im Workshop-Teil Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall modellieren.</p>
+<section id="goal" class="level2">
+<h2 class="anchored" data-anchor-id="goal">Goal</h2>
+<p>We model the waste management of a municipality with ca. 10,000 inhabitants over the course of a year.</p>
+<p>The municipality’s current waste management system consists of municipal waste collection with waste incineration without separate collection of biogenic waste (“biowaste”). Each person produces approx. 700 kg of municipal waste per year. 60% of municipal waste (mass) is biogenic (biodegradable). The municipality already has an anaerobic digestion plant (“biogas plant”), which treats 9,000 tons of green waste (cuttings) and 2,000 tons of farmyard manure from several municipalities. We will first model the current system in STAN step by step (figure).</p>
+<p>Then, in the workshop part, we will model options for additional separate collection of municipal biowaste.</p>
 <p><img src="images/Lektion_1_2_1.png" class="img-fluid"></p>
 </section>
-<section id="vorgehen" class="level2">
-<h2 class="anchored" data-anchor-id="vorgehen">Vorgehen</h2>
-<section id="stan-installieren-öffnen-und-speichern" class="level3">
-<h3 class="anchored" data-anchor-id="stan-installieren-öffnen-und-speichern">1. STAN installieren, öffnen und speichern</h3>
-<p>Installieren Sie STAN, nähere Angaben finden Sie <a href="./Lektion0_2_Software.html">hier</a>.</p>
-<p>Öffnen Sie STAN und speichern Sie das Projekt in einem geeigneten Ordner. Es wird eine Datei mit der Projektendung .zmfa generiert. Machen Sie regelmässig Zwischenspeicherungen Ihrer Projekte, da STAN dies nicht automatisch macht.</p>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<section id="install-stan-open-and-save" class="level3">
+<h3 class="anchored" data-anchor-id="install-stan-open-and-save">1. Install STAN, open and save</h3>
+<p>Install STAN, you find further information <a href="./Lektion0_2_Software.html">here</a>.</p>
+<p>Open STAN and save the project in a suitable folder. A file with the project extension .zmfa is generated. You should regularly save your project, as STAN does not do this automatically.</p>
 </section>
-<section id="navigation-und-benutzeroberfläche" class="level3">
-<h3 class="anchored" data-anchor-id="navigation-und-benutzeroberfläche">2. Navigation und Benutzeroberfläche</h3>
-<p>Machen Sie sich zunächst mit der Benutzeroberfläche von STAN vertraut.</p>
+<section id="navigation-and-user-interface" class="level3">
+<h3 class="anchored" data-anchor-id="navigation-and-user-interface">2. Navigation and user interface</h3>
+<p>Familiarize yourself with the STAN user interface.</p>
 <p><img src="images/Lektion_1_2_2.png" class="img-fluid"></p>
 <ol type="1">
-<li><strong>Menüzeile:</strong> In der Menüzeile sind Befehle zur Bearbeitung und Steuerung aufrufbar.</li>
-<li><strong>Symbolleiste:</strong> Die wichtigsten Befehle grafisch dargestellt.</li>
-<li><strong>Modell-Explorer:</strong> Stellt Prozesse, Flüsse und Subsysteme in einer Baumstruktur dar.</li>
-<li><strong>Diagrammsymbole</strong>: Die Bausteine zur Erstellung einer MFA, welche mittels Mausklick angewählt werden, um sich danach im Zeichenbereich einzufügen. Wenn Sie mit dem Mauszeiger über den Symbolen bleiben, wird der Symboltyp (z.B. Prozess) angezeigt.</li>
-<li><strong>Zeichenbereich:</strong> Hier wird das MFA-Modell erstellt.</li>
-<li><strong>Eigenschaften:</strong> Im Fenster Systemeigenschaften werden die ausgewählten Prozesse, Flüsse und andere Felder der MFA bearbeitet und angepasst. Dies beinhaltet u.a. grafische Parameter und Werte.</li>
-<li><strong>Systemmeldungen:</strong> In diesem Fenster werden Fehlermeldungen und Informationen angegeben.</li>
+<li><strong>Menu bar:</strong> Commands for editing and control can be called up in the menu bar.</li>
+<li><strong>Toolbar:</strong> The most important commands are displayed graphically.</li>
+<li><strong>Model explorer:</strong> Displays processes, flows and subsystems in a tree structure.</li>
+<li><strong>Diagram symbols:</strong> The building blocks for creating an MFA, which are selected by clicking with the mouse and then inserted in the drawing area. If you remain with the mouse pointer over the symbols, the symbol type (e.g.&nbsp;process) is displayed.</li>
+<li><strong>Drawing area:</strong> The MFA model is created here.</li>
+<li><strong>Properties:</strong> In the System properties window, the selected processes, flows and other fields of the MFA are edited and customized. This includes graphical parameters and values.</li>
+<li><strong>System messages:</strong> Error messages and information are specified in this window.</li>
 </ol>
-<p>Alle Fenster können in der Größe angepasst und wie Kacheln modular verschoben und angeordnet werden. Sie können sich auch ein kurzes Erklärvideo <a href="https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi?playlistPosition=2&amp;resume=true">hier</a> anschauen.</p>
+<p>All windows can be adjusted in size and moved and arranged modularly like tiles.</p>
 </section>
-<section id="der-erste-prozess" class="level3">
-<h3 class="anchored" data-anchor-id="der-erste-prozess">3. Der erste Prozess</h3>
-<p>Nun zeichnen Sie als ersten Prozess die kommunale Abfallsammlung (Sie können grundsätzlich auch mit einem beliebigen anderen Prozess beginnen). Wählen Sie dazu in der Symbolleiste das Symbol P (grün markiert) aus und zeichnen Sie ein Rechteck (“Prozess 1”).</p>
+<section id="the-first-process" class="level3">
+<h3 class="anchored" data-anchor-id="the-first-process">3. The first process</h3>
+<p>Now draw the municipal waste collection as the first process (you can also start with any other process). To do this, select the P icon (highlighted in green) in the toolbar and draw a rectangle (“Process 1”).</p>
 <p><img src="images/Lektion_1_2_3.png" class="img-fluid"></p>
-<p>Benennen Sie den Prozess “Kommunale Abfallsammlung”. Wählen Sie dazu den Prozess aus und ändern Sie im Fenster Prozesseigenschaften den Namen.</p>
+<p>Name the process “Municipal waste collection”. To do this, select the process and change the name in the Process properties window.</p>
 <p><img src="images/Lektion_1_2_4.png" class="img-fluid"></p>
 </section>
-<section id="weitere-prozesse-und-prozess-mit-lager" class="level3">
-<h3 class="anchored" data-anchor-id="weitere-prozesse-und-prozess-mit-lager">4. Weitere Prozesse und Prozess mit Lager</h3>
-<p>Nun erweitern Sie die MFA mit weiteren Prozessen.</p>
-<p>Fügen Sie rechts des Prozesses “Kommunale Abfallsammlung” die Prozesse “Kehrichtverbrennung” und “Aschebehandlung (Flug- und Bodenasche)” ein. Unterhalb der “Aschebehandlung (Flug- und Bodenasche)” fügen Sie den Prozess “Deponie” ein.</p>
-<p>Fügen Sie links des Prozesses “Kommunale Abfallsammlung” den Prozess “Entsorgung durch Haushalte und Kleingewerbe” ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Bioabfall und nicht-biogenem Restabfall zu simulieren. Im IST-Modell gehen 100% des Bioafalls in die kommunale Abfallsammlung.</p>
-<p>Bei Bedarf können Sie die Prozesse verschieben, verkleinern und vergrössern.</p>
-<p>Die Deponie repräsentiert ein Lager, das sich über die Zeit füllt. Wählen Sie daher den Prozess “Deponie” aus und setzen Sie in den Prozesseigenschaften ein Häkchen bei Lager.</p>
+<section id="further-processes-and-process-with-a-stock" class="level3">
+<h3 class="anchored" data-anchor-id="further-processes-and-process-with-a-stock">4. Further processes and process with a stock</h3>
+<p>Now expand the MFA with additional processes.</p>
+<p>Add the “Waste incineration” and “Ash treatment (fly and bottom ash)” processes to the right of the “Municipal waste collection” process. Below the “Ash treatment (fly and bottom ash)”, add the “Landfill” process.</p>
+<p>To the left of the “Municipal waste collection” process, add the “Disposal by households and small businesses” process. We will use this process later to simulate the separation of biowaste and non-biodegradable residual waste. In the status quo model, 100% of the biowaste goes to municipal waste collection.</p>
+<p>If necessary, you can move, reduce and increase the size of the processes.</p>
+<p>The landfill represents a store that fills up over time. Therefore, select the “Landfill” process and place a checkmark next to Storage in the process properties.</p>
 <p><img src="images/Lektion_1_2_5.png" class="img-fluid"></p>
 </section>
-<section id="flüsse-zeichnen" class="level3">
-<h3 class="anchored" data-anchor-id="flüsse-zeichnen">5. Flüsse zeichnen</h3>
-<p>Nun zeichnen Sie die ersten Flüsse zwischen den Prozessen.</p>
-<p>Zunächst können Sie den Importfluss “Nicht-biogener Abfall” von ganz links hin zum Prozess “Entsorgung durch Haushalte und Kleingewerbe” ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsum von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.</p>
+<section id="draw-flows" class="level3">
+<h3 class="anchored" data-anchor-id="draw-flows">5. Draw flows</h3>
+<p>Now draw the first flows between the processes.</p>
+<p>First, you can draw the import flow “Non-biodegradable waste” from the far left to the process “Disposal by households and small businesses”. The import flow crosses the system boundary, i.e.&nbsp;from processes that are not of interest to us in the question (e.g.&nbsp;consumption of goods) and are outside the system boundary to the first process within the system boundary.</p>
 <p><img src="images/Lektion_1_2_6.png" class="img-fluid"></p>
-<p>Verbinden Sie nun die Prozesse mit Flüssen wie in der Abbildung unten dargestellt. Flüsse zwischen Prozessen sind keine Importflüsse sondern “normale” Flüsse innerhalb der Systemgrenze.</p>
+<p>Now connect the processes with flows as shown in the figure below. Flows between processes are not import flows but “normal” flows within the system boundary.</p>
 <p><img src="images/Lektion_1_2_7.png" class="img-fluid"></p>
-<p>Ausgehend von der “Aschebehandlung (Flug- und Bodenasche)” erstellen Sie nun als ersten Exportfluss “Metallrecycling”. Hierbei handelt es sich um das rückgewonnene Metall aus der Aschebehandlung welche Recyclingprozessen zugeführt werden. Diese Recyclingprozesse interessieren uns hier nicht weiter, da wir uns mit biogenen Abfällen beschäftigen. Daher sind Recyclingprozesse für Metall in diesem konkreten Fall ausserhalb der Systemgrenze.</p>
-<p>Nachdem alle Flüsse gezeichnet wurden, können Sie nun alle Flüsse über das Fenster Flusseigenschaften benennen.</p>
-<p>Sie können auch die Farbe der Flüsse anpassen über das Fenster Flusseigenschaften im Karteiblatt “Symbol” (siehe nächste Abbildung)</p>
+<p>Starting with “Ash treatment (fly and bottom ash)”, you now create “Metal recycling” as the first export flow. This is the recovered metal from ash treatment that is fed into recycling processes. We are not interested in these recycling processes here, as we are dealing with biogenic waste. Therefore, recycling processes for metal are outside the system boundary in this specific case.</p>
+<p>Once all flows have been drawn, you can now name all flows using the Flow properties window.</p>
+<p>You can also change the color of the flows via the Flow properties window in the “Symbol” tab (see next figure)</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Lektion_1_2_7b.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="369"></p>
 </figure>
 </div>
-<p>Ergänzen Sie nun alle Prozesse und Flüsse, bis Ihr Modell folgendermassen aussieht.</p>
+<p>Now add all processes and flows until your model looks like this.</p>
 <p><img src="images/Lektion_1_2_8.png" class="img-fluid"></p>
 </section>
-<section id="eingabe-der-werte-für-die-materialflüsse" class="level3">
-<h3 class="anchored" data-anchor-id="eingabe-der-werte-für-die-materialflüsse">6. Eingabe der Werte für die Materialflüsse</h3>
-<p>Aus der Beschreibung des Abfallmanagements der Gemeinde kennen Sie u.a. die anfallende Menge an biogenem und nicht-biogenem Abfall pro Jahr. Tragen Sie die Werte in die Import-Flüsse ein. Nutzen Sie Tonnen pro Jahr (t/a) als Einheit.</p>
-<p>Klicken Sie hierzu auf den zu bearbeitenden Import-Fluss und klicken Sie dann auf Werte im Eigenschaftenfenster (grüne Box im rechten Teil der Abbildung unten). Es handelt sich um einen Massenfluss.</p>
-<p>Die Abfallmenge (Masse) pro Jahr ist nie genau bekannt. Daher haben Sie die Möglichkeit, einen Wertebereich einzugeben (+/-). Wir nehmen hier eine Unsicherheit von 20% an, also +/- 10%. Wir gehen später detaillierter auf die Unsicherheitsanalyse ein.</p>
-<p>Sie können die Pfeildicke der Flüsse im Regler des Sankey-Diagramms (grüner Pfeil Pfeil in der Abbildung unten) anpassen. Sie können auch alle Massenflüsse gleich dick erscheinen lassen (“Sankey-Darstellung der Flüsse (ein/aus)”).</p>
+<section id="input-values-for-the-mass-flow-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="input-values-for-the-mass-flow-analysis">6. Input values for the mass flow analysis</h3>
+<p>From the description of the municipality’s waste management, you know, among other things, the amount of biowaste and non-biodegradable waste generated per year. Enter the values in the import flows. Use tons per year (t/a) as the unit.</p>
+<p>To do this, click on the import flow to be edited and then click on values in the properties window (green box in the right-hand part of the figure below). This is a mass flow.</p>
+<p>The amount of waste (mass) per year is never known exactly. You therefore have the option of entering an uncertainty (+/-). We assume an uncertainty of 20% here, i.e.&nbsp;+/- 10%. We will go into the uncertainty analysis in more detail later.</p>
+<p>You can adjust the arrow thickness of the flows in the slider of the sankey diagram (green arrow in the figure below). You can also make all mass flows appear equally thick (“sankey display of flows (on/off)”).</p>
 <p><img src="images/Lektion_1_2_9.png" class="img-fluid"></p>
 </section>
-<section id="transferkoeffizienten-eingeben" class="level3">
-<h3 class="anchored" data-anchor-id="transferkoeffizienten-eingeben">7. Transferkoeffizienten eingeben</h3>
-<p>Ein Transferkoeffizient (TK) gibt an, welcher Anteil eines bestimmten Input-Flusses in einen Prozess einem Output-Fluss des gleichen Prozesses zugewiesen wird.</p>
-<p>Wir geben zunächst die Transferkoeffizienten für die Kehrichtverbrennung ein. Sie können davon ausgehen, dass rund 10% der Inputmasse zu Asche wird und 90% als Abgase entweicht.</p>
-<p>1. Selektieren Sie den Prozess “Kehrichtverbrennung”.</p>
-<p>2. Wählen Sie “Prozess bearbeiten” aus dem Kontextmenü des Prozesses (mit Rechtsklick).</p>
-<p>3. Sie können die Transferkoeffizienten direkt in die einzelnen Zellen eintragen. Dabei können Sie zwischen einer Eingabe als Zahl zwischen 0 und 1 (z.B. 0,9) oder einer Eingabe als Prozentzahl (z.B. 90%) wählen. In unserem Beipiel geben Sie 0,9 in Richtung “Abgase” und 0,1 in Richtung “Asche” ein. Dezimalwerte müssen mit einem Komma abgegrenzt werden.</p>
-<p>4. Datenunsicherheiten der Transferkoeffizienten (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge “+-” eingegeben werden (z.B. 0,90+-0,045 oder 90%+-4.5%)</p>
-<p>5. Klicken Sie OK bzw. Übernehmen.</p>
-<p><strong>Transferkoeffizienten müssen für alle Prozesse eingegeben werden. Wenn Transferkoeffizienten in einzelnen Prozessen fehlen, kann dies ein möglicher Grund für Fehlermeldungen sein.</strong></p>
-<p>Sie können von folgenden Annahmen ausgehen:</p>
+<section id="transfer-coefficients" class="level3">
+<h3 class="anchored" data-anchor-id="transfer-coefficients">7. Transfer coefficients</h3>
+<p>A transfer coefficient indicates what proportion of a certain input flow into a process is allocated to an output flow of the same process.</p>
+<p>We first enter the transfer coefficients for waste incineration. You can assume that around 10% of the input mass becomes ash and 90% is emitted as smoke/gasses.</p>
+<ol type="1">
+<li>Select the process “Waste incineration”.</li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li><p>Select “Edit process” from the context menu of the process (right-click).</p></li>
+<li><p>You can enter the transfer coefficients directly in the individual cells. You can choose between an entry as a number between 0 and 1 (e.g.&nbsp;0,9) or an entry as a percentage (e.g.&nbsp;90%). In our example, enter 0,9 in the direction of “Exhaust gases” and 0.1 in the direction of “Ash”. Decimal values must be separated by a comma or point, depending on your system settings.</p></li>
+<li><p>Data uncertainties of the transfer coefficients (as standard deviation of an assumed normal distribution) can be entered directly after the value separated by the character string “+-” (e.g.&nbsp;0,90+-0,045 or 90%+-4,5%)</p></li>
+<li><p>Click OK or Apply.</p></li>
+</ol>
+<p><strong>Transfer coefficients should be entered for all processes. If transfer coefficients are missing in individual processes, this can be a possible reason for error messages.</strong></p>
+<p>You can use the following assumptions:</p>
 <ul>
-<li><p>Kehrichtverbrennung: 90% der Inputmasse wird zu Abgasen, 10% zu Asche</p></li>
-<li><p>Aschebehandlung: 90% der Inputmasse wird deponiert, 10% geht ins Metallrecycling</p></li>
-<li><p>Anaerobe Vergärung: 10% der Inputmasse wird zu Biogas, 80% zu Digestat und 10% sind Verluste</p></li>
+<li><p>Waste incineration: 90% of the input mass becomes smoke/gases, 10% becomes ash</p></li>
+<li><p>Ash treatment: 90% of the input mass is landfilled, 10% goes to metal recycling</p></li>
+<li><p>Anaerobic digestion: 10% of the input mass becomes biogas, 80% becomes digestate and 10% are losses</p></li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Lektion_1_2_10.png" class="img-fluid figure-img"></p>
-<figcaption>Transferkoeffizienten</figcaption>
+<figcaption>Transfer coefficients</figcaption>
 </figure>
 </div>
 </section>
-<section id="systemgrenze" class="level3">
-<h3 class="anchored" data-anchor-id="systemgrenze">8. Systemgrenze</h3>
-<p>Zeichnen Sie nun die geografische Systemgrenze. Klicken Sie dazu auf das Symbol Systemgrenze und platzieren Sie die Systemgrenze so, dass alle Startpunkte der Import- und Exportflüsse außerhalb und alle Prozesse und systeminternen Flüsse innerhalb der Systemgrenze liegen.</p>
+<section id="system-boundary" class="level3">
+<h3 class="anchored" data-anchor-id="system-boundary">8. System boundary</h3>
+<p>Now draw the geographical system boundary. To do this, click on the System boundary icon and position the system boundary so that all starting points of the import and export flows are outside the system boundary and all processes and internal system flows are inside the system boundary.</p>
 <p><img src="images/Lektion_1_2_11.png" class="img-fluid"></p>
 </section>
-<section id="berechnen" class="level3">
-<h3 class="anchored" data-anchor-id="berechnen">9. Berechnen</h3>
-<p>Nun sind alle wichtigen Rechengrössen zum Berechenen des Models eingegeben. Klicken Sie auf das Berechenen Icon in der Symbolleiste.</p>
+<section id="calculate" class="level3">
+<h3 class="anchored" data-anchor-id="calculate">9. Calculate</h3>
+<p>All the important parameters for calculating the model have now been entered. Click on the calculate icon in the toolbar.</p>
 <p><img src="images/Lektion_1_2_12.png" class="img-fluid"></p>
 </section>
-<section id="systemmeldungen-prüfen" class="level3">
-<h3 class="anchored" data-anchor-id="systemmeldungen-prüfen">10. Systemmeldungen prüfen</h3>
-<p>Prüfen Sie die Systemmeldungen, welche Informationen, Warnungen und Fehler enthalten können. Sollten Fehler auftauchen, versuchen Sie diese aufgrund der Fehlermeldung zu korrigieren und rechnen Sie das Modell danach neu.</p>
+<section id="check-system-messages" class="level3">
+<h3 class="anchored" data-anchor-id="check-system-messages">10. Check system messages</h3>
+<p>Check the system messages, which may contain information, warnings and errors. If errors occur, try to correct them based on the error message and then recalculate the model.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Lektion_1_2_13.png" class="img-fluid figure-img"></p>
-<figcaption>Die hier gezeigten Systemmeldungen sind rein informativ und weisen nicht auf Fehler hin</figcaption>
+<figcaption>The system messages shown here are purely informative and do not indicate errors</figcaption>
 </figure>
 </div>
-</section>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"></h3>
 
 
 </section>

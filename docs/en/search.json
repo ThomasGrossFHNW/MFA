@@ -70,111 +70,32 @@
     "href": "Lektion1_2_LBD.html",
     "title": "Learning-by-doing",
     "section": "",
-    "text": "Wir modellieren das Abfallmanagement einer Gemeinde mit ca. 10’000 Einwohnern über ein Jahr.\nDas derzeitige Abfallmanagement der Gemeinde besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle (“Bioabfälle”). Pro Person fallen ca. 700 kg Siedlungsabfälle pro Jahr an. 60% der Siedlungsabfälle (Masse) ist biogen (biologisch abbaubar). In der Gemeinde besteht bereits eine anaerobe Vergärungsanlage (“Biogasanlage”), welche 9’000 Tonnen Grünabfälle (Schnittgut) und 2’000 Tonnen Hofdünger mehrerer Gemeinden behandelt. Wir werden zunächst Schritt für Schritt das derzeitige System in STAN modellieren (Abbildung).\nDanach werden wir im Workshop-Teil Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall modellieren.",
+    "text": "We model the waste management of a municipality with ca. 10,000 inhabitants over the course of a year.\nThe municipality’s current waste management system consists of municipal waste collection with waste incineration without separate collection of biogenic waste (“biowaste”). Each person produces approx. 700 kg of municipal waste per year. 60% of municipal waste (mass) is biogenic (biodegradable). The municipality already has an anaerobic digestion plant (“biogas plant”), which treats 9,000 tons of green waste (cuttings) and 2,000 tons of farmyard manure from several municipalities. We will first model the current system in STAN step by step (figure).\nThen, in the workshop part, we will model options for additional separate collection of municipal biowaste.",
     "crumbs": [
       "Einführung",
       "Learning-by-doing"
     ]
   },
   {
-    "objectID": "Lektion1_2_LBD.html#ziel",
-    "href": "Lektion1_2_LBD.html#ziel",
+    "objectID": "Lektion1_2_LBD.html#goal",
+    "href": "Lektion1_2_LBD.html#goal",
     "title": "Learning-by-doing",
     "section": "",
-    "text": "Wir modellieren das Abfallmanagement einer Gemeinde mit ca. 10’000 Einwohnern über ein Jahr.\nDas derzeitige Abfallmanagement der Gemeinde besteht aus einer kommunalen Abfallsammlung mit Kehrichtverbrennung ohne Separatsammlung biogener Abfälle (“Bioabfälle”). Pro Person fallen ca. 700 kg Siedlungsabfälle pro Jahr an. 60% der Siedlungsabfälle (Masse) ist biogen (biologisch abbaubar). In der Gemeinde besteht bereits eine anaerobe Vergärungsanlage (“Biogasanlage”), welche 9’000 Tonnen Grünabfälle (Schnittgut) und 2’000 Tonnen Hofdünger mehrerer Gemeinden behandelt. Wir werden zunächst Schritt für Schritt das derzeitige System in STAN modellieren (Abbildung).\nDanach werden wir im Workshop-Teil Optionen der zusätzlichen Separatsammlung von kommunalem Bioabfall modellieren.",
+    "text": "We model the waste management of a municipality with ca. 10,000 inhabitants over the course of a year.\nThe municipality’s current waste management system consists of municipal waste collection with waste incineration without separate collection of biogenic waste (“biowaste”). Each person produces approx. 700 kg of municipal waste per year. 60% of municipal waste (mass) is biogenic (biodegradable). The municipality already has an anaerobic digestion plant (“biogas plant”), which treats 9,000 tons of green waste (cuttings) and 2,000 tons of farmyard manure from several municipalities. We will first model the current system in STAN step by step (figure).\nThen, in the workshop part, we will model options for additional separate collection of municipal biowaste.",
     "crumbs": [
       "Einführung",
       "Learning-by-doing"
     ]
   },
   {
-    "objectID": "Lektion1_2_LBD.html#vorgehen",
-    "href": "Lektion1_2_LBD.html#vorgehen",
+    "objectID": "Lektion1_2_LBD.html#approach",
+    "href": "Lektion1_2_LBD.html#approach",
     "title": "Learning-by-doing",
-    "section": "Vorgehen",
-    "text": "Vorgehen\n\n1. STAN installieren, öffnen und speichern\nInstallieren Sie STAN, nähere Angaben finden Sie hier.\nÖffnen Sie STAN und speichern Sie das Projekt in einem geeigneten Ordner. Es wird eine Datei mit der Projektendung .zmfa generiert. Machen Sie regelmässig Zwischenspeicherungen Ihrer Projekte, da STAN dies nicht automatisch macht.\n\n\n2. Navigation und Benutzeroberfläche\nMachen Sie sich zunächst mit der Benutzeroberfläche von STAN vertraut.\n\n\nMenüzeile: In der Menüzeile sind Befehle zur Bearbeitung und Steuerung aufrufbar.\nSymbolleiste: Die wichtigsten Befehle grafisch dargestellt.\nModell-Explorer: Stellt Prozesse, Flüsse und Subsysteme in einer Baumstruktur dar.\nDiagrammsymbole: Die Bausteine zur Erstellung einer MFA, welche mittels Mausklick angewählt werden, um sich danach im Zeichenbereich einzufügen. Wenn Sie mit dem Mauszeiger über den Symbolen bleiben, wird der Symboltyp (z.B. Prozess) angezeigt.\nZeichenbereich: Hier wird das MFA-Modell erstellt.\nEigenschaften: Im Fenster Systemeigenschaften werden die ausgewählten Prozesse, Flüsse und andere Felder der MFA bearbeitet und angepasst. Dies beinhaltet u.a. grafische Parameter und Werte.\nSystemmeldungen: In diesem Fenster werden Fehlermeldungen und Informationen angegeben.\n\nAlle Fenster können in der Größe angepasst und wie Kacheln modular verschoben und angeordnet werden. Sie können sich auch ein kurzes Erklärvideo hier anschauen.\n\n\n3. Der erste Prozess\nNun zeichnen Sie als ersten Prozess die kommunale Abfallsammlung (Sie können grundsätzlich auch mit einem beliebigen anderen Prozess beginnen). Wählen Sie dazu in der Symbolleiste das Symbol P (grün markiert) aus und zeichnen Sie ein Rechteck (“Prozess 1”).\n\nBenennen Sie den Prozess “Kommunale Abfallsammlung”. Wählen Sie dazu den Prozess aus und ändern Sie im Fenster Prozesseigenschaften den Namen.\n\n\n\n4. Weitere Prozesse und Prozess mit Lager\nNun erweitern Sie die MFA mit weiteren Prozessen.\nFügen Sie rechts des Prozesses “Kommunale Abfallsammlung” die Prozesse “Kehrichtverbrennung” und “Aschebehandlung (Flug- und Bodenasche)” ein. Unterhalb der “Aschebehandlung (Flug- und Bodenasche)” fügen Sie den Prozess “Deponie” ein.\nFügen Sie links des Prozesses “Kommunale Abfallsammlung” den Prozess “Entsorgung durch Haushalte und Kleingewerbe” ein. Diesen Prozess nutzen wir später, um die Trennung zwischen Bioabfall und nicht-biogenem Restabfall zu simulieren. Im IST-Modell gehen 100% des Bioafalls in die kommunale Abfallsammlung.\nBei Bedarf können Sie die Prozesse verschieben, verkleinern und vergrössern.\nDie Deponie repräsentiert ein Lager, das sich über die Zeit füllt. Wählen Sie daher den Prozess “Deponie” aus und setzen Sie in den Prozesseigenschaften ein Häkchen bei Lager.\n\n\n\n5. Flüsse zeichnen\nNun zeichnen Sie die ersten Flüsse zwischen den Prozessen.\nZunächst können Sie den Importfluss “Nicht-biogener Abfall” von ganz links hin zum Prozess “Entsorgung durch Haushalte und Kleingewerbe” ziehen. Der Importfluss überschreitet die Systemgrenze, d.h. von Prozessen welche uns in der Fragestellung nicht interessieren (z.B. Konsum von Gütern) und ausserhalb der Systemgrenze sind hin zum ersten Prozess innerhalb der Systemgrenze.\n\nVerbinden Sie nun die Prozesse mit Flüssen wie in der Abbildung unten dargestellt. Flüsse zwischen Prozessen sind keine Importflüsse sondern “normale” Flüsse innerhalb der Systemgrenze.\n\nAusgehend von der “Aschebehandlung (Flug- und Bodenasche)” erstellen Sie nun als ersten Exportfluss “Metallrecycling”. Hierbei handelt es sich um das rückgewonnene Metall aus der Aschebehandlung welche Recyclingprozessen zugeführt werden. Diese Recyclingprozesse interessieren uns hier nicht weiter, da wir uns mit biogenen Abfällen beschäftigen. Daher sind Recyclingprozesse für Metall in diesem konkreten Fall ausserhalb der Systemgrenze.\nNachdem alle Flüsse gezeichnet wurden, können Sie nun alle Flüsse über das Fenster Flusseigenschaften benennen.\nSie können auch die Farbe der Flüsse anpassen über das Fenster Flusseigenschaften im Karteiblatt “Symbol” (siehe nächste Abbildung)\n\n\n\n\n\nErgänzen Sie nun alle Prozesse und Flüsse, bis Ihr Modell folgendermassen aussieht.\n\n\n\n6. Eingabe der Werte für die Materialflüsse\nAus der Beschreibung des Abfallmanagements der Gemeinde kennen Sie u.a. die anfallende Menge an biogenem und nicht-biogenem Abfall pro Jahr. Tragen Sie die Werte in die Import-Flüsse ein. Nutzen Sie Tonnen pro Jahr (t/a) als Einheit.\nKlicken Sie hierzu auf den zu bearbeitenden Import-Fluss und klicken Sie dann auf Werte im Eigenschaftenfenster (grüne Box im rechten Teil der Abbildung unten). Es handelt sich um einen Massenfluss.\nDie Abfallmenge (Masse) pro Jahr ist nie genau bekannt. Daher haben Sie die Möglichkeit, einen Wertebereich einzugeben (+/-). Wir nehmen hier eine Unsicherheit von 20% an, also +/- 10%. Wir gehen später detaillierter auf die Unsicherheitsanalyse ein.\nSie können die Pfeildicke der Flüsse im Regler des Sankey-Diagramms (grüner Pfeil Pfeil in der Abbildung unten) anpassen. Sie können auch alle Massenflüsse gleich dick erscheinen lassen (“Sankey-Darstellung der Flüsse (ein/aus)”).\n\n\n\n7. Transferkoeffizienten eingeben\nEin Transferkoeffizient (TK) gibt an, welcher Anteil eines bestimmten Input-Flusses in einen Prozess einem Output-Fluss des gleichen Prozesses zugewiesen wird.\nWir geben zunächst die Transferkoeffizienten für die Kehrichtverbrennung ein. Sie können davon ausgehen, dass rund 10% der Inputmasse zu Asche wird und 90% als Abgase entweicht.\n1. Selektieren Sie den Prozess “Kehrichtverbrennung”.\n2. Wählen Sie “Prozess bearbeiten” aus dem Kontextmenü des Prozesses (mit Rechtsklick).\n3. Sie können die Transferkoeffizienten direkt in die einzelnen Zellen eintragen. Dabei können Sie zwischen einer Eingabe als Zahl zwischen 0 und 1 (z.B. 0,9) oder einer Eingabe als Prozentzahl (z.B. 90%) wählen. In unserem Beipiel geben Sie 0,9 in Richtung “Abgase” und 0,1 in Richtung “Asche” ein. Dezimalwerte müssen mit einem Komma abgegrenzt werden.\n4. Datenunsicherheiten der Transferkoeffizienten (als Standardabweichung einer angenommenen Normalverteilung) können direkt hinter den Wert getrennt durch die Zeichenfolge “+-” eingegeben werden (z.B. 0,90+-0,045 oder 90%+-4.5%)\n5. Klicken Sie OK bzw. Übernehmen.\nTransferkoeffizienten müssen für alle Prozesse eingegeben werden. Wenn Transferkoeffizienten in einzelnen Prozessen fehlen, kann dies ein möglicher Grund für Fehlermeldungen sein.\nSie können von folgenden Annahmen ausgehen:\n\nKehrichtverbrennung: 90% der Inputmasse wird zu Abgasen, 10% zu Asche\nAschebehandlung: 90% der Inputmasse wird deponiert, 10% geht ins Metallrecycling\nAnaerobe Vergärung: 10% der Inputmasse wird zu Biogas, 80% zu Digestat und 10% sind Verluste\n\n\n\n\nTransferkoeffizienten\n\n\n\n\n8. Systemgrenze\nZeichnen Sie nun die geografische Systemgrenze. Klicken Sie dazu auf das Symbol Systemgrenze und platzieren Sie die Systemgrenze so, dass alle Startpunkte der Import- und Exportflüsse außerhalb und alle Prozesse und systeminternen Flüsse innerhalb der Systemgrenze liegen.\n\n\n\n9. Berechnen\nNun sind alle wichtigen Rechengrössen zum Berechenen des Models eingegeben. Klicken Sie auf das Berechenen Icon in der Symbolleiste.\n\n\n\n10. Systemmeldungen prüfen\nPrüfen Sie die Systemmeldungen, welche Informationen, Warnungen und Fehler enthalten können. Sollten Fehler auftauchen, versuchen Sie diese aufgrund der Fehlermeldung zu korrigieren und rechnen Sie das Modell danach neu.\n\n\n\nDie hier gezeigten Systemmeldungen sind rein informativ und weisen nicht auf Fehler hin",
+    "section": "Approach",
+    "text": "Approach\n\n1. Install STAN, open and save\nInstall STAN, you find further information here.\nOpen STAN and save the project in a suitable folder. A file with the project extension .zmfa is generated. You should regularly save your project, as STAN does not do this automatically.\n\n\n2. Navigation and user interface\nFamiliarize yourself with the STAN user interface.\n\n\nMenu bar: Commands for editing and control can be called up in the menu bar.\nToolbar: The most important commands are displayed graphically.\nModel explorer: Displays processes, flows and subsystems in a tree structure.\nDiagram symbols: The building blocks for creating an MFA, which are selected by clicking with the mouse and then inserted in the drawing area. If you remain with the mouse pointer over the symbols, the symbol type (e.g. process) is displayed.\nDrawing area: The MFA model is created here.\nProperties: In the System properties window, the selected processes, flows and other fields of the MFA are edited and customized. This includes graphical parameters and values.\nSystem messages: Error messages and information are specified in this window.\n\nAll windows can be adjusted in size and moved and arranged modularly like tiles.\n\n\n3. The first process\nNow draw the municipal waste collection as the first process (you can also start with any other process). To do this, select the P icon (highlighted in green) in the toolbar and draw a rectangle (“Process 1”).\n\nName the process “Municipal waste collection”. To do this, select the process and change the name in the Process properties window.\n\n\n\n4. Further processes and process with a stock\nNow expand the MFA with additional processes.\nAdd the “Waste incineration” and “Ash treatment (fly and bottom ash)” processes to the right of the “Municipal waste collection” process. Below the “Ash treatment (fly and bottom ash)”, add the “Landfill” process.\nTo the left of the “Municipal waste collection” process, add the “Disposal by households and small businesses” process. We will use this process later to simulate the separation of biowaste and non-biodegradable residual waste. In the status quo model, 100% of the biowaste goes to municipal waste collection.\nIf necessary, you can move, reduce and increase the size of the processes.\nThe landfill represents a store that fills up over time. Therefore, select the “Landfill” process and place a checkmark next to Storage in the process properties.\n\n\n\n5. Draw flows\nNow draw the first flows between the processes.\nFirst, you can draw the import flow “Non-biodegradable waste” from the far left to the process “Disposal by households and small businesses”. The import flow crosses the system boundary, i.e. from processes that are not of interest to us in the question (e.g. consumption of goods) and are outside the system boundary to the first process within the system boundary.\n\nNow connect the processes with flows as shown in the figure below. Flows between processes are not import flows but “normal” flows within the system boundary.\n\nStarting with “Ash treatment (fly and bottom ash)”, you now create “Metal recycling” as the first export flow. This is the recovered metal from ash treatment that is fed into recycling processes. We are not interested in these recycling processes here, as we are dealing with biogenic waste. Therefore, recycling processes for metal are outside the system boundary in this specific case.\nOnce all flows have been drawn, you can now name all flows using the Flow properties window.\nYou can also change the color of the flows via the Flow properties window in the “Symbol” tab (see next figure)\n\n\n\n\n\nNow add all processes and flows until your model looks like this.\n\n\n\n6. Input values for the mass flow analysis\nFrom the description of the municipality’s waste management, you know, among other things, the amount of biowaste and non-biodegradable waste generated per year. Enter the values in the import flows. Use tons per year (t/a) as the unit.\nTo do this, click on the import flow to be edited and then click on values in the properties window (green box in the right-hand part of the figure below). This is a mass flow.\nThe amount of waste (mass) per year is never known exactly. You therefore have the option of entering an uncertainty (+/-). We assume an uncertainty of 20% here, i.e. +/- 10%. We will go into the uncertainty analysis in more detail later.\nYou can adjust the arrow thickness of the flows in the slider of the sankey diagram (green arrow in the figure below). You can also make all mass flows appear equally thick (“sankey display of flows (on/off)”).\n\n\n\n7. Transfer coefficients\nA transfer coefficient indicates what proportion of a certain input flow into a process is allocated to an output flow of the same process.\nWe first enter the transfer coefficients for waste incineration. You can assume that around 10% of the input mass becomes ash and 90% is emitted as smoke/gasses.\n\nSelect the process “Waste incineration”.\n\n\n\nSelect “Edit process” from the context menu of the process (right-click).\nYou can enter the transfer coefficients directly in the individual cells. You can choose between an entry as a number between 0 and 1 (e.g. 0,9) or an entry as a percentage (e.g. 90%). In our example, enter 0,9 in the direction of “Exhaust gases” and 0.1 in the direction of “Ash”. Decimal values must be separated by a comma or point, depending on your system settings.\nData uncertainties of the transfer coefficients (as standard deviation of an assumed normal distribution) can be entered directly after the value separated by the character string “+-” (e.g. 0,90+-0,045 or 90%+-4,5%)\nClick OK or Apply.\n\nTransfer coefficients should be entered for all processes. If transfer coefficients are missing in individual processes, this can be a possible reason for error messages.\nYou can use the following assumptions:\n\nWaste incineration: 90% of the input mass becomes smoke/gases, 10% becomes ash\nAsh treatment: 90% of the input mass is landfilled, 10% goes to metal recycling\nAnaerobic digestion: 10% of the input mass becomes biogas, 80% becomes digestate and 10% are losses\n\n\n\n\nTransfer coefficients\n\n\n\n\n8. System boundary\nNow draw the geographical system boundary. To do this, click on the System boundary icon and position the system boundary so that all starting points of the import and export flows are outside the system boundary and all processes and internal system flows are inside the system boundary.\n\n\n\n9. Calculate\nAll the important parameters for calculating the model have now been entered. Click on the calculate icon in the toolbar.\n\n\n\n10. Check system messages\nCheck the system messages, which may contain information, warnings and errors. If errors occur, try to correct them based on the error message and then recalculate the model.\n\n\n\nThe system messages shown here are purely informative and do not indicate errors",
     "crumbs": [
       "Einführung",
       "Learning-by-doing"
-    ]
-  },
-  {
-    "objectID": "Lektion0_4_Bewertung.html",
-    "href": "Lektion0_4_Bewertung.html",
-    "title": "Bewertung",
-    "section": "",
-    "text": "…"
-  },
-  {
-    "objectID": "Lektion0_4_Bewertung.html#bewertung-der-studierendenleistung",
-    "href": "Lektion0_4_Bewertung.html#bewertung-der-studierendenleistung",
-    "title": "Bewertung",
-    "section": "",
-    "text": "…"
-  },
-  {
-    "objectID": "Lektion0_4_Bewertung.html#bewertung-des-moduls-durch-studierende",
-    "href": "Lektion0_4_Bewertung.html#bewertung-des-moduls-durch-studierende",
-    "title": "Bewertung",
-    "section": "Bewertung des Moduls durch Studierende",
-    "text": "Bewertung des Moduls durch Studierende\n…"
-  },
-  {
-    "objectID": "Lektion0_2_Software.html",
-    "href": "Lektion0_2_Software.html",
-    "title": "Software",
-    "section": "",
-    "text": "In diesem Kurs nutzen wir die gratis verfügbare Software STAN. STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.\nSTAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.\n\n\n\nSTAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:\n\nVariante 1: Download der Software von www.stan2web.net (Sie müssen sich vorher auf der Website registrieren).\nVariante 2: Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar.\nVariante 3: Im Netzwerk der FHNW können Sie STAN auch über den Citrix Workspace ausführen. Studierende der FHNW finden hier Informationen zur Installation von Citrix.\n\nBei Bedarf, finden Sie hier ein Erklärvideo zur Installation von STAN.\nFalls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den FAQ.",
-    "crumbs": [
-      "Überblick",
-      "Software"
-    ]
-  },
-  {
-    "objectID": "Lektion0_2_Software.html#stan---substance-flow-analysis",
-    "href": "Lektion0_2_Software.html#stan---substance-flow-analysis",
-    "title": "Software",
-    "section": "",
-    "text": "In diesem Kurs nutzen wir die gratis verfügbare Software STAN. STAN (kurz für subSTance flow ANalysis) wird zur Modellierung und Visualisierung von Stoffstromanalysen in Firmen sowie für Studienszwecke eingesetzt.\nSTAN ermöglicht die Erstellung von Modellen welche sich aus Prozessen, Flüssen und Systemgrenzen zusammensetzen. Es lassen sich verschieden Ebenen definieren, wie etwa Güter, Stoffe und Energie. Die Flüsse können so dargestellt werden, dass deren Breite proportional zu ihrem Wert ist, was eine intuitive optische Auswertung (z.B. welches sind die bedeutendsten Flüsse?) ermöglicht.\n\n\n\nSTAN funktioniert leider nur auf Windows Betriebssystemen. Sie können STAN hier beziehen:\n\nVariante 1: Download der Software von www.stan2web.net (Sie müssen sich vorher auf der Website registrieren).\nVariante 2: Falls Registration und/oder Download nicht funktionieren, ist die Installationsdatei für Studierende der FHNW auch auf Moodle verfügbar.\nVariante 3: Im Netzwerk der FHNW können Sie STAN auch über den Citrix Workspace ausführen. Studierende der FHNW finden hier Informationen zur Installation von Citrix.\n\nBei Bedarf, finden Sie hier ein Erklärvideo zur Installation von STAN.\nFalls Sie Probleme mit der Installation haben, schauen Sie unter Installation von STAN in den FAQ.",
-    "crumbs": [
-      "Überblick",
-      "Software"
-    ]
-  },
-  {
-    "objectID": "Lektion0_2_Software.html#anleitungen-und-tutorials",
-    "href": "Lektion0_2_Software.html#anleitungen-und-tutorials",
-    "title": "Software",
-    "section": "Anleitungen und Tutorials",
-    "text": "Anleitungen und Tutorials\n\nDas STAN-Benutzerhandbuch ist über https://www.stan2web.net/downloads/documentation nach Registration auf der Website verfügbar. Zudem finden Sie die Benutzeranleitung in Moodle.\nZu verschiedenen Themen gibt es hilfreiche Video-Tutorials über STAN: https://tube1.it.tuwien.ac.at/w/p/gC2vmXx9btKeJG3aj2NEQi",
-    "crumbs": [
-      "Überblick",
-      "Software"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tools für nachhaltiges Ressourcenmanagement",
-    "section": "",
-    "text": "Diese Website ist Bestandteil der Vorlesungen zu nachhaltigem Ressourcenmanagement (NRM)\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Diese Website soll die Vorlesungen über Tools für nachhaltiges Ressourcenmanagement an der Fachhochschule Nordwestschweiz (FHNW) unterstützen. Die Entwicklung der Website ist in Arbeit. Für Informationen kontaktieren Sie Thomas.Gross@fhnw.ch.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "Lektion0_1_Lernziele.html",
-    "href": "Lektion0_1_Lernziele.html",
-    "title": "Learning objectives",
-    "section": "",
-    "text": "This course gives you an introduction to material and substance flow analysis (MFA and SFA) using the free software STAN. The course consists of self-study, individual exercises, group exercises, lectures and coaching by FHNW lecturers.\nYou will acquire the following skills as part of this course:\n\nKnowledge of material and substance flow analyses (MFA/SFA) for sustainable resource management\nModelling and interpreting MFA/SFA using the free software STAN\nInterfaces to other topics and applications, in particular life cycle analysis (LCA)\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Überblick",
-      "Learning objectives"
     ]
   },
   {
@@ -208,6 +129,64 @@
     "crumbs": [
       "Überblick",
       "FAQ"
+    ]
+  },
+  {
+    "objectID": "Lektion0_1_Lernziele.html",
+    "href": "Lektion0_1_Lernziele.html",
+    "title": "Learning objectives",
+    "section": "",
+    "text": "This course gives you an introduction to material and substance flow analysis (MFA and SFA) using the free software STAN. The course consists of self-study, individual exercises, group exercises, lectures and coaching by FHNW lecturers.\nYou will acquire the following skills as part of this course:\n\nKnowledge of material and substance flow analyses (MFA/SFA) for sustainable resource management\nModelling and interpreting MFA/SFA using the free software STAN\nInterfaces to other topics and applications, in particular life cycle analysis (LCA)\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Überblick",
+      "Learning objectives"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Diese Website soll die Vorlesungen über Tools für nachhaltiges Ressourcenmanagement an der Fachhochschule Nordwestschweiz (FHNW) unterstützen. Die Entwicklung der Website ist in Arbeit. Für Informationen kontaktieren Sie Thomas.Gross@fhnw.ch.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tools für nachhaltiges Ressourcenmanagement",
+    "section": "",
+    "text": "Diese Website ist Bestandteil der Vorlesungen zu nachhaltigem Ressourcenmanagement (NRM)\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Lektion0_2_Software.html",
+    "href": "Lektion0_2_Software.html",
+    "title": "Software",
+    "section": "",
+    "text": "In this course we use the free STAN software. STAN (subSTance flow ANalysis) is used for modelling and visualizing material flow analyses by companies, government agencies and academic users.\nSTAN enables the modelling of systems which are composed of processes, flows and system boundaries. Different levels can be defined, such as goods, materials and energy. The flows can be displayed in such a way that their width is proportional to their value, which enables intuitive visual evaluation (e.g. which are the most important flows?).\n\n\n\nSTAN works only on Windows, but see work around below. You can get and use STAN as follows:\n\nVersion 1: Download the software from www.stan2web.net (you have to register on the website).\nVersion 2: If the registration and/or download do not work, you find the installation file on Moodle.\nVersion 3: You can run STAN also on the Citrix Workspace within the FHNW network. You found information about Citrix here (in German).",
+    "crumbs": [
+      "Überblick",
+      "Software"
+    ]
+  },
+  {
+    "objectID": "Lektion0_2_Software.html#stan---substance-flow-analysis-1",
+    "href": "Lektion0_2_Software.html#stan---substance-flow-analysis-1",
+    "title": "Software",
+    "section": "",
+    "text": "In this course we use the free STAN software. STAN (subSTance flow ANalysis) is used for modelling and visualizing material flow analyses by companies, government agencies and academic users.\nSTAN enables the modelling of systems which are composed of processes, flows and system boundaries. Different levels can be defined, such as goods, materials and energy. The flows can be displayed in such a way that their width is proportional to their value, which enables intuitive visual evaluation (e.g. which are the most important flows?).\n\n\n\nSTAN works only on Windows, but see work around below. You can get and use STAN as follows:\n\nVersion 1: Download the software from www.stan2web.net (you have to register on the website).\nVersion 2: If the registration and/or download do not work, you find the installation file on Moodle.\nVersion 3: You can run STAN also on the Citrix Workspace within the FHNW network. You found information about Citrix here (in German).",
+    "crumbs": [
+      "Überblick",
+      "Software"
+    ]
+  },
+  {
+    "objectID": "Lektion0_2_Software.html#anleitungen-und-tutorials-1",
+    "href": "Lektion0_2_Software.html#anleitungen-und-tutorials-1",
+    "title": "Software",
+    "section": "Anleitungen und Tutorials",
+    "text": "Anleitungen und Tutorials\n\nThe STAN manual is available on https://www.stan2web.net/downloads/documentation after registration on the STAN website.\nYou also find useful video tutorials here: https://www.stan2web.net/support/videos",
+    "crumbs": [
+      "Überblick",
+      "Software"
     ]
   },
   {
