@@ -267,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
 <p>We model the waste management of a municipality with ca. 10,000 inhabitants over the course of a year.</p>
 <p>The municipality’s current waste management system consists of municipal waste collection with waste incineration without separate collection of biogenic waste (“biowaste”). Each person produces approx. 700 kg of municipal waste per year. 60% of municipal waste (mass) is biogenic (biodegradable). The municipality already has an anaerobic digestion plant (“biogas plant”), which treats 9,000 tons of green waste (cuttings) and 2,000 tons of farmyard manure from several municipalities. We will first model the current system in STAN step by step (figure).</p>
 <p>Then, in the workshop part, we will model options for additional separate collection of municipal biowaste.</p>
-<p><img src="images/Lektion_1_2_1.png" class="img-fluid"></p>
+<p><img src="images/Lektion_1_2_1_ENGLISH.png" class="img-fluid"></p>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
@@ -294,9 +294,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="the-first-process" class="level3">
 <h3 class="anchored" data-anchor-id="the-first-process">3. The first process</h3>
 <p>Now draw the municipal waste collection as the first process (you can also start with any other process). To do this, select the P icon (highlighted in green) in the toolbar and draw a rectangle (“Process 1”).</p>
-<p><img src="images/Lektion_1_2_3.png" class="img-fluid"></p>
+<p><img src="images/Lektion_1_2_3_ENGLISH.png" class="img-fluid"></p>
 <p>Name the process “Municipal waste collection”. To do this, select the process and change the name in the Process properties window.</p>
-<p><img src="images/Lektion_1_2_4.png" class="img-fluid"></p>
+<p><img src="images/Lektion_1_2_4_ENGLISH.png" class="img-fluid"></p>
 </section>
 <section id="further-processes-and-process-with-a-stock" class="level3">
 <h3 class="anchored" data-anchor-id="further-processes-and-process-with-a-stock">4. Further processes and process with a stock</h3>
@@ -305,25 +305,25 @@ ul.task-list li input[type="checkbox"] {
 <p>To the left of the “Municipal waste collection” process, add the “Disposal by households and small businesses” process. We will use this process later to simulate the separation of biowaste and non-biodegradable residual waste. In the status quo model, 100% of the biowaste goes to municipal waste collection.</p>
 <p>If necessary, you can move, reduce and increase the size of the processes.</p>
 <p>The landfill represents a store that fills up over time. Therefore, select the “Landfill” process and place a checkmark next to Storage in the process properties.</p>
-<p><img src="images/Lektion_1_2_5.png" class="img-fluid"></p>
+<p><img src="images/Lektion_1_2_5_ENGLISH.png" class="img-fluid"></p>
 </section>
 <section id="draw-flows" class="level3">
 <h3 class="anchored" data-anchor-id="draw-flows">5. Draw flows</h3>
 <p>Now draw the first flows between the processes.</p>
 <p>First, you can draw the import flow “Non-biodegradable waste” from the far left to the process “Disposal by households and small businesses”. The import flow crosses the system boundary, i.e.&nbsp;from processes that are not of interest to us in the question (e.g.&nbsp;consumption of goods) and are outside the system boundary to the first process within the system boundary.</p>
-<p><img src="images/Lektion_1_2_6.png" class="img-fluid"></p>
+<p><img src="images/Lektion_1_2_6_ENGLISH.png" class="img-fluid"></p>
 <p>Now connect the processes with flows as shown in the figure below. Flows between processes are not import flows but “normal” flows within the system boundary.</p>
-<p><img src="images/Lektion_1_2_7.png" class="img-fluid"></p>
+<p><img src="images/Lektion_1_2_7_ENGLISH.png" class="img-fluid"></p>
 <p>Starting with “Ash treatment (fly and bottom ash)”, you now create “Metal recycling” as the first export flow. This is the recovered metal from ash treatment that is fed into recycling processes. We are not interested in these recycling processes here, as we are dealing with biogenic waste. Therefore, recycling processes for metal are outside the system boundary in this specific case.</p>
 <p>Once all flows have been drawn, you can now name all flows using the Flow properties window.</p>
 <p>You can also change the color of the flows via the Flow properties window in the “Symbol” tab (see next figure)</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Lektion_1_2_7b.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="369"></p>
+<p><img src="images/Lektion_1_2_7b_ENGLISH.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="369"></p>
 </figure>
 </div>
 <p>Now add all processes and flows until your model looks like this.</p>
-<p><img src="images/Lektion_1_2_8.png" class="img-fluid"></p>
+<p><img src="images/Lektion_1_2_8_ENGLISH.png" class="img-fluid"></p>
 </section>
 <section id="input-values-for-the-mass-flow-analysis" class="level3">
 <h3 class="anchored" data-anchor-id="input-values-for-the-mass-flow-analysis">6. Input values for the mass flow analysis</h3>
@@ -331,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
 <p>To do this, click on the import flow to be edited and then click on values in the properties window (green box in the right-hand part of the figure below). This is a mass flow.</p>
 <p>The amount of waste (mass) per year is never known exactly. You therefore have the option of entering an uncertainty (+/-). We assume an uncertainty of 20% here, i.e.&nbsp;+/- 10%. We will go into the uncertainty analysis in more detail later.</p>
 <p>You can adjust the arrow thickness of the flows in the slider of the sankey diagram (green arrow in the figure below). You can also make all mass flows appear equally thick (“sankey display of flows (on/off)”).</p>
-<p><img src="images/Lektion_1_2_9.png" class="img-fluid"></p>
+<p><img src="images/Lektion_1_2_9_ENGLISH.png" class="img-fluid"></p>
 </section>
 <section id="transfer-coefficients" class="level3">
 <h3 class="anchored" data-anchor-id="transfer-coefficients">7. Transfer coefficients</h3>
@@ -356,7 +356,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Lektion_1_2_10.png" class="img-fluid figure-img"></p>
+<p><img src="images/Lektion_1_2_10_ENGLISH.png" class="img-fluid figure-img"></p>
 <figcaption>Transfer coefficients</figcaption>
 </figure>
 </div>
@@ -364,19 +364,19 @@ ul.task-list li input[type="checkbox"] {
 <section id="system-boundary" class="level3">
 <h3 class="anchored" data-anchor-id="system-boundary">8. System boundary</h3>
 <p>Now draw the geographical system boundary. To do this, click on the System boundary icon and position the system boundary so that all starting points of the import and export flows are outside the system boundary and all processes and internal system flows are inside the system boundary.</p>
-<p><img src="images/Lektion_1_2_11.png" class="img-fluid"></p>
+<p><img src="images/Lektion_1_2_11_ENGLISH.png" class="img-fluid"></p>
 </section>
 <section id="calculate" class="level3">
 <h3 class="anchored" data-anchor-id="calculate">9. Calculate</h3>
 <p>All the important parameters for calculating the model have now been entered. Click on the calculate icon in the toolbar.</p>
-<p><img src="images/Lektion_1_2_12.png" class="img-fluid"></p>
+<p><img src="images/Lektion_1_2_12_ENGLISH.png" class="img-fluid"></p>
 </section>
 <section id="check-system-messages" class="level3">
 <h3 class="anchored" data-anchor-id="check-system-messages">10. Check system messages</h3>
 <p>Check the system messages, which may contain information, warnings and errors. If errors occur, try to correct them based on the error message and then recalculate the model.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Lektion_1_2_13.png" class="img-fluid figure-img"></p>
+<p><img src="images/Lektion_1_2_13_ENGLISH.png" class="img-fluid figure-img"></p>
 <figcaption>The system messages shown here are purely informative and do not indicate errors</figcaption>
 </figure>
 </div>

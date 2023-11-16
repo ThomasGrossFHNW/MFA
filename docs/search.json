@@ -298,5 +298,27 @@
       "Bilanzierung",
       "Learning by doing"
     ]
+  },
+  {
+    "objectID": "Lektion2_2_LBD.html#goal",
+    "href": "Lektion2_2_LBD.html#goal",
+    "title": "Learning by doing",
+    "section": "Goal",
+    "text": "Goal\nIn the first exercise, we modeled a simplified waste management system for a municipality over the course of a year. We modeled the masses within the system boundaries. In the current exercise, we will add a second layer to our system, with which we will calculate the nitrogen flows within the system boundaries.",
+    "crumbs": [
+      "Bilanzierung",
+      "Learning by doing"
+    ]
+  },
+  {
+    "objectID": "Lektion2_2_LBD.html#approach",
+    "href": "Lektion2_2_LBD.html#approach",
+    "title": "Learning by doing",
+    "section": "Approach",
+    "text": "Approach\n\n1. Open the STAN file from the first exercise\nAlternatively, you can also use the STAN file available on Moodle (Lesson 2: STAN file from learning-by-doing). Your system should look something like this:\n\n\n\n2. Process “Municipal collection of biowaste”\nAdd the process “Municipal collection of biowaste” and connect it through flows to the processes “Disposal by households and small businesses” and “Anaerobic digestion”.\nAssume that 100% of non-biodegradable waste goes to municipal waste collection.\nAssume further that 50% of the biowaste from households and small businesses goes to municipal biowaste collection and the rest to municipal waste collection. You can implement this using the transfer coefficients (double-click on process).\n\n\n\n\n\n\n\n2. Add layer nitrogen (N)\nAdd the layer nitrogen (N) via the menu Edit –&gt; Layers and Periods.\n\n\n\n\n\nThere are now two layers available: Goods (we worked with this layer in the first exercise) and N (Nitrogen).\n\n\n\n3. Concentration of nitrogen in waste\nNow enter the assumed nitrogen concentration for the input flows. We assume the following simplified values:\n\n0.5% +/- 0.2% in all biowaste (OFMSW, green waste, manure)\n0% in non-biodegradable waste\n\n\n\n\n4. Recalulate the model with both layers\nYou can now recalculate the model for the nitrogen layer.\n\nYou will notice that various flows are not calculated. This is due to the fact that transfer coefficients must also be entered in the processes for the nitrogen level. The transfer coefficients of the goods level are not automatically adopted, as these are specific to each substance.\n\n\n\n5. Enter transfer coefficients for the layer nitrogen\nIn order to be able to calculate the entire system, we now enter the transfer coefficients as follows (percentage of the input nitrogen flows into the process):\n\nAnaerobic digestion: 10% into biogas, 69% into digestate, 21% are losses (e.g. emissions into the air during post-composting of the digestate). We assume dry fermentation here and the values are based on Jensen et al. 2017.\nWaste incineration: 90% in waste gas and 10% in ash (rough estimate). This is a simplification, as in reality the transfer coefficients would also change due to the changed composition of the incinerated waste (less biowaste).\nAsh treatment: 0% into metal recycling, 100% into landfill.\n\n\n\n6. Export the final model as picture\nYou can now export the STAN model via File –&gt; Export Diagram. This should look as follows for nitrogen:",
+    "crumbs": [
+      "Bilanzierung",
+      "Learning by doing"
+    ]
   }
 ]

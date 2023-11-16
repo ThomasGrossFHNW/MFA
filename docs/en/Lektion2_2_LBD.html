@@ -230,26 +230,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#learning-by-doing" id="toc-learning-by-doing" class="nav-link active" data-scroll-target="#learning-by-doing">Learning by doing</a>
-  <ul class="collapse">
-  <li><a href="#ziel" id="toc-ziel" class="nav-link" data-scroll-target="#ziel">Ziel</a></li>
-  <li><a href="#vorgehen" id="toc-vorgehen" class="nav-link" data-scroll-target="#vorgehen">Vorgehen</a>
-  <ul class="collapse">
-  <li><a href="#öffnen-sie-die-stan-datei-aus-der-ersten-übung" id="toc-öffnen-sie-die-stan-datei-aus-der-ersten-übung" class="nav-link" data-scroll-target="#öffnen-sie-die-stan-datei-aus-der-ersten-übung">1. Öffnen Sie die STAN-Datei aus der ersten Übung</a></li>
-  <li><a href="#prozess-kommunale-sammlung-von-bioabfällen" id="toc-prozess-kommunale-sammlung-von-bioabfällen" class="nav-link" data-scroll-target="#prozess-kommunale-sammlung-von-bioabfällen">2. Prozess “Kommunale Sammlung von Bioabfällen”</a></li>
-  <li><a href="#ebene-stickstoff-n-zufügen" id="toc-ebene-stickstoff-n-zufügen" class="nav-link" data-scroll-target="#ebene-stickstoff-n-zufügen">2. Ebene Stickstoff (N) zufügen</a></li>
-  <li><a href="#konzentrationen-von-stickstoff-in-abfällen" id="toc-konzentrationen-von-stickstoff-in-abfällen" class="nav-link" data-scroll-target="#konzentrationen-von-stickstoff-in-abfällen">3. Konzentrationen von Stickstoff in Abfällen</a></li>
-  <li><a href="#das-modell-neu-berechnen-für-beide-ebenen" id="toc-das-modell-neu-berechnen-für-beide-ebenen" class="nav-link" data-scroll-target="#das-modell-neu-berechnen-für-beide-ebenen">4. Das Modell neu berechnen für beide Ebenen</a></li>
-  <li><a href="#transferkoeffizienten-für-die-ebene-stickstoff-eingeben" id="toc-transferkoeffizienten-für-die-ebene-stickstoff-eingeben" class="nav-link" data-scroll-target="#transferkoeffizienten-für-die-ebene-stickstoff-eingeben">5. Transferkoeffizienten für die Ebene Stickstoff eingeben</a></li>
-  <li><a href="#exportieren-sie-das-finale-modell-als-bild" id="toc-exportieren-sie-das-finale-modell-als-bild" class="nav-link" data-scroll-target="#exportieren-sie-das-finale-modell-als-bild">6. Exportieren Sie das finale Modell als Bild</a></li>
-  </ul></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -257,75 +238,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="learning-by-doing" class="level1">
-<h1>Learning by doing</h1>
-<section id="ziel" class="level2">
-<h2 class="anchored" data-anchor-id="ziel">Ziel</h2>
-<p>In der ersten Übung modellierten wir ein vereinfachtes Abfallmanagement einer Gemeinde über ein Jahr. Wir haben dort die Massen innerhalb der Systemgrenzen modelliert. In der jetzigen Übung werden wir eine zweite Ebene in unser System einfügen, mit welcher wir die Stickstoffflüsse innerhalb der Systemgrenzen berechnen werden.</p>
-</section>
-<section id="vorgehen" class="level2">
-<h2 class="anchored" data-anchor-id="vorgehen">Vorgehen</h2>
-<section id="öffnen-sie-die-stan-datei-aus-der-ersten-übung" class="level3">
-<h3 class="anchored" data-anchor-id="öffnen-sie-die-stan-datei-aus-der-ersten-übung">1. Öffnen Sie die STAN-Datei aus der ersten Übung</h3>
-<p>Alternativ können Sie auch die auf Moodle verfügbare STAN-Datei verwenden (Lektion 2: STAN-Datei aus Learning-by-doing). Ihr System sollte in Etwa so aussehen:</p>
-<p><img src="images/Lektion_1_2_1.png" class="img-fluid"></p>
-</section>
-<section id="prozess-kommunale-sammlung-von-bioabfällen" class="level3">
-<h3 class="anchored" data-anchor-id="prozess-kommunale-sammlung-von-bioabfällen">2. Prozess “Kommunale Sammlung von Bioabfällen”</h3>
-<p>Fügen Sie den Prozess “Kommunale Sammlung von Bioabfällen” hinzu und verbinden Sie diesen durch Flüsse mit den Prozessen “Entsorgung durch Haushalte und Kleingewerbe” und “Anaerobe Vergärung”.</p>
-<p>Nehmen Sie an, dass 100% der nicht-biogenen Abfälle in die kommunale Abfallsammlung gehen.</p>
-<p>Nehmen Sie weiter an, dass 50% des Bioabfalls von Haushalten und Kleingewerbe in die kommunale Sammlung von Bioabfällen und der Rest in die kommunale Abfallsammlung geht. Dies können Sie über die Transferkoeffizienten (Doppelklick auf Prozess) implementieren.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Lektion_2_2_1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="668"></p>
-</figure>
-</div>
-</section>
-<section id="ebene-stickstoff-n-zufügen" class="level3">
-<h3 class="anchored" data-anchor-id="ebene-stickstoff-n-zufügen">2. Ebene Stickstoff (N) zufügen</h3>
-<p>Fügen Sie über das Menü Bearbeiten –&gt; Ebenen und Perioden die Ebene Stickstoff (N) hinzu.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Lektion_2_2_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="501"></p>
-</figure>
-</div>
-<p>Nun stehen zwei Ebenen zur Verfügung: Güter (mit dieser Ebene haben wir in der ersten Übung gearbeitet) und N, Stickstoff</p>
-<p><img src="images/Lektion_2_2_3.png" class="img-fluid"></p>
-</section>
-<section id="konzentrationen-von-stickstoff-in-abfällen" class="level3">
-<h3 class="anchored" data-anchor-id="konzentrationen-von-stickstoff-in-abfällen">3. Konzentrationen von Stickstoff in Abfällen</h3>
-<p>Geben Sie nun für die Input-Flüsse die angenommene Stickstoffkonzentration ein. Wir nehmen vereinfacht folgende Werte an:</p>
-<ul>
-<li><p>0.5% +/- 0.2% in allen Bioabfällen (kommunaler Bioabfall, Grüngut, Hofdünger)</p></li>
-<li><p>0% in nicht-biogenem Abfall</p></li>
-</ul>
-<p><img src="images/Lektion_2_2_4.png" class="img-fluid"></p>
-</section>
-<section id="das-modell-neu-berechnen-für-beide-ebenen" class="level3">
-<h3 class="anchored" data-anchor-id="das-modell-neu-berechnen-für-beide-ebenen">4. Das Modell neu berechnen für beide Ebenen</h3>
-<p>Nun können Sie das Modell neu berechnen für die Ebene Stickstoff.</p>
-<p><img src="images/Lektion_2_2_5.png" class="img-fluid"></p>
-<p>Sie werden feststellen, dass verschiedene Flüsse nicht berechnet werden. Dies liegt daran, dass in den Prozessen für die Ebene Stickstoff auch Transferkoeffizienten eingegen werden müssen. Es werden nicht automatisch die Transferkoeffizienten der Güter-Ebene übernommen, da diese für jede Substanz spezifisch sind.</p>
-<p><img src="images/Lektion_2_2_6.png" class="img-fluid"></p>
-</section>
-<section id="transferkoeffizienten-für-die-ebene-stickstoff-eingeben" class="level3">
-<h3 class="anchored" data-anchor-id="transferkoeffizienten-für-die-ebene-stickstoff-eingeben">5. Transferkoeffizienten für die Ebene Stickstoff eingeben</h3>
-<p>Um das gesamte System berechnen zu können, geben wir nun die Transferkoeffizenten folgendermassen ein (Prozent der Input-Stickstoffflüsse in den Prozess):</p>
-<ul>
-<li><p><strong>Anaerobe Vergärung:</strong> 10% in Biogas, 69% ins Digestat, 21% Verluste (z.B. Emissionen in die Luft während der Nachkompostierung des Digestats). Wir nehmen hier Trockenverärung an und die Werte basieren auf <a href="https://www.sciencedirect.com/science/article/pii/S0956053X17301769?via%3Dihub">Jensen et al.&nbsp;2017</a>.</p></li>
-<li><p><strong>Kehrichtverbrennung:</strong> 90% in Abgas und 10% in Asche (grobe Schätzung). Dies ist eine Vereinfachtung, da sich in der Realität durch die veränderte Zusammensetzung des verbrannten Abfalls (weniger Bioabfall) auch die Transferkoeffizienten verändern würden.</p></li>
-<li><p><strong>Aschebehandlung:</strong> 0% in Metallrecycling, 100% in Deponie.</p></li>
-</ul>
-</section>
-<section id="exportieren-sie-das-finale-modell-als-bild" class="level3">
-<h3 class="anchored" data-anchor-id="exportieren-sie-das-finale-modell-als-bild">6. Exportieren Sie das finale Modell als Bild</h3>
-<p>Sie können das STAN-Modell nun exportieren via Datei –&gt; Systembild exportieren. Dieses sollte etwa so aussehen für Stickstoffflüsse:</p>
-<p><img src="images/Lektion_2_2_7.png" class="img-fluid"></p>
 
 
-</section>
-</section>
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

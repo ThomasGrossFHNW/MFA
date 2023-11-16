@@ -1,5 +1,4 @@
 ::: {.content-visible when-profile="german"}
-
 # Learning by doing
 
 ## Ziel
@@ -144,7 +143,6 @@ Prüfen Sie die Systemmeldungen, welche Informationen, Warnungen und Fehler enth
 :::
 
 ::: {.content-visible when-profile="english"}
-
 # Learning by doing
 
 ## Goal
@@ -155,7 +153,7 @@ The municipality's current waste management system consists of municipal waste c
 
 Then, in the workshop part, we will model options for additional separate collection of municipal biowaste.
 
-![](images/Lektion_1_2_1.png)
+![](images/Lektion_1_2_1_ENGLISH.png)
 
 ## Approach
 
@@ -185,11 +183,11 @@ All windows can be adjusted in size and moved and arranged modularly like tiles.
 
 Now draw the municipal waste collection as the first process (you can also start with any other process). To do this, select the P icon (highlighted in green) in the toolbar and draw a rectangle ("Process 1").
 
-![](images/Lektion_1_2_3.png)
+![](images/Lektion_1_2_3_ENGLISH.png)
 
 Name the process "Municipal waste collection". To do this, select the process and change the name in the Process properties window.
 
-![](images/Lektion_1_2_4.png)
+![](images/Lektion_1_2_4_ENGLISH.png)
 
 ### 4. Further processes and process with a stock
 
@@ -203,7 +201,7 @@ If necessary, you can move, reduce and increase the size of the processes.
 
 The landfill represents a store that fills up over time. Therefore, select the "Landfill" process and place a checkmark next to Storage in the process properties.
 
-![](images/Lektion_1_2_5.png)
+![](images/Lektion_1_2_5_ENGLISH.png)
 
 ### 5. Draw flows
 
@@ -211,11 +209,11 @@ Now draw the first flows between the processes.
 
 First, you can draw the import flow "Non-biodegradable waste" from the far left to the process "Disposal by households and small businesses". The import flow crosses the system boundary, i.e. from processes that are not of interest to us in the question (e.g. consumption of goods) and are outside the system boundary to the first process within the system boundary.
 
-![](images/Lektion_1_2_6.png)
+![](images/Lektion_1_2_6_ENGLISH.png)
 
 Now connect the processes with flows as shown in the figure below. Flows between processes are not import flows but "normal" flows within the system boundary.
 
-![](images/Lektion_1_2_7.png)
+![](images/Lektion_1_2_7_ENGLISH.png)
 
 Starting with "Ash treatment (fly and bottom ash)", you now create "Metal recycling" as the first export flow. This is the recovered metal from ash treatment that is fed into recycling processes. We are not interested in these recycling processes here, as we are dealing with biogenic waste. Therefore, recycling processes for metal are outside the system boundary in this specific case.
 
@@ -223,11 +221,11 @@ Once all flows have been drawn, you can now name all flows using the Flow proper
 
 You can also change the color of the flows via the Flow properties window in the "Symbol" tab (see next figure)
 
-![](images/Lektion_1_2_7b.png){fig-align="center" width="369"}
+![](images/Lektion_1_2_7b_ENGLISH.png){fig-align="center" width="369"}
 
 Now add all processes and flows until your model looks like this.
 
-![](images/Lektion_1_2_8.png)
+![](images/Lektion_1_2_8_ENGLISH.png)
 
 ### 6. Input values for the mass flow analysis
 
@@ -239,7 +237,7 @@ The amount of waste (mass) per year is never known exactly. You therefore have t
 
 You can adjust the arrow thickness of the flows in the slider of the sankey diagram (green arrow in the figure below). You can also make all mass flows appear equally thick ("sankey display of flows (on/off)").
 
-![](images/Lektion_1_2_9.png)
+![](images/Lektion_1_2_9_ENGLISH.png)
 
 ### 7. Transfer coefficients
 
@@ -269,23 +267,23 @@ You can use the following assumptions:
 
 -   Anaerobic digestion: 10% of the input mass becomes biogas, 80% becomes digestate and 10% are losses
 
-![Transfer coefficients](images/Lektion_1_2_10.png)
+![Transfer coefficients](images/Lektion_1_2_10_ENGLISH.png)
 
 ### 8. System boundary
 
 Now draw the geographical system boundary. To do this, click on the System boundary icon and position the system boundary so that all starting points of the import and export flows are outside the system boundary and all processes and internal system flows are inside the system boundary.
 
-![](images/Lektion_1_2_11.png)
+![](images/Lektion_1_2_11_ENGLISH.png)
 
 ### 9. Calculate
 
 All the important parameters for calculating the model have now been entered. Click on the calculate icon in the toolbar.
 
-![](images/Lektion_1_2_12.png)
+![](images/Lektion_1_2_12_ENGLISH.png)
 
 ### 10. Check system messages
 
 Check the system messages, which may contain information, warnings and errors. If errors occur, try to correct them based on the error message and then recalculate the model.
 
-![The system messages shown here are purely informative and do not indicate errors](images/Lektion_1_2_13.png)
+![The system messages shown here are purely informative and do not indicate errors](images/Lektion_1_2_13_ENGLISH.png)
 :::

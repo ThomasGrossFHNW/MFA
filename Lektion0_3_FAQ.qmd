@@ -1,3 +1,5 @@
+::: {.content-visible when-profile="german"}
+
 # FAQ
 
 ## Installation von STAN
@@ -12,3 +14,25 @@
 ## Anderes Betriebssystem als Windows
 
 STAN ist leider nur für Windows verfügbar. Im Netzwerk der FHNW können Sie STAN auch auf anderen Betriebssystemen über den Citrix Workspace ausführen. Studierende der FHNW finden [hier](https://help.fhnw.ch/1304/citrix-installieren-aktivieren/#F%C3%BCr+Studenten) Informationen zur Installation von Citrix.
+
+::: 
+
+::: {.content-visible when-profile="english"}
+
+# FAQ
+
+## Installation of STAN
+
+### The installation is blocked by Windows SmartScreen
+
+1. Extract the zip file
+2. Open the properties of the installation file (e.g. STAN-2-7-101-EN.exe) by right-clicking on the file and then selecting Properties
+3. Check the "Allow" button.
+4. The installation should now work.
+
+
+## Other operating system than Windows
+
+Unfortunately, STAN is only available for Windows. In the FHNW network, you can also run STAN on other operating systems via the Citrix Workspace. FHNW students can find information about Citrix [here](https://help.fhnw.ch/1304/citrix-installieren-aktivieren/#F%C3%BCr+Studenten) 
+
+:::
