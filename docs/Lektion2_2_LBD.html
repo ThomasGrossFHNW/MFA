@@ -248,20 +248,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#exportieren-sie-das-finale-modell-als-bild" id="toc-exportieren-sie-das-finale-modell-als-bild" class="nav-link" data-scroll-target="#exportieren-sie-das-finale-modell-als-bild">6. Exportieren Sie das finale Modell als Bild</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#learning-by-doing-1" id="toc-learning-by-doing-1" class="nav-link" data-scroll-target="#learning-by-doing-1">Learning by doing</a>
-  <ul class="collapse">
-  <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">Goal</a></li>
-  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
-  <ul class="collapse">
-  <li><a href="#open-the-stan-file-from-the-first-exercise" id="toc-open-the-stan-file-from-the-first-exercise" class="nav-link" data-scroll-target="#open-the-stan-file-from-the-first-exercise">1. Open the STAN file from the first exercise</a></li>
-  <li><a href="#process-municipal-collection-of-biowaste" id="toc-process-municipal-collection-of-biowaste" class="nav-link" data-scroll-target="#process-municipal-collection-of-biowaste">2. Process “Municipal collection of biowaste”</a></li>
-  <li><a href="#add-layer-nitrogen-n" id="toc-add-layer-nitrogen-n" class="nav-link" data-scroll-target="#add-layer-nitrogen-n">2. Add layer nitrogen (N)</a></li>
-  <li><a href="#concentration-of-nitrogen-in-waste" id="toc-concentration-of-nitrogen-in-waste" class="nav-link" data-scroll-target="#concentration-of-nitrogen-in-waste">3. Concentration of nitrogen in waste</a></li>
-  <li><a href="#recalulate-the-model-with-both-layers" id="toc-recalulate-the-model-with-both-layers" class="nav-link" data-scroll-target="#recalulate-the-model-with-both-layers">4. Recalulate the model with both layers</a></li>
-  <li><a href="#enter-transfer-coefficients-for-the-layer-nitrogen" id="toc-enter-transfer-coefficients-for-the-layer-nitrogen" class="nav-link" data-scroll-target="#enter-transfer-coefficients-for-the-layer-nitrogen">5. Enter transfer coefficients for the layer nitrogen</a></li>
-  <li><a href="#export-the-final-model-as-picture" id="toc-export-the-final-model-as-picture" class="nav-link" data-scroll-target="#export-the-final-model-as-picture">6. Export the final model as picture</a></li>
-  </ul></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -334,73 +320,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="exportieren-sie-das-finale-modell-als-bild" class="level3">
 <h3 class="anchored" data-anchor-id="exportieren-sie-das-finale-modell-als-bild">6. Exportieren Sie das finale Modell als Bild</h3>
 <p>Sie können das STAN-Modell nun exportieren via Datei –&gt; Systembild exportieren. Dieses sollte etwa so aussehen für Stickstoffflüsse:</p>
-<p><img src="images/Lektion_2_2_7.png" class="img-fluid"></p>
-</section>
-</section>
-</section>
-<section id="learning-by-doing-1" class="level1">
-<h1>Learning by doing</h1>
-<section id="goal" class="level2">
-<h2 class="anchored" data-anchor-id="goal">Goal</h2>
-<p>In the first exercise, we modeled a simplified waste management system for a municipality over the course of a year. We modeled the masses within the system boundaries. In the current exercise, we will add a second layer to our system, with which we will calculate the nitrogen flows within the system boundaries.</p>
-</section>
-<section id="approach" class="level2">
-<h2 class="anchored" data-anchor-id="approach">Approach</h2>
-<section id="open-the-stan-file-from-the-first-exercise" class="level3">
-<h3 class="anchored" data-anchor-id="open-the-stan-file-from-the-first-exercise">1. Open the STAN file from the first exercise</h3>
-<p>Alternatively, you can also use the STAN file available on Moodle (Lesson 2: STAN file from learning-by-doing). Your system should look something like this:</p>
-<p><img src="images/Lektion_1_2_1.png" class="img-fluid"></p>
-</section>
-<section id="process-municipal-collection-of-biowaste" class="level3">
-<h3 class="anchored" data-anchor-id="process-municipal-collection-of-biowaste">2. Process “Municipal collection of biowaste”</h3>
-<p>Add the process “Municipal collection of biowaste” and connect it through flows to the processes “Disposal by households and small businesses” and “Anaerobic digestion”.</p>
-<p>Assume that 100% of non-biodegradable waste goes to municipal waste collection.</p>
-<p>Assume further that 50% of the biowaste from households and small businesses goes to municipal biowaste collection and the rest to municipal waste collection. You can implement this using the transfer coefficients (double-click on process).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Lektion_2_2_1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="668"></p>
-</figure>
-</div>
-</section>
-<section id="add-layer-nitrogen-n" class="level3">
-<h3 class="anchored" data-anchor-id="add-layer-nitrogen-n">2. Add layer nitrogen (N)</h3>
-<p>Add the layer nitrogen (N) via the menu Edit –&gt; Layers and Periods.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Lektion_2_2_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="501"></p>
-</figure>
-</div>
-<p>There are now two layers available: Goods (we worked with this layer in the first exercise) and N (Nitrogen).</p>
-<p><img src="images/Lektion_2_2_3.png" class="img-fluid"></p>
-</section>
-<section id="concentration-of-nitrogen-in-waste" class="level3">
-<h3 class="anchored" data-anchor-id="concentration-of-nitrogen-in-waste">3. Concentration of nitrogen in waste</h3>
-<p>Now enter the assumed nitrogen concentration for the input flows. We assume the following simplified values:</p>
-<ul>
-<li><p>0.5% +/- 0.2% in all biowaste (OFMSW, green waste, manure)</p></li>
-<li><p>0% in non-biodegradable waste</p></li>
-</ul>
-<p><img src="images/Lektion_2_2_4.png" class="img-fluid"></p>
-</section>
-<section id="recalulate-the-model-with-both-layers" class="level3">
-<h3 class="anchored" data-anchor-id="recalulate-the-model-with-both-layers">4. Recalulate the model with both layers</h3>
-<p>You can now recalculate the model for the nitrogen layer.</p>
-<p><img src="images/Lektion_2_2_5.png" class="img-fluid"></p>
-<p>You will notice that various flows are not calculated. This is due to the fact that transfer coefficients must also be entered in the processes for the nitrogen level. The transfer coefficients of the goods level are not automatically adopted, as these are specific to each substance.</p>
-<p><img src="images/Lektion_2_2_6.png" class="img-fluid"></p>
-</section>
-<section id="enter-transfer-coefficients-for-the-layer-nitrogen" class="level3">
-<h3 class="anchored" data-anchor-id="enter-transfer-coefficients-for-the-layer-nitrogen">5. Enter transfer coefficients for the layer nitrogen</h3>
-<p>In order to be able to calculate the entire system, we now enter the transfer coefficients as follows (percentage of the input nitrogen flows into the process):</p>
-<ul>
-<li><p><strong>Anaerobic digestion:</strong> 10% into biogas, 69% into digestate, 21% are losses (e.g.&nbsp;emissions into the air during post-composting of the digestate). We assume dry fermentation here and the values are based on <a href="https://www.sciencedirect.com/science/article/pii/S0956053X17301769?via%3Dihub">Jensen et al.&nbsp;2017</a>.</p></li>
-<li><p><strong>Waste incineration:</strong> 90% in waste gas and 10% in ash (rough estimate). This is a simplification, as in reality the transfer coefficients would also change due to the changed composition of the incinerated waste (less biowaste).</p></li>
-<li><p><strong>Ash treatment:</strong> 0% into metal recycling, 100% into landfill.</p></li>
-</ul>
-</section>
-<section id="export-the-final-model-as-picture" class="level3">
-<h3 class="anchored" data-anchor-id="export-the-final-model-as-picture">6. Export the final model as picture</h3>
-<p>You can now export the STAN model via File –&gt; Export Diagram. This should look as follows for nitrogen:</p>
 <p><img src="images/Lektion_2_2_7.png" class="img-fluid"></p>
 
 

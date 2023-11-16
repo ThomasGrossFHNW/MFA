@@ -73,7 +73,7 @@ Sie können das STAN-Modell nun exportieren via Datei --\> Systembild exportiere
 :::
 
 
-::: {.content-visible when-profile="german"}
+::: {.content-visible when-profile="english"}
 
 # Learning by doing
 
