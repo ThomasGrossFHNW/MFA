@@ -2,7 +2,7 @@
 
 ## Aufgabe
 
-Erstellen Sie bitte nun eine weitere Ebene für Phosphorflüsse (P) basierend auf dem "Learning-by-doing" Beispiel. Sie können Angaben aus [Jensen et al. (2017)](https://www.sciencedirect.com/science/article/pii/S0956053X17301769?via%3Dihub) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.
+Erstellen Sie nun bitte eine weitere Ebene für Phosphorflüsse (P) basierend auf dem "Learning-by-doing" Beispiel. Sie können Angaben aus [Jensen et al. (2017)](https://www.sciencedirect.com/science/article/pii/S0956053X17301769?via%3Dihub) verwenden für anaerobe Vergärung. Andere Werte können Sie recherchieren.
 
 -   Welche Mengen an N und P erwarten Sie jährlich im Digestat der anaeroben Vergärung?
 
